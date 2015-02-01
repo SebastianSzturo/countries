@@ -9,7 +9,7 @@ Add countries as a dependency in your ```mix.exs``` file.
 
 ```Elixir
 def deps do
-	[ { :countries, "~> 1.0" } ]
+  [{ :countries, "~> 1.0" }]
 end
 ```
 
@@ -22,7 +22,7 @@ Find country by attribute.
 ```Elixir
 country = Countries.filter_by(:alpha2, "DE")
 # [%Countries.Country{alpha2: 'DE', alpha3: 'DEU', continent: 'Europe',
-#		country_code: '49', currency: 'EUR', ...]
+#	 country_code: '49', currency: 'EUR', ...]
 
 countries = Countries.filter_by(:region, "Europe")
 Enum.count(countries)
