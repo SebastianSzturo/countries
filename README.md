@@ -1,6 +1,6 @@
-# Countries
+# Countries :earth_africa:
 Countries is a collection of all sorts of useful information for every country in the [ISO 3166](https://de.wikipedia.org/wiki/ISO_3166) standard.
-It is based on the data from the ruby gem [Countries](https://github.com/hexorx/countries)
+It is based on the data from the ruby gem [Countries](https://github.com/hexorx/countries).
 
 ## Installation
 Add countries as a dependency in your ```mix.exs``` file.
@@ -20,7 +20,7 @@ Find country by attribute.
 ```Elixir
 country = Countries.filter_by(:alpha2, "DE")
 # [%Countries.Country{alpha2: 'DE', alpha3: 'DEU', continent: 'Europe',
-		country_code: '49', currency: 'EUR', ...]
+#		country_code: '49', currency: 'EUR', ...]
 
 countries = Countries.filter_by(:region, "Europe")
 Enum.count(countries)
