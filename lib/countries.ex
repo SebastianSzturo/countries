@@ -26,14 +26,14 @@ defmodule Countries do
   #-- Load countries from yaml files once on compile time ---
   
   # Ensure :yamerl is running
-  Application.ensure_all_started(:yamerl)
+  Application.start(:yamerl)
   
   data_path = fn(path) ->
     Path.join("data", path) |> Path.expand(__DIR__)
   end
   
   # Lets load all country data from our yaml files
-  codes = List.first(:yamerl.decode_file data_path.("/countries.yaml"))
+  codes =  data_path.("countries.yaml") |> :yamerl.decode_file |> List.first
   country_data =
     Enum.reduce(codes, [], fn (code, countries) ->
       countries ++ :yamerl.decode_file data_path.("countries/#{code}.yaml")
@@ -47,7 +47,7 @@ defmodule Countries do
     Enum.reduce(country_data, [], fn (country_data, countries) ->
       country =
         Enum.reduce(country_data, %Country{}, fn({attribute, value}, country) ->
-          attribute_as_atom = String.to_atom(to_string attribute)
+          attribute_as_atom = to_string(attribute) |> String.to_atom
           Map.put(country, attribute_as_atom, value)
         end)
   
