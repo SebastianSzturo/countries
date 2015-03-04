@@ -1,15 +1,16 @@
 ## Countries :earth_africa:
-[![Build Status](https://travis-ci.org/SebastianSzturo/countries.svg?branch=master)](https://travis-ci.org/SebastianSzturo/countries) 
+[![Build Status](https://travis-ci.org/SebastianSzturo/countries.svg?branch=master)](https://travis-ci.org/SebastianSzturo/countries)
 
 Countries is a collection of all sorts of useful information for every country in the [ISO 3166](https://de.wikipedia.org/wiki/ISO_3166) standard.
 It is based on the data from the ruby gem [Countries](https://github.com/hexorx/countries).
 
 ## Installation
-Add countries as a dependency in your ```mix.exs``` file.
+As the current version of ``yamerl`` at hex.pm is not working correctly, we have to add the dependencies ``yamerl`` and ``countries`` manually from github to our ``mix.exs``.
 
 ```Elixir
-def deps do
-  [{ :countries, "~> 1.0" }]
+defp deps do
+  [{:yamerl, github: "yakaz/yamerl"},
+   {:countries, github: "SebastianSzturo/countries"}]
 end
 ```
 
