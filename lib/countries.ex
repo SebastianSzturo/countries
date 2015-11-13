@@ -19,7 +19,7 @@ defmodule Countries do
   def filter_by(attribute, value) do
     Enum.filter(countries, fn(country) ->
       value_as_char_list = to_char_list(value)
-      country[attribute] == value_as_char_list
+      Map.get(country, attribute) == value_as_char_list
     end)
   end
   
