@@ -1,5 +1,4 @@
 defmodule Countries.Country do
-  @derive [Access]
   defstruct [:number, :alpha2, :alpha3, :currency, :name, :names, 
             :latitude, :longitude, :continent, :region, :subregion, 
             :world_region, :country_code, :national_destination_code_lengths, 
