@@ -1,7 +1,7 @@
 ## Countries :earth_africa:
 [![Build Status](https://travis-ci.org/SebastianSzturo/countries.svg?branch=master)](https://travis-ci.org/SebastianSzturo/countries)
 
-Countries is a collection of all sorts of useful information for every country in the [ISO 3166](https://de.wikipedia.org/wiki/ISO_3166) standard.
+Countries is a collection of all sorts of useful information for every country in the [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) standard.
 It is based on the data from the ruby gem [Countries](https://github.com/hexorx/countries).
 
 ## Installation
