@@ -1,0 +1,403 @@
+---
+'1':
+  unofficial_names:
+  - Banteay Mean Chey [Bântéay Méanchey]
+  - banteay meanchey
+  - b.chey
+  - bm
+  - b.m
+  translations:
+    en: Banteay Mean Chey [Bântéay Méanchey]
+  geo:
+    latitude: 13.6672596
+    longitude: 102.8975098
+    min_latitude: 13.343196
+    min_longitude: 102.3400039
+    max_latitude: 14.24883
+    max_longitude: 103.44429
+  name: Banteay Mean Chey [Bântéay Méanchey]
+'10':
+  unofficial_names:
+  - Kratié
+  - Kratie
+  - kr.ch
+  - kr
+  - k.r
+  translations:
+    en: Kracheh [Krâchéh]
+  geo:
+    latitude: 12.5759862
+    longitude: 106.2522143
+    min_latitude: 12.332707
+    min_longitude: 105.9990121
+    max_latitude: 12.7869431
+    max_longitude: 106.409197
+  name: Kracheh [Krâchéh]
+'11':
+  unofficial_names:
+  - Mondolkiri
+  - Mondulkiri
+  - m.ri
+  - mk
+  - m.k
+  translations:
+    en: Mondol Kiri [Môndól Kiri]
+  geo:
+    latitude: 12.7879427
+    longitude: 107.1011931
+    min_latitude: 12.059729
+    min_longitude: 106.3519529
+    max_latitude: 13.423394
+    max_longitude: 107.606102
+  name: Mondol Kiri [Môndól Kiri]
+'12':
+  unofficial_names:
+  - Phnom Penh
+  - pp
+  - p.p
+  translations:
+    en: Phnom Penh [Phnum Pénh]
+  geo:
+    latitude: 11.5448729
+    longitude: 104.8921668
+    min_latitude: 11.428726
+    min_longitude: 104.779653
+    max_latitude: 11.682486
+    max_longitude: 104.968803
+  name: Phnom Penh [Phnum Pénh]
+'13':
+  unofficial_names:
+  - Preah Vihear [Preah Vihéar]
+  - pr.h
+  - ph
+  - p.h
+  translations:
+    en: Preah Vihear [Preah Vihéar]
+  geo:
+    latitude: 14.0085797
+    longitude: 104.8454619
+    min_latitude: 13.099064
+    min_longitude: 104.3539239
+    max_latitude: 14.434327
+    max_longitude: 105.8868709
+  name: Preah Vihear [Preah Vihéar]
+'14':
+  unofficial_names:
+  - Prey Vêng
+  - Prey Veng
+  - pr.v
+  - pv
+  - p.v
+  translations:
+    en: Prey Veaeng [Prey Vêng]
+  geo:
+    latitude: 11.485114
+    longitude: 105.328098
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Prey Veaeng [Prey Vêng]
+'15':
+  unofficial_names:
+  - Poŭthĭsăt
+  - Pursat
+  - p.s
+  - ps
+  translations:
+    en: Pousaat [Pouthisat]
+  geo:
+    latitude: 12.533333
+    longitude: 103.916667
+    min_latitude: 12.3524528
+    min_longitude: 103.7871553
+    max_latitude: 12.5827952
+    max_longitude: 104.0180611
+  name: Pousaat [Pouthisat]
+'16':
+  unofficial_names:
+  - Ratanakiri
+  - Rotanokiri
+  - Rôtanah Kiri
+  - r.r
+  - rr
+  - rk
+  - r.k
+  translations:
+    en: Rotanak Kiri [Rôtânôkiri]
+  geo:
+    latitude: 13.8576607
+    longitude: 107.1011931
+    min_latitude: 13.1666069
+    min_longitude: 106.5465848
+    max_latitude: 14.6864041
+    max_longitude: 107.6277161
+  name: Rotanak Kiri [Rôtânôkiri]
+'17':
+  unofficial_names:
+  - Siem Reap
+  - Siemréab
+  - s.r
+  - sr
+  translations:
+    en: Siem Reab [Siemréab]
+  geo:
+    latitude: 13.3529103
+    longitude: 103.8594171
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Siem Reab [Siemréab]
+'18':
+  unofficial_names:
+  - Preah Seihânu
+  - Sihanoukville
+  - Kompong Som
+  - Kampong Som
+  - Kompong Saom
+  - Kampong Saom
+  - k.som
+  - k.saom
+  - s.v
+  translations:
+    en: Krong Preah Sihanouk [Krong Preah Sihanouk]
+  geo:
+    latitude: 10.6253016
+    longitude: 103.5233963
+    min_latitude: 10.5427244
+    min_longitude: 103.1816841
+    max_latitude: 10.7803603
+    max_longitude: 103.5925877
+  name: Krong Preah Sihanouk [Krong Preah Sihanouk]
+'19':
+  unofficial_names:
+  - Stoeng Trêng
+  - Stung Treng
+  - s.t
+  - st
+  translations:
+    en: Stueng Traeng [Stœ?ng Trêng]
+  geo:
+    latitude: 13.576473
+    longitude: 105.9699878
+    min_latitude: 13.108477
+    min_longitude: 105.521177
+    max_latitude: 14.587619
+    max_longitude: 106.6629029
+  name: Stueng Traeng [Stœ?ng Trêng]
+'2':
+  unofficial_names:
+  - Batdâmbâng
+  - Battambang
+  - bb
+  - b.b
+  translations:
+    en: Baat Dambang [Batdâmbâng]
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Baat Dambang [Batdâmbâng]
+'20':
+  unofficial_names:
+  - Svaay Rieng [Svay Rieng]
+  - svay rieng
+  - sv.r
+  - svr
+  translations:
+    en: Svaay Rieng [Svay Rieng]
+  geo:
+    latitude: 11.0877866
+    longitude: 105.800951
+    min_latitude: 11.024966
+    min_longitude: 105.7366598
+    max_latitude: 11.1564031
+    max_longitude: 105.8909941
+  name: Svaay Rieng [Svay Rieng]
+'21':
+  unofficial_names:
+  - Takeo
+  - Takêv
+  - tk
+  - t.k
+  translations:
+    en: Taakaev [Takêv]
+  geo:
+    latitude: 10.9321519
+    longitude: 104.798771
+    min_latitude: 10.5201891
+    min_longitude: 104.4379809
+    max_latitude: 11.3528621
+    max_longitude: 105.0994111
+  name: Taakaev [Takêv]
+'22':
+  unofficial_names:
+  - 'Otdar Mean Chey [Otdâr Méanchey] '
+  - Oddar Meanchey
+  - o.chey
+  - om
+  - o.m
+  translations:
+    en: 'Otdar Mean Chey [Otdâr Méanchey] '
+  geo:
+    latitude: 14.1717195
+    longitude: 103.6362715
+    min_latitude: 13.909678
+    min_longitude: 103.0405579
+    max_latitude: 14.4395071
+    max_longitude: 104.4748511
+  name: 'Otdar Mean Chey [Otdâr Méanchey] '
+'23':
+  unofficial_names:
+  - Krong Kep [Krong Kêb]
+  - Kep
+  translations:
+    en: Krong Kep [Krong Kêb]
+  geo:
+    latitude: 10.543246
+    longitude: 104.319142
+    min_latitude: 10.3438702
+    min_longitude: 104.2153591
+    max_latitude: 10.5781139
+    max_longitude: 104.3620275
+  name: Krong Kep [Krong Kêb]
+'24':
+  unofficial_names:
+  - Krong Pailin [Krong Pailin]
+  - Pailin
+  - pl
+  - p.l
+  translations:
+    en: Krong Pailin [Krong Pailin]
+  geo:
+    latitude: 12.8539496
+    longitude: 102.6083506
+    min_latitude: 12.6638293
+    min_longitude: 102.4972057
+    max_latitude: 12.8922183
+    max_longitude: 102.7534103
+  name: Krong Pailin [Krong Pailin]
+'3':
+  unofficial_names:
+  - Kompong Cham
+  - Kompong Chaam
+  - Kampong Cham
+  - k.cham
+  - kc
+  - k.c
+  translations:
+    en: Kampong Chaam [Kâmpóng Cham]
+  geo:
+    latitude: 11.9924294
+    longitude: 105.4645408
+    min_latitude: 11.9600879
+    min_longitude: 105.4002787
+    max_latitude: 12.0178724
+    max_longitude: 105.4737067
+  name: Kampong Chaam [Kâmpóng Cham]
+'4':
+  unofficial_names:
+  - Kompong Chhnang
+  - k.chhnang
+  - kn
+  - k.n
+  translations:
+    en: Kampong Chhnang [Kâmpóng Chhnang]
+  geo:
+    latitude: 12.25
+    longitude: 104.666667
+    min_latitude: 12.2167587
+    min_longitude: 104.6459342
+    max_latitude: 12.3243638
+    max_longitude: 104.7148133
+  name: Kampong Chhnang [Kâmpóng Chhnang]
+'5':
+  unofficial_names:
+  - Kompong Speu
+  - Kompong Spoe
+  - Kampong Speu
+  - Kampong Spoe
+  - k.speu
+  - ks
+  - k.s
+  translations:
+    en: Kampong Spueu [Kâmpóng Spœ]
+  geo:
+    latitude: 11.45311
+    longitude: 104.5202599
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Kampong Spueu [Kâmpóng Spœ]
+'6':
+  unofficial_names:
+  - Kompong Thom
+  - Kompong Thum
+  - Kampong Thom
+  - Kampong Thum
+  - k.thom
+  - kt
+  - k.t
+  translations:
+    en: Kampong Thum [Kâmpóng Thum]
+  geo:
+    latitude: 12.71197
+    longitude: 104.888603
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Kampong Thum [Kâmpóng Thum]
+'7':
+  unofficial_names:
+  - Kampot [Kâmpôt]
+  - k.pot
+  - kp
+  - k.p
+  translations:
+    en: Kampot [Kâmpôt]
+  geo:
+    latitude: 10.7412089
+    longitude: 104.1930918
+    min_latitude: 9.9039915
+    min_longitude: 103.8328105
+    max_latitude: 11.1730128
+    max_longitude: 104.7244262
+  name: Kampot [Kâmpôt]
+'8':
+  unofficial_names:
+  - Kandaal [Kândal]
+  - Kandal
+  - Kondal
+  - kd
+  - k.d
+  translations:
+    en: Kandaal [Kândal]
+  geo:
+    latitude: 11.4573319
+    longitude: 104.693403
+    min_latitude: 11.4568189
+    min_longitude: 104.6909094
+    max_latitude: 11.4589902
+    max_longitude: 104.6949489
+  name: Kandaal [Kândal]
+'9':
+  unofficial_names:
+  - Koh Kong
+  - kk
+  - k.k
+  translations:
+    en: Kaoh Kong [Kaôh Kong]
+  geo:
+    latitude: 11.5762804
+    longitude: 103.3587288
+    min_latitude: 9.287840300000001
+    min_longitude: 102.7800221
+    max_latitude: 12.1494559
+    max_longitude: 104.146877
+  name: Kaoh Kong [Kaôh Kong]

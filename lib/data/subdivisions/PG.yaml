@@ -1,0 +1,261 @@
+---
+CPK:
+  unofficial_names:
+  - Chimbu
+  - Simbúa
+  translations:
+    en: Chimbu
+  geo:
+    latitude: -6.308768199999999
+    longitude: 144.8731219
+    min_latitude: -6.8954711
+    min_longitude: 144.4285419
+    max_latitude: -5.775725
+    max_longitude: 145.33975
+  name: Chimbu
+CPM:
+  unofficial_names:
+  - Papua Central
+  translations:
+    en: Central
+  geo:
+    latitude: -9.1360187
+    longitude: 147.4627259
+    min_latitude: -10.3948627
+    min_longitude: 146.381344
+    max_latitude: -7.773521
+    max_longitude: 149.6684618
+  name: Central
+EBR:
+  unofficial_names:
+  - New Britain East
+  translations:
+    en: East New Britain
+  geo:
+    latitude: -4.612894300000001
+    longitude: 151.8877321
+    min_latitude: -6.068317899999999
+    min_longitude: 150.5976151
+    max_latitude: -4.0885039
+    max_longitude: 152.4966978
+  name: East New Britain
+EHG:
+  unofficial_names:
+  - Highlands East
+  translations:
+    en: Eastern Highlands
+  geo:
+    latitude: -6.5861674
+    longitude: 145.6689636
+    min_latitude: -7.1572681
+    min_longitude: 144.985481
+    max_latitude: -5.853335
+    max_longitude: 146.149775
+  name: Eastern Highlands
+EPW:
+  unofficial_names: Enga
+  translations:
+    en: Enga
+  geo:
+    latitude: -5.3005849
+    longitude: 143.5635637
+    min_latitude: -5.9661789
+    min_longitude: 142.7393411
+    max_latitude: -5.0077089
+    max_longitude: 144.2541971
+  name: Enga
+ESW:
+  unofficial_names:
+  - Sepik East
+  translations:
+    en: East Sepik
+  geo:
+    latitude: -4.3150058
+    longitude: 143.045893
+    min_latitude: -5.151646
+    min_longitude: 141.314843
+    max_latitude: -3.1911646
+    max_longitude: 144.8318195
+  name: East Sepik
+GPK:
+  unofficial_names:
+  - Papua Gulf
+  translations:
+    en: Gulf
+  geo:
+    latitude: -7.269182100000001
+    longitude: 145.1375834
+    min_latitude: -8.5877783
+    min_longitude: 143.00871
+    max_latitude: -6.700165999999999
+    max_longitude: 146.6471049
+  name: Gulf
+MBA:
+  unofficial_names: Milne Bay
+  translations:
+    en: Milne Bay
+  geo:
+    latitude: -10.4460842
+    longitude: 150.7214362
+    min_latitude: -10.5289949
+    min_longitude: 150.346527
+    max_latitude: -10.2622222
+    max_longitude: 150.8965302
+  name: Milne Bay
+MPL:
+  unofficial_names: Morobe
+  translations:
+    en: Morobe
+  geo:
+    latitude: -6.801373700000001
+    longitude: 146.561647
+    min_latitude: -8.031376999999999
+    min_longitude: 145.742827
+    max_latitude: -5.281522300000001
+    max_longitude: 148.1150151
+  name: Morobe
+MPM:
+  unofficial_names: Madang
+  translations:
+    en: Madang
+  geo:
+    latitude: -5.216667
+    longitude: 145.8
+    min_latitude: -5.2554161
+    min_longitude: 145.7496071
+    max_latitude: -5.203685699999999
+    max_longitude: 145.8166081
+  name: Madang
+MRL:
+  unofficial_names:
+  - Great Admiralty Island
+  - Mwanus
+  translations:
+    en: Manus
+  geo:
+    latitude: -2.0941169
+    longitude: 146.8760951
+    min_latitude: -2.5770971
+    min_longitude: 142.8257212
+    max_latitude: -0.8726387000000001
+    max_longitude: 148.2065104
+  name: Manus
+NCD:
+  unofficial_names: National Capital District (Port Moresby)
+  translations:
+    en: National Capital District (Port Moresby)
+  geo:
+    latitude: -9.443800399999999
+    longitude: 147.1802671
+    min_latitude: -9.5045786
+    min_longitude: 147.136652
+    max_latitude: -9.3703217
+    max_longitude: 147.2438668
+  name: National Capital District (Port Moresby)
+NIK:
+  unofficial_names:
+  - Niu Ailan
+  translations:
+    en: New Ireland
+  geo:
+    latitude: -4.2853256
+    longitude: 152.9205918
+    min_latitude: -4.8519637
+    min_longitude: 149.5108796
+    max_latitude: -1.315154
+    max_longitude: 153.7421607
+  name: New Ireland
+NPP:
+  unofficial_names:
+  - Northern
+  translations:
+    en: Northern
+  geo:
+    latitude: -8.8988063
+    longitude: 148.1892921
+    min_latitude: -9.977337
+    min_longitude: 147.0030289
+    max_latitude: -8.002543
+    max_longitude: 149.439636
+  name: Northern
+NSA:
+  unofficial_names:
+  - Bougainville
+  - Mekamui
+  - North Solomons
+  translations:
+    en: North Solomons
+  geo:
+    latitude: -6.053602
+    longitude: 155.1907309
+    min_latitude: -6.8796257
+    min_longitude: 154.1177784
+    max_latitude: -3.1095148
+    max_longitude: 159.4923965
+  name: North Solomons
+SAN:
+  unofficial_names:
+  - West Sepik
+  translations:
+    en: Sandaun [West Sepik]
+  geo:
+    latitude: -3.7126179
+    longitude: 141.6834275
+    min_latitude: -5.370609
+    min_longitude: 140.998795
+    max_latitude: -2.6086511
+    max_longitude: 143.1048729
+  name: Sandaun [West Sepik]
+SHM:
+  unofficial_names:
+  - Highlands South
+  translations:
+    en: Southern Highlands
+  geo:
+    latitude: -6.5156911
+    longitude: 143.045893
+    min_latitude: -6.863055
+    min_longitude: 142.0664641
+    max_latitude: -4.971731999999999
+    max_longitude: 144.683789
+  name: Southern Highlands
+WBK:
+  unofficial_names:
+  - New Britain West
+  translations:
+    en: West New Britain
+  geo:
+    latitude: -5.704743199999999
+    longitude: 150.0259466
+    min_latitude: -6.310895599999999
+    min_longitude: 148.3099281
+    max_latitude: -4.542134
+    max_longitude: 151.6839161
+  name: West New Britain
+WHM:
+  unofficial_names:
+  - Highlands West
+  translations:
+    en: Western Highlands
+  geo:
+    latitude: -5.6268128
+    longitude: 144.2593118
+    min_latitude: -6.3646218
+    min_longitude: 143.771268
+    max_latitude: -5.2128599
+    max_longitude: 144.5993042
+  name: Western Highlands
+WPD:
+  unofficial_names:
+  - Papua West
+  - Western
+  translations:
+    en: Western
+  geo:
+    latitude: -7.584644
+    longitude: 142.3613378
+    min_latitude: -9.3337498
+    min_longitude: 140.842865
+    max_latitude: -5.000000099999999
+    max_longitude: 143.9240419
+  name: Western

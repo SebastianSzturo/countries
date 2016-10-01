@@ -1,0 +1,137 @@
+---
+BR:
+  unofficial_names:
+  - Bierascie
+  - Brest-Litovsk
+  - Brestskaja Oblastʿ
+  - Brestskaja Voblastsʿ
+  - Brestskaya Oblastʿ
+  - Brestskaya Voblastsʿ
+  - Brisk
+  - Brześć nad Bugiem
+  - Brześć-Litewski
+  translations:
+    en: Brestskaya voblasts' (be) Brestskaya oblast' (ru)
+  geo:
+    latitude: 52.5296641
+    longitude: 25.460648
+    min_latitude: 51.4980539
+    min_longitude: 23.1783377
+    max_latitude: 53.4118989
+    max_longitude: 27.5825019
+  name: Brestskaya voblasts' (be) Brestskaya oblast' (ru)
+HO:
+  unofficial_names:
+  - Gomel
+  - Gomelskaja Oblastʿ
+  - Gomelskaya Oblastʿ
+  - Gomelʿ
+  - Homelskaja Voblastsʿ
+  - Homelskaya Voblastsʿ
+  - Homiel
+  - Homyel
+  translations:
+    en: Homyel'skaya voblasts' (be) Gomel'skaya oblast' (ru)
+  geo:
+    latitude: 52.1648754
+    longitude: 29.1333251
+    min_latitude: 51.2620722
+    min_longitude: 27.2441409
+    max_latitude: 53.3679551
+    max_longitude: 31.7992701
+  name: Homyel'skaya voblasts' (be) Gomel'skaya oblast' (ru)
+HR:
+  unofficial_names:
+  - Gardinas
+  - Grodnenskaja Oblastʿ
+  - Grodnenskaya Oblastʿ
+  - Grodno
+  - Horadnia
+  - Hrodno
+  - Hrodzenskaja Voblastsʿ
+  - Hrodzenskaya Voblastsʿ
+  translations:
+    en: Hrodzenskaya voblasts' (be) Grodnenskaya oblast' (ru)
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Hrodzenskaya voblasts' (be) Grodnenskaya oblast' (ru)
+MA:
+  unofficial_names:
+  - Mahiljov
+  - Mahiljowskaja Voblastsʿ
+  - Mahilyov
+  - Mahilyowskaya Voblastsʿ
+  - Mahilëv
+  - Mahilëŭ
+  - Mogilev
+  - Mogiliov
+  - Mogiljovskaja Oblastʿ
+  - Mogilov
+  - Mogilyovskaya Oblast
+  - Mogilëv
+  - Mogilʿov
+  translations:
+    en: Mahilyowskaya voblasts' (be) Mogilevskaya oblast' (ru)
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Mahilyowskaya voblasts' (be) Mogilevskaya oblast' (ru)
+MI:
+  unofficial_names:
+  - Minskaja Oblastʿ
+  - Minskaya Oblastʿ
+  - Minskaya Voblastsʿ
+  translations:
+    en: Minskaya voblasts' (be) Minskaya oblast' (ru)
+  geo:
+    latitude: 53.4718561
+    longitude: 27.6969909
+    min_latitude: 52.37261179999999
+    min_longitude: 26.06101
+    max_latitude: 55.017477
+    max_longitude: 29.487841
+  name: Minskaya voblasts' (be) Minskaya oblast' (ru)
+VI:
+  unofficial_names:
+  - Vicebskaja Voblastsʿ
+  - Vicebskaya Voblastsʿ
+  - Viciebsk
+  - Vicjebsk
+  - Vitebsk
+  - Vitebskaja Oblastʿ
+  - Vitebskaya Oblastʿ
+  - Vitsyebsk
+  translations:
+    en: Vitsyebskaya voblasts' (be) Vitebskaya oblast' (ru)
+  geo:
+    latitude: 
+    longitude: 
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Vitsyebskaya voblasts' (be) Vitebskaya oblast' (ru)
+X1~:
+  unofficial_names:
+  - Gorod Minsk
+  - Horad Minsk
+  - Mensk
+  translations:
+    en: Horad Minsk
+  geo:
+    latitude: 53.9029742
+    longitude: 27.5549986
+    min_latitude: 53.9003892
+    min_longitude: 27.5486845
+    max_latitude: 53.9069628
+    max_longitude: 27.5616665
+  name: Horad Minsk
