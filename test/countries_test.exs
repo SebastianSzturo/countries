@@ -27,6 +27,9 @@ defmodule CountriesTest do
 
     country = List.first(Countries.filter_by(:alpha2, "AD"))
     assert Enum.count(Countries.Subdivisions.all(country)) == 7
+
+    country = List.first(Countries.filter_by(:alpha2, "AI"))
+    assert Enum.count(Countries.Subdivisions.all(country)) == 0
   end
 
 end

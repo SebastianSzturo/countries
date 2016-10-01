@@ -12,7 +12,11 @@ defmodule Countries.Subdivisions do
       Path.join("data", path) |> Path.expand(__DIR__)
     end
 
-    data_path.("subdivisions/#{country_code}.yaml") |> :yamerl.decode_file |> List.first
+    try do
+      data_path.("subdivisions/#{country_code}.yaml") |> :yamerl.decode_file |> List.first
+    catch
+      _exception -> []
+    end
   end
 
 end
