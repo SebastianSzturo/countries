@@ -1,5 +1,5 @@
 ---
-'03': !ruby/struct:ISO3166::Subdivision
+'03': 
   name: Saint George
   names: Saint George
   latitude: 17.1078489
@@ -9,7 +9,7 @@
   max_latitude: 17.1695276
   max_longitude: -61.74657209999999
   comments: 
-'04': !ruby/struct:ISO3166::Subdivision
+'04': 
   name: Saint John’s
   names: Saint John’s
   latitude: 17.116667
@@ -19,7 +19,7 @@
   max_latitude: 17.1409954
   max_longitude: -61.8271922
   comments: 
-'05': !ruby/struct:ISO3166::Subdivision
+'05': 
   name: Saint Mary
   names: Saint Mary
   latitude: 17.0512064
@@ -29,7 +29,7 @@
   max_latitude: 17.105279
   max_longitude: -61.805473
   comments: 
-'06': !ruby/struct:ISO3166::Subdivision
+'06': 
   name: Saint Paul
   names: Saint Paul
   latitude: 17.0371588
@@ -39,7 +39,7 @@
   max_latitude: 17.065935
   max_longitude: -61.73061
   comments: 
-'07': !ruby/struct:ISO3166::Subdivision
+'07': 
   name: Saint Peter
   names: Saint Peter
   latitude: 17.0980665
@@ -49,7 +49,7 @@
   max_latitude: 17.1485654
   max_longitude: -61.71377
   comments: 
-08: !ruby/struct:ISO3166::Subdivision
+08: 
   name: Saint Philip
   names: Saint Philip
   latitude: 17.0480636
@@ -59,7 +59,7 @@
   max_latitude: 17.1040329
   max_longitude: -61.660976
   comments: 
-'10': !ruby/struct:ISO3166::Subdivision
+'10': 
   name: Barbuda
   names: Barbuda
   latitude: 17.626798
@@ -69,7 +69,7 @@
   max_latitude: 17.7293354
   max_longitude: -61.7318075
   comments: 
-X2~: !ruby/struct:ISO3166::Subdivision
+X2~: 
   name: Redonda
   names: Redonda
   latitude: 16.938416

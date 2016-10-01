@@ -1,5 +1,5 @@
 ---
-BR: !ruby/struct:ISO3166::Subdivision
+BR: 
   name: Berat
   names: Berat
   latitude: 40.7086377
@@ -9,7 +9,7 @@ BR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.7306085
   max_longitude: 19.9808693
   comments: 
-BU: !ruby/struct:ISO3166::Subdivision
+BU: 
   name: Bulqizë
   names: Bulqizë
   latitude: 41.4942587
@@ -19,7 +19,7 @@ BU: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.5114053
   max_longitude: 20.2380502
   comments: 
-DI: !ruby/struct:ISO3166::Subdivision
+DI: 
   name: Dibër
   names:
   - Dibër
@@ -30,7 +30,7 @@ DI: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.899441
   max_longitude: 20.583229
   comments: 
-DL: !ruby/struct:ISO3166::Subdivision
+DL: 
   name: Delvinë
   names: Delvinë
   latitude: 39.9481364
@@ -40,7 +40,7 @@ DL: !ruby/struct:ISO3166::Subdivision
   max_latitude: 39.9586027
   max_longitude: 20.109787
   comments: 
-DR: !ruby/struct:ISO3166::Subdivision
+DR: 
   name: Durrës
   names: Durrës
   latitude: 41.316667
@@ -50,7 +50,7 @@ DR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.3809305
   max_longitude: 19.5148087
   comments: 
-DV: !ruby/struct:ISO3166::Subdivision
+DV: 
   name: Devoll
   names:
   - Devoli
@@ -61,7 +61,7 @@ DV: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.803878
   max_longitude: 21.06846
   comments: 
-EL: !ruby/struct:ISO3166::Subdivision
+EL: 
   name: Elbasan
   names: Elbasan
   latitude: 41.11023
@@ -71,7 +71,7 @@ EL: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.1308961
   max_longitude: 20.1270677
   comments: 
-ER: !ruby/struct:ISO3166::Subdivision
+ER: 
   name: Kolonjë
   names: Kolonjë
   latitude: 40.3083026
@@ -81,7 +81,7 @@ ER: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.477882
   max_longitude: 20.8055689
   comments: 
-FR: !ruby/struct:ISO3166::Subdivision
+FR: 
   name: Fier
   names: Fier
   latitude: 40.9191392
@@ -91,7 +91,7 @@ FR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.06486599999999
   max_longitude: 19.92129
   comments: 
-GJ: !ruby/struct:ISO3166::Subdivision
+GJ: 
   name: Gjirokastër
   names: Gjirokastër
   latitude: 40.0672874
@@ -101,7 +101,7 @@ GJ: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.1064699
   max_longitude: 20.1654482
   comments: 
-GR: !ruby/struct:ISO3166::Subdivision
+GR: 
   name: Gramsh
   names: Gramsh
   latitude: 40.866667
@@ -111,7 +111,7 @@ GR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.87864
   max_longitude: 20.1936437
   comments: 
-HA: !ruby/struct:ISO3166::Subdivision
+HA: 
   name: Has
   names: Has
   latitude: 42.2
@@ -121,7 +121,7 @@ HA: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.2043618
   max_longitude: 20.4262232
   comments: 
-KA: !ruby/struct:ISO3166::Subdivision
+KA: 
   name: Kavajë
   names: Kavajë
   latitude: 41.1844529
@@ -131,7 +131,7 @@ KA: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.2088804
   max_longitude: 19.5895959
   comments: 
-KB: !ruby/struct:ISO3166::Subdivision
+KB: 
   name: Kurbin
   names: Kurbin
   latitude: 41.6300368
@@ -141,7 +141,7 @@ KB: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.694035
   max_longitude: 19.824307
   comments: 
-KC: !ruby/struct:ISO3166::Subdivision
+KC: 
   name: Kuçovë
   names: Kuçovë
   latitude: 40.803889
@@ -151,7 +151,7 @@ KC: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.827904
   max_longitude: 19.9304867
   comments: 
-KO: !ruby/struct:ISO3166::Subdivision
+KO: 
   name: Korçë
   names: Korçë
   latitude: 40.6140785
@@ -161,7 +161,7 @@ KO: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.63663890000001
   max_longitude: 20.7976342
   comments: 
-KR: !ruby/struct:ISO3166::Subdivision
+KR: 
   name: Krujë
   names: Krujë
   latitude: 41.5094765
@@ -171,7 +171,7 @@ KR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.5598482
   max_longitude: 19.8250007
   comments: 
-KU: !ruby/struct:ISO3166::Subdivision
+KU: 
   name: Kukës
   names: Kukës
   latitude: 42.076667
@@ -181,7 +181,7 @@ KU: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.1007892
   max_longitude: 20.4430247
   comments: 
-LB: !ruby/struct:ISO3166::Subdivision
+LB: 
   name: Librazhd
   names: Librazhd
   latitude: 41.183333
@@ -191,7 +191,7 @@ LB: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.1895385
   max_longitude: 20.3219818
   comments: 
-LE: !ruby/struct:ISO3166::Subdivision
+LE: 
   name: Lezhë
   names: Lezhë
   latitude: 41.78607299999999
@@ -201,7 +201,7 @@ LE: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.8086206
   max_longitude: 19.6730233
   comments: 
-LU: !ruby/struct:ISO3166::Subdivision
+LU: 
   name: Lushnjë
   names: Lushnjë
   latitude: 40.933333
@@ -211,7 +211,7 @@ LU: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.9557244
   max_longitude: 19.7263814
   comments: 
-MK: !ruby/struct:ISO3166::Subdivision
+MK: 
   name: Mallakastër
   names: Mallakastër
   latitude: 40.5273376
@@ -221,7 +221,7 @@ MK: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.655769
   max_longitude: 19.92129
   comments: 
-MM: !ruby/struct:ISO3166::Subdivision
+MM: 
   name: Malësi e Madhe
   names:
   - Malesia e Madhe
@@ -232,7 +232,7 @@ MM: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.665615
   max_longitude: 19.835646
   comments: 
-MR: !ruby/struct:ISO3166::Subdivision
+MR: 
   name: Mirditë
   names: Mirditë
   latitude: 41.764286
@@ -242,7 +242,7 @@ MR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.028515
   max_longitude: 20.261952
   comments: 
-MT: !ruby/struct:ISO3166::Subdivision
+MT: 
   name: Mat
   names: Mat
   latitude: 41.5937675
@@ -252,7 +252,7 @@ MT: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.784789
   max_longitude: 20.224639
   comments: 
-PG: !ruby/struct:ISO3166::Subdivision
+PG: 
   name: Pogradec
   names: Pogradec
   latitude: 40.9
@@ -262,7 +262,7 @@ PG: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.9067909
   max_longitude: 20.6704974
   comments: 
-PQ: !ruby/struct:ISO3166::Subdivision
+PQ: 
   name: Peqin
   names: Peqin
   latitude: 41.05
@@ -272,7 +272,7 @@ PQ: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.0517835
   max_longitude: 19.7607136
   comments: 
-PR: !ruby/struct:ISO3166::Subdivision
+PR: 
   name: Përmet
   names: Përmet
   latitude: 40.23333299999999
@@ -282,7 +282,7 @@ PR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.2449268
   max_longitude: 20.3684806
   comments: 
-PU: !ruby/struct:ISO3166::Subdivision
+PU: 
   name: Pukë
   names: Pukë
   latitude: 42.05
@@ -292,7 +292,7 @@ PU: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.0535603
   max_longitude: 19.9108264
   comments: 
-SH: !ruby/struct:ISO3166::Subdivision
+SH: 
   name: Shkodër
   names: Shkodër
   latitude: 42.0692985
@@ -302,7 +302,7 @@ SH: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.0965346
   max_longitude: 19.537983
   comments: 
-SK: !ruby/struct:ISO3166::Subdivision
+SK: 
   name: Skrapar
   names: Skrapar
   latitude: 40.5349946
@@ -312,7 +312,7 @@ SK: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.728658
   max_longitude: 20.452115
   comments: 
-SR: !ruby/struct:ISO3166::Subdivision
+SR: 
   name: Sarandë
   names: Sarandë
   latitude: 39.875
@@ -322,7 +322,7 @@ SR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 39.8857015
   max_longitude: 20.0435258
   comments: 
-TE: !ruby/struct:ISO3166::Subdivision
+TE: 
   name: Tepelenë
   names: Tepelenë
   latitude: 40.3
@@ -332,7 +332,7 @@ TE: !ruby/struct:ISO3166::Subdivision
   max_latitude: 40.3029309
   max_longitude: 20.0266171
   comments: 
-TP: !ruby/struct:ISO3166::Subdivision
+TP: 
   name: Tropojë
   names: Tropojë
   latitude: 42.40000000000001
@@ -342,7 +342,7 @@ TP: !ruby/struct:ISO3166::Subdivision
   max_latitude: 42.4069178
   max_longitude: 20.1732587
   comments: 
-TR: !ruby/struct:ISO3166::Subdivision
+TR: 
   name: Tiranë
   names:
   - Tiranë
@@ -355,7 +355,7 @@ TR: !ruby/struct:ISO3166::Subdivision
   max_latitude: 41.36684109999999
   max_longitude: 19.8820782
   comments: 
-VL: !ruby/struct:ISO3166::Subdivision
+VL: 
   name: Vlorë
   names: Vlorë
   latitude: 40.465

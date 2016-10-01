@@ -1,5 +1,5 @@
 ---
-'02': !ruby/struct:ISO3166::Subdivision
+'02': 
   name: Canillo
   names: Canillo
   latitude: 42.5666535
@@ -9,7 +9,7 @@
   max_latitude: 42.5679867
   max_longitude: 1.6037142
   comments: 
-'03': !ruby/struct:ISO3166::Subdivision
+'03': 
   name: Encamp
   names: Encamp
   latitude: 42.5362652
@@ -19,7 +19,7 @@
   max_latitude: 42.5395096
   max_longitude: 1.5901645
   comments: 
-'04': !ruby/struct:ISO3166::Subdivision
+'04': 
   name: La Massana
   names: La Massana
   latitude: 42.545625
@@ -29,7 +29,7 @@
   max_latitude: 42.5501711
   max_longitude: 1.5204314
   comments: 
-'05': !ruby/struct:ISO3166::Subdivision
+'05': 
   name: Ordino
   names: Ordino
   latitude: 42.5556547
@@ -39,7 +39,7 @@
   max_latitude: 42.5596833
   max_longitude: 1.5374774
   comments: 
-'06': !ruby/struct:ISO3166::Subdivision
+'06': 
   name: Sant Julià de Lòria
   names:
   - Saint Julia de Loria
@@ -50,7 +50,7 @@
   max_latitude: 42.4727386
   max_longitude: 1.4963642
   comments: 
-'07': !ruby/struct:ISO3166::Subdivision
+'07': 
   name: Andorra la Vella
   names:
   - Andorra la Vieja
@@ -62,7 +62,7 @@
   max_latitude: 42.513564
   max_longitude: 1.5353385
   comments: 
-08: !ruby/struct:ISO3166::Subdivision
+08: 
   name: Escaldes-Engordany
   names:
   - Les Escaldes
