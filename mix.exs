@@ -19,7 +19,7 @@ defmodule Countries.Mixfile do
   end
 
   defp deps do
-    [{:yamerl, "~> 0.3.2"}]
+    [{:yamerl, "~> 0.4.0"}]
   end
 
   defp description do

@@ -1,1 +1,1 @@
-%{"yamerl": {:hex, :yamerl, "0.3.2", "9eac1537d251e926f47763ab1db0d9e6e8f2397646c290d58aa6ceebc6832fb7", [:rebar3], []}}
+%{"yamerl": {:hex, :yamerl, "0.4.0", "ae215b1242810a9bc07716b88062f1bfe06f6bc7cf68372091f630baa536df79", [:rebar3], []}}
