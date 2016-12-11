@@ -1,7 +1,7 @@
 defmodule Countries.Mixfile do
   use Mix.Project
 
-  @version "1.1.1"
+  @version "1.2.0"
 
   def project do
     [app: :countries,
@@ -10,6 +10,7 @@ defmodule Countries.Mixfile do
      deps: deps,
 
      # Hex
+     source_url: "https://github.com/SebastianSzturo/countries",
      description: description,
      package: package]
   end
@@ -19,7 +20,8 @@ defmodule Countries.Mixfile do
   end
 
   defp deps do
-    [{:yamerl, "~> 0.4.0"}]
+    [{:yamerl, "~> 0.4.0"},
+     {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
   defp description do
@@ -29,7 +31,7 @@ defmodule Countries.Mixfile do
   end
 
   defp package do
-    [contributors: ["Sebastian Szturo"],
+    [maintainers: ["Sebastian Szturo"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/SebastianSzturo/countries"}]
   end
