@@ -9,8 +9,7 @@ As the current version of ``yamerl`` at hex.pm is not working correctly, we have
 
 ```Elixir
 defp deps do
-  [...
-   {:countries, github: "SebastianSzturo/countries"}]
+  [{:countries, github: "SebastianSzturo/countries"}]
 end
 ```
 
