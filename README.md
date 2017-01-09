@@ -5,7 +5,6 @@ Countries is a collection of all sorts of useful information for every country i
 It is based on the data from the ruby gem [Countries](https://github.com/hexorx/countries).
 
 ## Installation
-As the current version of ``yamerl`` at hex.pm is not working correctly, we have to add the dependencies ``yamerl`` and ``countries`` manually from github to our ``mix.exs``.
 
 ```Elixir
 defp deps do
