@@ -7,12 +7,12 @@ defmodule Countries.Mixfile do
     [app: :countries,
      version: @version,
      elixir: "~> 1.3",
-     deps: deps,
+     deps: deps(),
 
      # Hex
      source_url: "https://github.com/SebastianSzturo/countries",
-     description: description,
-     package: package]
+     description: description(),
+     package: package()]
   end
 
   def application do
