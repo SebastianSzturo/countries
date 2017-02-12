@@ -5,7 +5,7 @@ defmodule Countries do
   Returns all countries.
   """
   def all do
-    countries
+    countries()
   end
 
   @doc """
@@ -17,7 +17,7 @@ defmodule Countries do
     [%Countries.Country{address_format: nil, alpha2: 'VA' ...
   """
   def filter_by(attribute, value) do
-    Enum.filter(countries, fn(country) ->
+    Enum.filter(countries(), fn(country) ->
       value_as_char_list = to_char_list(value)
       Map.get(country, attribute) == value_as_char_list
     end)
