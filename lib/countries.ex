@@ -5,7 +5,7 @@ defmodule Countries do
   Returns all countries.
   """
   def all do
-    countries
+    countries()
   end
 
   @doc """
@@ -17,7 +17,7 @@ defmodule Countries do
     [%Countries.Country{address_format: nil, alpha2: 'VA' ...
   """
   def filter_by(attribute, value) do
-    Enum.filter(countries, fn(country) ->
+    Enum.filter(countries(), fn(country) ->
       value_as_char_list = to_char_list(value)
       Map.get(country, attribute) == value_as_char_list
     end)
@@ -43,20 +43,18 @@ defmodule Countries do
   #    [[{'name', 'Germany'}, {'code', 'DE'}], [{'nam:e', 'Austria'}, {'code', 'AT'}]]
   # We need to transform that to maps:
   #    [%{name: 'Germany', code: "DE"}, %{name: 'Austria', code: "AT"}]
-  countries =
-    Enum.reduce(country_data, [], fn (country_data, countries) ->
-      country =
-        Enum.reduce(country_data, %Country{}, fn({attribute, value}, country) ->
-          attribute_as_atom = to_string(attribute) |> String.to_atom
-          Map.put(country, attribute_as_atom, value)
-        end)
+  @countries Enum.reduce(country_data, [], fn (country_data, countries) ->
+    country =
+      Enum.reduce(country_data, %Country{}, fn({attribute, value}, country) ->
+        attribute_as_atom = to_string(attribute) |> String.to_atom
+        Map.put(country, attribute_as_atom, value)
+      end)
 
-      List.insert_at(countries, 0, country)
-    end)
+    List.insert_at(countries, 0, country)
+  end)
 
   defp countries do
-    # Maps and Structs need to be escaped before unquoting
-    unquote Macro.escape(countries)
+    @countries
   end
 
 end
