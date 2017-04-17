@@ -23,6 +23,21 @@ defmodule Countries do
     end)
   end
 
+  @doc """
+  Checks if country for specific attribute and value exsits
+  Returns boolean
+
+  ## Examples
+    iex> Countries.exists?(:name, "Poland")
+    true
+
+    iex> Countries.exists?(:name, "Polande")
+    false
+  """
+  def exists?(attribue, value) do
+    (filter_by(attribue, value) |> length) > 0
+  end
+
   #-- Load countries from yaml files once on compile time ---
 
   # Ensure :yamerl is running
