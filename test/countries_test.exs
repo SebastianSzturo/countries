@@ -32,4 +32,11 @@ defmodule CountriesTest do
     assert Enum.count(Countries.Subdivisions.all(country)) == 0
   end
 
+  test "checks if country exists" do
+    country_exists = Countries.exists?(:name, "Poland")
+    assert country_exists == true
+
+    country_exists = Countries.exists?(:name, "Polande")
+    assert country_exists == false
+  end
 end
