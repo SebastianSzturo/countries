@@ -24,7 +24,7 @@ defmodule Countries do
   end
 
   @doc """
-  Checks if country for specific attribute and value exsits
+  Checks if country for specific attribute and value exists
   Returns boolean
 
   ## Examples
@@ -34,8 +34,8 @@ defmodule Countries do
     iex> Countries.exists?(:name, "Polande")
     false
   """
-  def exists?(attribue, value) do
-    (filter_by(attribue, value) |> length) > 0
+  def exists?(attribute, value) do
+    (filter_by(attribute, value) |> length) > 0
   end
 
   #-- Load countries from yaml files once on compile time ---
