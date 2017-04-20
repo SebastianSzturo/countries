@@ -38,5 +38,11 @@ defmodule CountriesTest do
 
     country_exists = Countries.exists?(:name, "Polande")
     assert country_exists == false
+
+    country_exists = Countries.exists?("Malaysia")
+    assert country_exists == true
+
+    country_exists = Countries.exists?("Malaysie")
+    assert country_exists == false
   end
 end
