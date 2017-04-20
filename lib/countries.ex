@@ -38,6 +38,20 @@ defmodule Countries do
     (filter_by(attribute, value) |> length) > 0
   end
 
+  @doc """
+  Similar to exists?/2 but with default attribute set to :name
+
+  ## Examples
+    iex> Countries.exists?("Malaysia")
+    true
+
+    iex> Countries.exists?("Malaysie")
+    false
+  """
+  def exists?(value) do
+    exists?(:name, value)
+  end
+
   #-- Load countries from yaml files once on compile time ---
 
   # Ensure :yamerl is running
