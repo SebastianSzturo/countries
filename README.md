@@ -8,7 +8,7 @@ It is based on the data from the ruby gem [Countries](https://github.com/hexorx/
 
 ```Elixir
 defp deps do
-  [{:countries, github: "SebastianSzturo/countries"}]
+  [{:countries, "~> 1.3"}]
 end
 ```
 
