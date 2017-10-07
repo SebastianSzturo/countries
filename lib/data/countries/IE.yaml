@@ -3,25 +3,15 @@ continent: Europe
 address_format: |-
   {{recipient}}
   {{street}}
-  {{city}} {{region}} {{postalcode}}
+  {{city}} {{region_short}} {{postalcode}}
   {{country}}
 alpha2: IE
 alpha3: IRL
 country_code: '353'
-currency: EUR
 international_prefix: '00'
 ioc: IRL
 gec: EI
-latitude: 53 00 N
-longitude: 8 00 W
 name: Ireland
-names:
-- Ireland
-- Irland
-- Irlande
-- Irlanda
-- "アイルランド"
-- Ierland
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -32,11 +22,9 @@ region: Europe
 subregion: Northern Europe
 world_region: EMEA
 un_locode: IE
-languages:
-- en
-- ga
 nationality: Irish
 eu_member: true
+eea_member: true
 vat_rates:
   standard: 23
   reduced:
@@ -45,9 +33,34 @@ vat_rates:
   super_reduced: 4.8
   parking: 13.5
 postal_code: false
-min_longitude: "-10.680833"
-min_latitude: '51.425556'
-max_longitude: "-6.0025"
-max_latitude: '55.433333'
-latitude_dec: '53.1827278137207'
-longitude_dec: "-8.196102142333984"
+unofficial_names:
+- Ireland
+- Irland
+- Irlande
+- Irlanda
+- アイルランド
+- Ierland
+languages_official:
+- en
+- ga
+languages_spoken:
+- en
+- ga
+geo:
+  latitude: 53.41291
+  latitude_dec: '53.1827278137207'
+  longitude: -8.24389
+  longitude_dec: "-8.196102142333984"
+  max_latitude: 55.4602
+  max_longitude: -5.668900100000001
+  min_latitude: 51.3066
+  min_longitude: -10.7666001
+  bounds:
+    northeast:
+      lat: 55.4602
+      lng: -5.668900100000001
+    southwest:
+      lat: 51.3066
+      lng: -10.7666001
+currency_code: EUR
+start_of_week: monday

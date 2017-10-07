@@ -3,17 +3,11 @@ continent: North America
 alpha2: BB
 alpha3: BRB
 country_code: '1'
-currency: BBD
+nanp_prefix: '1246'
 international_prefix: '011'
 ioc: BAR
 gec: BB
-latitude: 13 10 N
-longitude: 59 32 W
 name: Barbados
-names:
-- Barbade
-- Barbados
-- "バルバドス"
 national_destination_code_lengths:
 - 3
 national_number_lengths:
@@ -24,13 +18,31 @@ region: Americas
 subregion: Caribbean
 world_region: AMER
 un_locode: BB
-languages:
-- en
 nationality: Barbadian
 postal_code: true
-min_longitude: "-59.65"
-min_latitude: '13.033333'
-max_longitude: "-59.416667"
-max_latitude: '13.333333'
-latitude_dec: '13.178098678588867'
-longitude_dec: "-59.5485954284668"
+unofficial_names:
+- Barbade
+- Barbados
+- バルバドス
+languages_official:
+- en
+languages_spoken:
+- en
+geo:
+  latitude: 13.193887
+  latitude_dec: '13.178098678588867'
+  longitude: -59.543198
+  longitude_dec: "-59.5485954284668"
+  max_latitude: 13.3365093
+  max_longitude: -59.4174957
+  min_latitude: 13.039844
+  min_longitude: -59.6530151
+  bounds:
+    northeast:
+      lat: 13.3365093
+      lng: -59.4174957
+    southwest:
+      lat: 13.039844
+      lng: -59.6530151
+currency_code: BBD
+start_of_week: monday

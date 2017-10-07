@@ -3,17 +3,10 @@ continent: South America
 alpha2: SR
 alpha3: SUR
 country_code: '597'
-currency: SRD
 international_prefix: '00'
 ioc: SUR
 gec: NS
-latitude: 4 00 N
-longitude: 56 00 W
 name: Suriname
-names:
-- Suriname
-- Surinam
-- "スリナム"
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -24,13 +17,31 @@ region: Americas
 subregion: South America
 world_region: AMER
 un_locode: SR
-languages:
-- nl
 nationality: Surinamer
 postal_code: false
-min_longitude: "-60"
-min_latitude: '2.1'
-max_longitude: "-53.983333"
-max_latitude: '6'
-latitude_dec: '4.216928958892822'
-longitude_dec: "-55.889217376708984"
+unofficial_names:
+- Suriname
+- Surinam
+- スリナム
+languages_official:
+- nl
+languages_spoken:
+- nl
+geo:
+  latitude: 3.919305
+  latitude_dec: '4.216928958892822'
+  longitude: -56.027783
+  longitude_dec: "-55.889217376708984"
+  max_latitude: 6.1295999
+  max_longitude: -53.94289999999999
+  min_latitude: 1.837306
+  min_longitude: -58.07050590000001
+  bounds:
+    northeast:
+      lat: 6.1295999
+      lng: -53.94289999999999
+    southwest:
+      lat: 1.837306
+      lng: -58.07050590000001
+currency_code: SRD
+start_of_week: monday

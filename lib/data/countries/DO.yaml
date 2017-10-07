@@ -3,20 +3,10 @@ continent: North America
 alpha2: DO
 alpha3: DOM
 country_code: '1'
-currency: DOP
 international_prefix: '011'
 ioc: DOM
 gec: DR
-latitude: 19 00 N
-longitude: 70 40 W
 name: Dominican Republic
-names:
-- Dominican Republic
-- Dominikanische Republik
-- République Dominicaine
-- República Dominicana
-- "ドミニカ共和国"
-- Dominicaanse Republiek
 national_destination_code_lengths:
 - 3
 national_number_lengths:
@@ -27,13 +17,34 @@ region: Americas
 subregion: Caribbean
 world_region: AMER
 un_locode: DO
-languages:
-- es
 nationality: Dominican
 postal_code: true
-min_longitude: "-71.966667"
-min_latitude: '17.473056'
-max_longitude: "-68.316667"
-max_latitude: '19.933333'
-latitude_dec: '19.019824981689453'
-longitude_dec: "-70.79285430908203"
+unofficial_names:
+- Dominican Republic
+- Dominikanische Republik
+- République Dominicaine
+- República Dominicana
+- ドミニカ共和国
+- Dominicaanse Republiek
+languages_official:
+- es
+languages_spoken:
+- es
+geo:
+  latitude: 18.735693
+  latitude_dec: '19.019824981689453'
+  longitude: -70.162651
+  longitude_dec: "-70.79285430908203"
+  max_latitude: 19.9786989
+  max_longitude: -68.25260010000001
+  min_latitude: 17.3611001
+  min_longitude: -72.0075099
+  bounds:
+    northeast:
+      lat: 19.9786989
+      lng: -68.25260010000001
+    southwest:
+      lat: 17.3611001
+      lng: -72.0075099
+currency_code: DOP
+start_of_week: monday
