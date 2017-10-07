@@ -1,38 +1,50 @@
 ---
-continent: Asia
-alpha2: IR
-alpha3: IRN
-country_code: '98'
-currency: IRR
-international_prefix: '00'
-ioc: IRI
-gec: IR
-latitude: 32 00 N
-longitude: 53 00 E
-name: Iran, Islamic Republic Of
-names:
-- Iran
-- Irán
-- Iran (Islamic Republic Of)
-- "イラン・イスラム共和国"
-- Islamic Republic of Iran
-national_destination_code_lengths:
-- 2
-national_number_lengths:
-- 10
-national_prefix: '0'
-number: '364'
-region: Asia
-subregion: Southern Asia
-world_region: EMEA
-un_locode: IR
-languages:
-- fa
-nationality: Iranian
-postal_code: true
-min_longitude: '27.4455'
-min_latitude: '25.05'
-max_longitude: '62'
-max_latitude: '39.7754'
-latitude_dec: '32.50077819824219'
-longitude_dec: '54.2942008972168'
+IR:
+  continent: Asia
+  alpha2: IR
+  alpha3: IRN
+  country_code: '98'
+  international_prefix: '00'
+  ioc: IRI
+  gec: IR
+  name: Iran (Islamic Republic of)
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 10
+  national_prefix: '0'
+  number: '364'
+  region: Asia
+  subregion: Southern Asia
+  world_region: EMEA
+  un_locode: IR
+  nationality: Iranian
+  postal_code: true
+  unofficial_names:
+  - Iran
+  - Irán
+  - Iran (Islamic Republic Of)
+  - イラン・イスラム共和国
+  - Islamic Republic of Iran
+  languages_official:
+  - fa
+  languages_spoken:
+  - fa
+  geo:
+    latitude: 32.427908
+    latitude_dec: '32.50077819824219'
+    longitude: 53.688046
+    longitude_dec: '54.2942008972168'
+    max_latitude: 39.782056
+    max_longitude: 63.3333366
+    min_latitude: 24.8066999
+    min_longitude: 44.0326949
+    bounds:
+      northeast:
+        lat: 39.782056
+        lng: 63.3333366
+      southwest:
+        lat: 24.8066999
+        lng: 44.0326949
+  currency_code: IRR
+  start_of_week: saturday
