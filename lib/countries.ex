@@ -15,11 +15,23 @@ defmodule Countries do
   ## Examples
     iex> Countries.filter_by(:region, "Europe")
     [%Countries.Country{address_format: nil, alpha2: "VA" ...
+
+    iex> Countries.filter_by(:names, "Reino Unido")
+    [%Countries.Country{address_format: nil, alpha2: "GB" ...
   """
   def filter_by(attribute, value) do
     Enum.filter(countries(), fn(country) ->
-      Map.get(country, attribute) == value
+      Map.get(country, attribute)
+      |> equals_or_contains_in_list(value)
     end)
+  end
+
+  defp equals_or_contains_in_list(attribute, value) when is_list(attribute) do
+    Enum.member?(attribute, value)
+  end
+
+  defp equals_or_contains_in_list(attribute, value) do
+    attribute == value
   end
 
   @doc """
