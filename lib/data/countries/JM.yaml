@@ -3,18 +3,11 @@ continent: North America
 alpha2: JM
 alpha3: JAM
 country_code: '1'
-currency: JMD
+nanp_prefix: '1876'
 international_prefix: '011'
 ioc: JAM
 gec: JM
-latitude: 18 15 N
-longitude: 77 30 W
 name: Jamaica
-names:
-- Jamaica
-- Jamaika
-- Jamaïque
-- "ジャマイカ"
 national_destination_code_lengths:
 - 3
 national_number_lengths:
@@ -25,13 +18,32 @@ region: Americas
 subregion: Caribbean
 world_region: AMER
 un_locode: JM
-languages:
-- en
 nationality: Jamaican
 postal_code: false
-min_longitude: "-78.366667"
-min_latitude: '17'
-max_longitude: "-70"
-max_latitude: '18.533333'
-latitude_dec: '18.143444061279297'
-longitude_dec: "-77.34654998779297"
+unofficial_names:
+- Jamaica
+- Jamaika
+- Jamaïque
+- ジャマイカ
+languages_official:
+- en
+languages_spoken:
+- en
+geo:
+  latitude: 18.109581
+  latitude_dec: '18.143444061279297'
+  longitude: -77.297508
+  longitude_dec: "-77.34654998779297"
+  max_latitude: 18.5697821
+  max_longitude: -76.1448669
+  min_latitude: 17.6688854
+  min_longitude: -78.4073639
+  bounds:
+    northeast:
+      lat: 18.5697821
+      lng: -76.1448669
+    southwest:
+      lat: 17.6688854
+      lng: -78.4073639
+currency_code: JMD
+start_of_week: monday

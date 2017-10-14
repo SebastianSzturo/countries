@@ -8,19 +8,10 @@ address_format: |-
 alpha2: AT
 alpha3: AUT
 country_code: '43'
-currency: EUR
 international_prefix: '00'
 ioc: AUT
 gec: AU
-latitude: 47 20 N
-longitude: 13 20 E
 name: Austria
-names:
-- Austria
-- "Österreich"
-- Autriche
-- "オーストリア"
-- Oostenrijk
 national_destination_code_lengths:
 - 1
 - 2
@@ -39,20 +30,41 @@ region: Europe
 subregion: Western Europe
 world_region: EMEA
 un_locode: AT
-languages:
-- de
 nationality: Austrian
 eu_member: true
+eea_member: true
 vat_rates:
   standard: 20
   reduced:
   - 10
-  super_reduced: 
+  super_reduced:
   parking: 12
 postal_code: true
-min_longitude: '1.2'
-min_latitude: '46.377222'
-max_longitude: '19'
-max_latitude: '49.016667'
-latitude_dec: '47.58843994140625'
-longitude_dec: '14.14021110534668'
+unofficial_names:
+- Austria
+- Österreich
+- Autriche
+- オーストリア
+- Oostenrijk
+languages_official:
+- de
+languages_spoken:
+- de
+geo:
+  latitude: 47.516231
+  latitude_dec: '47.58843994140625'
+  longitude: 14.550072
+  longitude_dec: '14.14021110534668'
+  max_latitude: 49.0206081
+  max_longitude: 17.1606861
+  min_latitude: 46.37233579999999
+  min_longitude: 9.530783399999999
+  bounds:
+    northeast:
+      lat: 49.0206081
+      lng: 17.1606861
+    southwest:
+      lat: 46.37233579999999
+      lng: 9.530783399999999
+currency_code: EUR
+start_of_week: monday

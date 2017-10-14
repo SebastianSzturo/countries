@@ -3,17 +3,10 @@ continent: Europe
 alpha2: SM
 alpha3: SMR
 country_code: '378'
-currency: EUR
 international_prefix: '00'
 ioc: SMR
 gec: SM
-latitude: 43 46 N
-longitude: 12 25 E
 name: San Marino
-names:
-- San Marino
-- Saint-Marin
-- "サンマリノ"
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -27,13 +20,31 @@ region: Europe
 subregion: Southern Europe
 world_region: EMEA
 un_locode: SM
-languages:
-- it
 nationality: Sammarinese
 postal_code: true
-min_longitude: '12.416667'
-min_latitude: '43.908333'
-max_longitude: '12.5'
-max_latitude: '43.966667'
-latitude_dec: '43.938133239746094'
-longitude_dec: '12.463393211364746'
+unofficial_names:
+- San Marino
+- Saint-Marin
+- サンマリノ
+languages_official:
+- it
+languages_spoken:
+- it
+geo:
+  latitude: 43.94236
+  latitude_dec: '43.938133239746094'
+  longitude: 12.457777
+  longitude_dec: '12.463393211364746'
+  max_latitude: 43.992075
+  max_longitude: 12.5167041
+  min_latitude: 43.8936809
+  min_longitude: 12.4034824
+  bounds:
+    northeast:
+      lat: 43.992075
+      lng: 12.5167041
+    southwest:
+      lat: 43.8936809
+      lng: 12.4034824
+currency_code: EUR
+start_of_week: monday

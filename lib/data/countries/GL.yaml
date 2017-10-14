@@ -8,19 +8,10 @@ address_format: |-
 alpha2: GL
 alpha3: GRL
 country_code: '299'
-currency: DKK
 international_prefix: 009
-ioc: 
+ioc:
 gec: GL
-latitude: 72 00 N
-longitude: 40 00 W
 name: Greenland
-names:
-- Greenland
-- Grönland
-- Groenland
-- Groenlandia
-- "グリーンランド"
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -31,13 +22,33 @@ region: Americas
 subregion: Northern America
 world_region: EMEA
 un_locode: GL
-languages:
-- kl
 nationality: Greenlandic
 postal_code: true
-min_longitude: "-73.05"
-min_latitude: '51.7'
-max_longitude: "-12.133333"
-max_latitude: '83.666667'
-latitude_dec: '74.34954833984375'
-longitude_dec: "-41.08988952636719"
+unofficial_names:
+- Greenland
+- Grönland
+- Groenland
+- Groenlandia
+- グリーンランド
+languages_official:
+- kl
+languages_spoken:
+- kl
+geo:
+  latitude: 71.706936
+  latitude_dec: '74.34954833984375'
+  longitude: -42.604303
+  longitude_dec: "-41.08988952636719"
+  max_latitude: 83.97025599999999
+  max_longitude: -8.2617197
+  min_latitude: 58.26329
+  min_longitude: -73.8281197
+  bounds:
+    northeast:
+      lat: 83.97025599999999
+      lng: -8.2617197
+    southwest:
+      lat: 58.26329
+      lng: -73.8281197
+currency_code: DKK
+start_of_week: monday

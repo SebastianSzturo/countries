@@ -3,21 +3,10 @@ continent: Africa
 alpha2: TN
 alpha3: TUN
 country_code: '216'
-currency: TND
 international_prefix: '00'
 ioc: TUN
 gec: TS
-latitude: 34 00 N
-longitude: 9 00 E
 name: Tunisia
-names:
-- Tunisia
-- "تونس"
-- Tunesien
-- Tunisie
-- Túnez
-- "チュニジア"
-- Tunesië
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -28,14 +17,37 @@ region: Africa
 subregion: Northern Africa
 world_region: EMEA
 un_locode: TN
-languages:
-- ar
-- fr
 nationality: Tunisian
 postal_code: true
-min_longitude: '7'
-min_latitude: '26'
-max_longitude: '13'
-max_latitude: '37.566667'
-latitude_dec: '34.33528518676758'
-longitude_dec: '9.245259284973145'
+unofficial_names:
+- Tunisia
+- تونس
+- Tunesien
+- Tunisie
+- Túnez
+- チュニジア
+- Tunesië
+languages_official:
+- ar
+- fr
+languages_spoken:
+- ar
+- fr
+geo:
+  latitude: 33.886917
+  latitude_dec: '34.33528518676758'
+  longitude: 9.537499
+  longitude_dec: '9.245259284973145'
+  max_latitude: 37.5359
+  max_longitude: 11.599217
+  min_latitude: 30.2280339
+  min_longitude: 7.522311
+  bounds:
+    northeast:
+      lat: 37.5359
+      lng: 11.599217
+    southwest:
+      lat: 30.2280339
+      lng: 7.522311
+currency_code: TND
+start_of_week: monday

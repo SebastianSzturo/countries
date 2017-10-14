@@ -1,8 +1,38 @@
 defmodule Countries.Subdivisions do
+  import Countries.Utils, only: [to_map: 1]
+  alias Countries.Subdivision
 
   def all(country) do
-    subdivisions(country.alpha2)
+    country.alpha2
+    |> subdivisions()
+    |> Enum.map(&convert_subdivision/1)
   end
+
+  defp convert_subdivision({id, attrs}) do
+     Enum.reduce(attrs, %Subdivision{id: id}, fn({attribute, value}, subdivision) ->
+       with attribute = List.to_atom(attribute) do
+         Map.put(subdivision, attribute, convert_value(attribute, value))
+       end
+     end)
+  end
+
+  defp convert_value(_, :null),
+    do: nil
+
+  defp convert_value(:unofficial_names, names),
+    do: Enum.map(names, &to_string/1)
+
+  defp convert_value(:translations, names),
+    do: to_map(names)
+
+  defp convert_value(:geo, values),
+    do: to_map(values)
+
+  defp convert_value(_, value) when is_list(value),
+    do: to_string(value)
+
+  defp convert_value(_, value),
+    do: value
 
   # Ensure :yamerl is running
   Application.start(:yamerl)

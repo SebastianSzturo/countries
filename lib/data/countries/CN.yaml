@@ -3,22 +3,15 @@ continent: Asia
 address_format: |-
   {{recipient}}
   {{street}}
-  {{postalcode}} {{city}} {{region}}
+  {{postalcode}} {{city}} {{region_short}}
   {{country}}
 alpha2: CN
 alpha3: CHN
 country_code: '86'
-currency: CNY
 international_prefix: '00'
 ioc: CHN
 gec: CH
-latitude: 35 00 N
-longitude: 105 00 E
 name: China
-names:
-- China
-- Chine
-- "中国"
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -33,13 +26,31 @@ region: Asia
 subregion: Eastern Asia
 world_region: APAC
 un_locode: CN
-languages:
-- zh
 nationality: Chinese
 postal_code: true
-min_longitude: '106.7'
-min_latitude: '6.183333'
-max_longitude: '117.816667'
-max_latitude: '20.7'
-latitude_dec: '36.55308532714844'
-longitude_dec: '103.97543334960938'
+unofficial_names:
+- China
+- Chine
+- 中国
+languages_official:
+- zh
+languages_spoken:
+- zh
+geo:
+  latitude: 35.86166
+  latitude_dec: '36.55308532714844'
+  longitude: 104.195397
+  longitude_dec: '103.97543334960938'
+  max_latitude: 53.56097399999999
+  max_longitude: 134.7728099
+  min_latitude: 17.9996
+  min_longitude: 73.4994136
+  bounds:
+    northeast:
+      lat: 53.56097399999999
+      lng: 134.7728099
+    southwest:
+      lat: 17.9996
+      lng: 73.4994136
+currency_code: CNY
+start_of_week: monday

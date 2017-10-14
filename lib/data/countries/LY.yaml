@@ -3,22 +3,10 @@ continent: Africa
 alpha2: LY
 alpha3: LBY
 country_code: '218'
-currency: LYD
 international_prefix: '00'
 ioc: LBA
 gec: LY
-latitude: 25 00 N
-longitude: 17 00 E
 name: Libya
-names:
-- Libya
-- "ليبيا"
-- Libyen
-- Libye
-- Libia
-- "リビア"
-- Libië
-- Libyan Arab Jamahiriya
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -30,13 +18,36 @@ region: Africa
 subregion: Northern Africa
 world_region: EMEA
 un_locode: LY
-languages:
-- ar
 nationality: Libyan
 postal_code: true
-min_longitude: '5'
-min_latitude: '20.8'
-max_longitude: '25.5'
-max_latitude: '33.15'
-latitude_dec: '27.23609733581543'
-longitude_dec: '18.043556213378906'
+unofficial_names:
+- Libya
+- ليبيا
+- Libyen
+- Libye
+- Libia
+- リビア
+- Libië
+- Libyan Arab Jamahiriya
+languages_official:
+- ar
+languages_spoken:
+- ar
+geo:
+  latitude: 26.3351
+  latitude_dec: '27.23609733581543'
+  longitude: 17.228331
+  longitude_dec: '18.043556213378906'
+  max_latitude: 33.2203
+  max_longitude: 25.2686
+  min_latitude: 19.5
+  min_longitude: 9.391466
+  bounds:
+    northeast:
+      lat: 33.2203
+      lng: 25.2686
+    southwest:
+      lat: 19.5
+      lng: 9.391466
+currency_code: LYD
+start_of_week: sunday

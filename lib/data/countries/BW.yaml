@@ -3,16 +3,10 @@ continent: Africa
 alpha2: BW
 alpha3: BWA
 country_code: '267'
-currency: BWP
 international_prefix: '00'
 ioc: BOT
 gec: BC
-latitude: 22 00 S
-longitude: 24 00 E
 name: Botswana
-names:
-- Botswana
-- "ボツワナ"
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -23,14 +17,32 @@ region: Africa
 subregion: Southern Africa
 world_region: EMEA
 un_locode: BW
-languages:
-- en
-- tn
 nationality: Motswana
 postal_code: false
-min_longitude: '20'
-min_latitude: "-26.833333"
-max_longitude: '29.016667'
-max_latitude: "-17.833333"
-latitude_dec: "-22.186752319335938"
-longitude_dec: '23.81494140625'
+unofficial_names:
+- Botswana
+- ボツワナ
+languages_official:
+- en
+- tn
+languages_spoken:
+- en
+- tn
+geo:
+  latitude: -22.328474
+  latitude_dec: "-22.186752319335938"
+  longitude: 24.684866
+  longitude_dec: '23.81494140625'
+  max_latitude: -17.778137
+  max_longitude: 29.375304
+  min_latitude: -26.907545
+  min_longitude: 19.998903
+  bounds:
+    northeast:
+      lat: -17.778137
+      lng: 29.375304
+    southwest:
+      lat: -26.907545
+      lng: 19.998903
+currency_code: BWP
+start_of_week: monday

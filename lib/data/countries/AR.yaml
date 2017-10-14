@@ -9,19 +9,10 @@ address_format: |-
 alpha2: AR
 alpha3: ARG
 country_code: '54'
-currency: ARS
 international_prefix: '00'
 ioc: ARG
 gec: AR
-latitude: 34 00 S
-longitude: 64 00 W
 name: Argentina
-names:
-- Argentina
-- Argentinien
-- Argentine
-- "アルゼンチン"
-- Argentinië
 national_destination_code_lengths:
 - 2
 national_number_lengths:
@@ -33,14 +24,35 @@ region: Americas
 subregion: South America
 world_region: AMER
 un_locode: AR
-languages:
-- es
-- gn
 nationality: Argentinean
 postal_code: true
-min_longitude: "-73.533333"
-min_latitude: "-58.116667"
-max_longitude: "-53.65"
-max_latitude: "-21.783333"
-latitude_dec: "-37.071964263916016"
-longitude_dec: "-64.85450744628906"
+unofficial_names:
+- Argentina
+- Argentinien
+- Argentine
+- アルゼンチン
+- Argentinië
+languages_official:
+- es
+- gn
+languages_spoken:
+- es
+- gn
+geo:
+  latitude: -38.416097
+  latitude_dec: "-37.071964263916016"
+  longitude: -63.61667199999999
+  longitude_dec: "-64.85450744628906"
+  max_latitude: -21.7810459
+  max_longitude: -53.637481
+  min_latitude: -55.1250224
+  min_longitude: -73.5603601
+  bounds:
+    northeast:
+      lat: -21.7810459
+      lng: -53.637481
+    southwest:
+      lat: -55.1250224
+      lng: -73.5603601
+currency_code: ARS
+start_of_week: monday
