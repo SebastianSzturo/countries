@@ -1,6 +1,7 @@
 defmodule Countries.Loader do
   @moduledoc false
 
+  import Countries.Utils, only: [to_map: 1]
   alias Countries.Country
 
   @data_path Path.expand("data", __DIR__)
@@ -44,8 +45,11 @@ defmodule Countries.Loader do
     end)
   end
 
-  defp convert_value(:names, names),
+  defp convert_value(:unofficial_names, names),
     do: Enum.map(names, &to_string/1)
+
+  defp convert_value(:geo, values),
+    do: to_map(values)
 
   defp convert_value(attribute, value)
     when is_list(value) and not attribute in @do_not_convert,
@@ -53,5 +57,4 @@ defmodule Countries.Loader do
 
   defp convert_value(_, value),
     do: value
-
 end
