@@ -7,15 +7,15 @@ defmodule CountriesTest do
   end
 
   test "filter countries by name" do
-    countries = Countries.filter_by(:name, "United Kingdom of Great Britain and Northern Ireland")
+    countries = Countries.filter_by(:name, "United Kingdom")
     assert Enum.count(countries) == 1
   end
 
   test "filter countries by alternative names" do
-    countries = Countries.filter_by(:unofficial_names, "Reino Unido")
+    countries = Countries.filter_by(:names, "Reino Unido")
     assert Enum.count(countries) == 1
 
-    countries = Countries.filter_by(:unofficial_names, "The United Kingdom")
+    countries = Countries.filter_by(:names, "The United Kingdom")
     assert Enum.count(countries) == 1
   end
 
