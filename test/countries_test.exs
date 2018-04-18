@@ -6,6 +6,11 @@ defmodule CountriesTest do
     assert Enum.count(country) == 1
   end
 
+  test "search by alpha2 NO" do
+    country = Countries.filter_by(:alpha2, "NO")
+    assert Enum.count(country) == 1
+  end
+
   test "filter countries by name" do
     countries = Countries.filter_by(:name, "United Kingdom of Great Britain and Northern Ireland")
     assert Enum.count(countries) == 1
