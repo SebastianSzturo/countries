@@ -16,8 +16,13 @@ defmodule Countries.Loader do
     |> :yamerl.decode_file
     |> List.first
     |> Enum.flat_map(fn code ->
-         :yamerl.decode_file data_path("countries/#{code}.yaml")
+         "countries/#{code}.yaml"
+         |> data_path()
+         |> :yamerl.decode_file
        end)
+    |> Enum.flat_map(fn countries ->
+      Enum.map(countries, fn {_, values} -> values end)
+    end)
     |> Enum.map(&convert_country/1)
   end
 

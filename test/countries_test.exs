@@ -15,7 +15,7 @@ defmodule CountriesTest do
     countries = Countries.filter_by(:unofficial_names, "Reino Unido")
     assert Enum.count(countries) == 1
 
-    countries = Countries.filter_by(:unofficial_names, "The United Kingdom")
+    countries = Countries.filter_by(:unofficial_names, "Vereinigtes Königreich")
     assert Enum.count(countries) == 1
   end
 
@@ -31,7 +31,7 @@ defmodule CountriesTest do
 
   test "get all countries" do
     countries = Countries.all
-    assert Enum.count(countries) == 250
+    assert Enum.count(countries) == 249
   end
 
   test "get country subdivisions" do
