@@ -45,6 +45,16 @@ defmodule CountriesTest do
     assert Enum.count(Countries.Subdivisions.all(country)) == 0
   end
 
+  test "get country translations" do
+    [russia] = Countries.filter_by(:alpha2, "RU")
+    assert russia.translations.ru == "Российская Федерация"
+    assert russia.translations.en == "Russian Federation"
+
+    [united_kingdom] = Countries.filter_by(:alpha2, "GB")
+    assert united_kingdom.translations.ru == "Великобритания"
+    assert united_kingdom.translations.en == "United Kingdom of Great Britain and Northern Ireland"
+  end
+
   test "checks if country exists" do
     country_exists = Countries.exists?(:name, "Poland")
     assert country_exists == true
