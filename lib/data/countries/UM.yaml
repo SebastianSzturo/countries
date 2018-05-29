@@ -45,7 +45,7 @@ geo:
       lat: -0.3824678
       lng: 166.5989221
 currency_code: USD
-sМавританияtart_of_week: monday
+start_of_week: monday
 translations:
   en: United States Minor Outlying Islands
   ru: Внешние малые острова (США)
