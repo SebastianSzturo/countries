@@ -58,3 +58,6 @@ geo:
       lng: 15.7223665
 currency_code: BAM
 start_of_week: monday
+translations:
+  en: Bosnia and Herzegovina
+  ru: Босния и Герцеговина

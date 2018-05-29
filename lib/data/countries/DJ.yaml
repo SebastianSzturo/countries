@@ -48,3 +48,6 @@ geo:
       lng: 41.759722
 currency_code: DJF
 start_of_week: monday
+translations:
+  en: Djibouti
+  ru: Джибути

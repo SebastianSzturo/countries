@@ -44,3 +44,6 @@ geo:
       lng: 114.0752
 currency_code: BND
 start_of_week: monday
+translations:
+  en: Brunei Darussalam
+  ru: Бруней

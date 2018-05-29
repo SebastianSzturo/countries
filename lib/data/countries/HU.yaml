@@ -64,3 +64,6 @@ geo:
       lng: 16.1133077
 currency_code: HUF
 start_of_week: monday
+translations:
+  en: Hungary
+  ru: Венгрия

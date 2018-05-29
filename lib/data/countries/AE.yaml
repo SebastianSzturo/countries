@@ -56,3 +56,6 @@ geo:
       lng: 51.4723
 currency_code: AED
 start_of_week: sunday
+translations:
+  en: United Arab Emirates
+  ru: Объединённые Арабские Эмираты

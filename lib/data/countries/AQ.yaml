@@ -43,3 +43,6 @@ geo:
       lng: -180
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Antarctica
+  ru: Антарктида

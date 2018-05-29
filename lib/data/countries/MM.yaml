@@ -45,3 +45,6 @@ geo:
       lng: 92.171808
 currency_code: MMK
 start_of_week: monday
+translations:
+  en: Myanmar
+  ru: Мьянма

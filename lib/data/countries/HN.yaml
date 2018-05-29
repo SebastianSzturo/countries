@@ -45,3 +45,6 @@ geo:
       lng: -89.3564822
 currency_code: HNL
 start_of_week: monday
+translations:
+  en: Honduras
+  ru: Гондурас

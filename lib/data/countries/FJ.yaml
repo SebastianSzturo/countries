@@ -52,3 +52,6 @@ geo:
       lng: 176.7919922
 currency_code: FJD
 start_of_week: monday
+translations:
+  en: Fiji
+  ru: Фиджи

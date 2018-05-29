@@ -49,3 +49,6 @@ geo:
       lng: 43.4472601
 currency_code: AMD
 start_of_week: monday
+translations:
+  en: Armenia
+  ru: Армения

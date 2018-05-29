@@ -49,3 +49,6 @@ geo:
       lng: 43.1968689
 currency_code: KMF
 start_of_week: monday
+translations:
+  en: Comoros
+  ru: Коморы

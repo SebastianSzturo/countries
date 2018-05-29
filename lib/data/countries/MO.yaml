@@ -47,3 +47,6 @@ geo:
       lng: 113.5276053
 currency_code: MOP
 start_of_week: monday
+translations:
+  en: Macao
+  ru: Макао

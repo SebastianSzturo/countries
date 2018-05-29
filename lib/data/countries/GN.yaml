@@ -48,3 +48,6 @@ geo:
       lng: -15.282
 currency_code: GNF
 start_of_week: monday
+translations:
+  en: Guinea
+  ru: Гвинея

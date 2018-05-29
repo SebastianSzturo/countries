@@ -68,3 +68,6 @@ geo:
       lng: 9.530783399999999
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Austria
+  ru: Австрия

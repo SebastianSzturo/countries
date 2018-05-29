@@ -64,3 +64,6 @@ geo:
       lng: 5.7356699
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Luxembourg
+  ru: Люксембург

@@ -53,3 +53,6 @@ geo:
       lng: 46.55303989999999
 currency_code: KWD
 start_of_week: sunday
+translations:
+  en: Kuwait
+  ru: Кувейт

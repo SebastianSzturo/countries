@@ -44,3 +44,6 @@ geo:
       lng: -92.2714
 currency_code: GTQ
 start_of_week: monday
+translations:
+  en: Guatemala
+  ru: Гватемала

@@ -55,3 +55,6 @@ geo:
       lng: 21.6540999
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Estonia
+  ru: Эстония

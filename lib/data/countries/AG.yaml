@@ -49,3 +49,6 @@ geo:
       lng: -62.38100009999999
 currency_code: XCD
 start_of_week: monday
+translations:
+  en: Antigua and Barbuda
+  ru: Антигуа и Барбуда

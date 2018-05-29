@@ -54,3 +54,6 @@ geo:
       lng: 24.696775
 currency_code: EGP
 start_of_week: sunday
+translations:
+  en: Egypt
+  ru: Египет

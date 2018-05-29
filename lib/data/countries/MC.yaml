@@ -46,3 +46,6 @@ geo:
       lng: 7.4091049
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Monaco
+  ru: Монако

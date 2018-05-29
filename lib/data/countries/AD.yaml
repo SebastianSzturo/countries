@@ -48,3 +48,6 @@ geo:
       lng: 1.4087052
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Andorra
+  ru: Андорра

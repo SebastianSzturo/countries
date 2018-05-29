@@ -46,3 +46,6 @@ geo:
       lng: -92.60379999999999
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Ecuador
+  ru: Эквадор

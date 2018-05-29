@@ -43,3 +43,6 @@ geo:
       lng: -62.9559999
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Saint Barthélemy
+  ru: Сен-Бартелеми

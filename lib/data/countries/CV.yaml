@@ -48,3 +48,6 @@ geo:
       lng: -25.383911
 currency_code: CVE
 start_of_week: monday
+translations:
+  en: Cabo Verde
+  ru: Кабо-Верде

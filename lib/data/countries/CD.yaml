@@ -58,3 +58,6 @@ geo:
       lng: 12.1454
 currency_code: CDF
 start_of_week: monday
+translations:
+  en: Congo (Democratic Republic of the)
+  ru: Демократическая Республика Конго

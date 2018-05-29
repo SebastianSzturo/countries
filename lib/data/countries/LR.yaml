@@ -46,3 +46,6 @@ geo:
       lng: -11.5355999
 currency_code: LRD
 start_of_week: monday
+translations:
+  en: Liberia
+  ru: Либерия

@@ -44,3 +44,6 @@ geo:
       lng: 71.1859131
 currency_code: USD
 start_of_week: monday
+translations:
+  en: British Indian Ocean Territory
+  ru: Британская территория в Индийском океане

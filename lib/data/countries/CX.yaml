@@ -48,3 +48,6 @@ geo:
       lng: 105.5333161
 currency_code: AUD
 start_of_week: monday
+translations:
+  en: Christmas Island
+  ru: Остров Рождества

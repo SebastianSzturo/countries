@@ -63,3 +63,6 @@ geo:
       lng: 12.090589
 currency_code: CZK
 start_of_week: monday
+translations:
+  en: Czechia
+  ru: Чехия

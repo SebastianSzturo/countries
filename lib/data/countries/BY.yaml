@@ -27,6 +27,7 @@ unofficial_names:
 - ベラルーシ
 - Wit-Rusland
 - Беларусь
+- Белоруссия
 languages_official:
 - be
 - ru
@@ -51,3 +52,6 @@ geo:
       lng: 23.1783377
 currency_code: BYR
 start_of_week: monday
+translations:
+  en: Belarus
+  ru: Беларусь

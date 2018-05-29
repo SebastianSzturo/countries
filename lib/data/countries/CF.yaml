@@ -26,6 +26,7 @@ unofficial_names:
 - República Centroafricana
 - 中央アフリカ共和国
 - Centraal-Afrikaanse Republiek
+- ЦАР
 languages_official:
 - fr
 - sg
@@ -50,3 +51,6 @@ geo:
       lng: 14.4150981
 currency_code: XAF
 start_of_week: monday
+translations:
+  en: Central African Republic
+  ru: Центральноафриканская Республика

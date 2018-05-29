@@ -48,6 +48,9 @@ defmodule Countries.Loader do
   defp convert_value(:unofficial_names, names),
     do: Enum.map(names, &to_string/1)
 
+  defp convert_value(:translations, names),
+    do: to_map(names)
+
   defp convert_value(:geo, values),
     do: to_map(values)
 

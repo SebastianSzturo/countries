@@ -63,3 +63,6 @@ geo:
       lng: 20.4565003
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Finland
+  ru: Финляндия

@@ -39,3 +39,6 @@ max_longitude: "-62.933333"
 max_latitude: '18.05'
 latitude_dec: '12.189866065979004'
 longitude_dec: "-68.28852081298828"
+translations:
+  en: Netherlands Antilles
+  ru: Нидерландские Антильские острова

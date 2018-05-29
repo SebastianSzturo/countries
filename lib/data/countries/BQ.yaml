@@ -46,3 +46,6 @@ geo:
       lng: -68.5149
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Bonaire, Sint Eustatius and Saba
+  ru: Бонэйр, Синт-Эстатиус и Саба

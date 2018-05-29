@@ -47,3 +47,6 @@ geo:
       lng: -54.5544379
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: French Guiana
+  ru: Гвиана

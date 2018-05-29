@@ -45,3 +45,6 @@ geo:
       lng: 73.25065599999999
 currency_code: AUD
 start_of_week: monday
+translations:
+  en: Heard Island and McDonald Islands
+  ru: Херд и Макдональд

@@ -50,3 +50,6 @@ geo:
       lng: 144.7668457
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Northern Mariana Islands
+  ru: Северные Марианские Острова

@@ -45,3 +45,6 @@ geo:
       lng: -61.484108
 currency_code: XCD
 start_of_week: monday
+translations:
+  en: Dominica
+  ru: Доминика

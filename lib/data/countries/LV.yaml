@@ -56,3 +56,6 @@ geo:
       lng: 20.8465998
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Latvia
+  ru: Латвия

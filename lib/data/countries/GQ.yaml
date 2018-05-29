@@ -50,3 +50,6 @@ geo:
       lng: 5.541900099999999
 currency_code: XAF
 start_of_week: monday
+translations:
+  en: Equatorial Guinea
+  ru: Экваториальная Гвинея

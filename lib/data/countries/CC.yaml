@@ -46,3 +46,6 @@ geo:
       lng: 96.8134118
 currency_code: AUD
 start_of_week: monday
+translations:
+  en: Cocos (Keeling) Islands
+  ru: Кокосовые острова

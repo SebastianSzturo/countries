@@ -48,3 +48,6 @@ geo:
       lng: -7.717895500000001
 currency_code: DKK
 start_of_week: monday
+translations:
+  en: Faroe Islands
+  ru: Фарерские острова

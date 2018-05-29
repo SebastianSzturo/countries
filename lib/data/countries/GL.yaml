@@ -52,3 +52,6 @@ geo:
       lng: -73.8281197
 currency_code: DKK
 start_of_week: monday
+translations:
+  en: Greenland
+  ru: Гренландия

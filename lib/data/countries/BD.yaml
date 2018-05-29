@@ -45,3 +45,6 @@ geo:
       lng: 88.00861410000002
 currency_code: BDT
 start_of_week: sunday
+translations:
+  en: Bangladesh
+  ru: Бангладеш

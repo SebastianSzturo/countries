@@ -49,3 +49,6 @@ geo:
       lng: 26.6168559
 currency_code: MDL
 start_of_week: monday
+translations:
+  en: Moldova (Republic of)
+  ru: Молдавия

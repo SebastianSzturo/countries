@@ -44,3 +44,6 @@ geo:
       lng: -87.09899999999999
 currency_code: CRC
 start_of_week: monday
+translations:
+  en: Costa Rica
+  ru: Коста-Рика

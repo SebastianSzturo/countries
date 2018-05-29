@@ -54,3 +54,6 @@ geo:
       lng: 68.1097
 currency_code: INR
 start_of_week: monday
+translations:
+  en: India
+  ru: Индия

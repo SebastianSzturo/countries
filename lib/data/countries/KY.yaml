@@ -49,3 +49,6 @@ geo:
       lng: -81.42940010000001
 currency_code: KYD
 start_of_week: monday
+translations:
+  en: Cayman Islands
+  ru: Острова Кайман

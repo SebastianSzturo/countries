@@ -47,3 +47,6 @@ geo:
       lng: 39.9792001
 currency_code: GEL
 start_of_week: monday
+translations:
+  en: Georgia
+  ru: Грузия

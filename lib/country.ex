@@ -5,5 +5,5 @@ defmodule Countries.Country do
             :national_number_lengths, :international_prefix, :national_prefix,
             :ioc, :gec, :un_locode, :languages_official, :languages_spoken, :nationality,
             :address_format, :dissolved_on, :eu_member, :alt_currency, :vat_rates,
-            :postal_code, :currency_code]
+            :postal_code, :currency_code, :translations]
 end

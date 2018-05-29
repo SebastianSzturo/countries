@@ -56,3 +56,6 @@ geo:
       lng: 94.7351
 currency_code: IDR
 start_of_week: monday
+translations:
+  en: Indonesia
+  ru: Индонезия

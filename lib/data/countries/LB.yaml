@@ -55,3 +55,6 @@ geo:
       lng: 35.0711001
 currency_code: LBP
 start_of_week: monday
+translations:
+  en: Lebanon
+  ru: Ливан

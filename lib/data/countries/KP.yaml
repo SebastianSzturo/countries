@@ -29,6 +29,7 @@ unofficial_names:
 - Noord-Korea
 - Korea Democratic People's Republic
 - Korea (Democratic People s Republic of)
+- Северная Корея
 languages_official:
 - ko
 languages_spoken:
@@ -51,3 +52,6 @@ geo:
       lng: 124.1718463
 currency_code: KPW
 start_of_week: monday
+translations:
+  en: Korea (Democratic People's Republic of)
+  ru: КНДР

@@ -45,3 +45,6 @@ geo:
       lng: 100.0832139
 currency_code: LAK
 start_of_week: monday
+translations:
+  en: Laos
+  ru: Лаос

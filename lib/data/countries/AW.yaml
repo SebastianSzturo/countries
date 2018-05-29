@@ -44,3 +44,6 @@ geo:
       lng: -70.070114
 currency_code: AWG
 start_of_week: monday
+translations:
+  en: Aruba
+  ru: Аруба

@@ -44,3 +44,6 @@ geo:
       lng: -2.2602001
 currency_code: JEP
 start_of_week: monday
+translations:
+  en: Jersey
+  ru: Джерси

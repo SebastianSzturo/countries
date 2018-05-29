@@ -48,3 +48,6 @@ geo:
       lng: 8.421
 currency_code: XAF
 start_of_week: monday
+translations:
+  en: Gabon
+  ru: Габон

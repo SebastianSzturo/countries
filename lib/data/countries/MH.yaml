@@ -50,3 +50,6 @@ geo:
       lng: 159.8840332
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Marshall Islands
+  ru: Маршалловы Острова

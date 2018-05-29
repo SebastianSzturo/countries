@@ -42,3 +42,6 @@ geo:
       lng: 3.2773591
 currency_code: NOK
 start_of_week: monday
+translations:
+  en: Bouvet Island
+  ru: Остров Буве

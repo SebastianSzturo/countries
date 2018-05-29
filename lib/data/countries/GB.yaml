@@ -67,3 +67,6 @@ geo:
       lng: -8.8988999
 currency_code: GBP
 start_of_week: monday
+translations:
+  en: United Kingdom of Great Britain and Northern Ireland
+  ru: Великобритания

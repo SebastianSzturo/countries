@@ -46,3 +46,6 @@ geo:
       lng: 79.26769999999999
 currency_code: LKR
 start_of_week: monday
+translations:
+  en: Sri Lanka
+  ru: Шри-Ланка

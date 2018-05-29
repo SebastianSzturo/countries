@@ -45,3 +45,6 @@ geo:
       lng: -63.4803
 currency_code: XCD
 start_of_week: monday
+translations:
+  en: Anguilla
+  ru: Ангилья

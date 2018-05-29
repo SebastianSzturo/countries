@@ -58,3 +58,6 @@ geo:
       lng: 20.931
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Lithuania
+  ru: Литва

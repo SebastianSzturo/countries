@@ -46,3 +46,6 @@ geo:
       lng: -110.0281
 currency_code: CLP
 start_of_week: monday
+translations:
+  en: Chile
+  ru: Чили

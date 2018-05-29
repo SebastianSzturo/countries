@@ -32,6 +32,7 @@ unofficial_names:
 - China
 - Chine
 - 中国
+- КНР
 languages_official:
 - zh
 languages_spoken:
@@ -54,3 +55,6 @@ geo:
       lng: 73.4994136
 currency_code: CNY
 start_of_week: monday
+translations:
+  en: China
+  ru: Китайская Народная Республика

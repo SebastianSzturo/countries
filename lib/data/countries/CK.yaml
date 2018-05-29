@@ -48,3 +48,6 @@ geo:
       lng: -166.1791992
 currency_code: NZD
 start_of_week: monday
+translations:
+  en: Cook Islands
+  ru: Острова Кука

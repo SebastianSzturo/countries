@@ -48,3 +48,6 @@ geo:
       lng: 38.7936029
 currency_code: IQD
 start_of_week: sunday
+translations:
+  en: Iraq
+  ru: Ирак

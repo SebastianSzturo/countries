@@ -66,3 +66,6 @@ geo:
       lng: 5.95608
 currency_code: CHF
 start_of_week: monday
+translations:
+  en: Switzerland
+  ru: Швейцария

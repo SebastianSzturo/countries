@@ -55,3 +55,6 @@ geo:
       lng: 34.9441001
 currency_code: JOD
 start_of_week: sunday
+translations:
+  en: Jordan
+  ru: Иордания

@@ -50,3 +50,6 @@ geo:
       lng: -17.0687276
 currency_code: MRO
 start_of_week: monday
+translations:
+  en: Mauritania
+  ru: Мавритания

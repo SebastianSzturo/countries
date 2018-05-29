@@ -62,3 +62,6 @@ geo:
       lng: 19.3098
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Greece
+  ru: Греция

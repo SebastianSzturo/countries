@@ -51,3 +51,6 @@ geo:
       lng: -171.0076904
 currency_code: USD
 start_of_week: monday
+translations:
+  en: American Samoa
+  ru: Американское Самоа

@@ -52,3 +52,6 @@ geo:
       lng: 113.8259001
 currency_code: HKD
 start_of_week: monday
+translations:
+  en: Hong Kong
+  ru: Гонконг
