@@ -53,3 +53,6 @@ geo:
       lng: 170.5957
 currency_code: USD
 start_of_week: sunday
+translations:
+  en: United States of America
+  ru: Соединённые Штаты Америки

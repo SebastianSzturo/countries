@@ -49,3 +49,6 @@ geo:
       lng: -61.9725001
 currency_code: TTD
 start_of_week: monday
+translations:
+  en: Trinidad and Tobago
+  ru: Тринидад и Тобаго

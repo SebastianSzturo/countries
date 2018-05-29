@@ -62,3 +62,6 @@ geo:
       lng: 20.2617593
 currency_code: RON
 start_of_week: monday
+translations:
+  en: Romania
+  ru: Румыния

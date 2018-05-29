@@ -48,3 +48,6 @@ geo:
       lng: -10.5468751
 currency_code: NOK
 start_of_week: monday
+translations:
+  en: Svalbard and Jan Mayen
+  ru: Шпицберген и Ян-Майен

@@ -49,3 +49,6 @@ geo:
       lng: -15.4248047
 currency_code: SHP
 start_of_week: monday
+translations:
+  en: Saint Helena, Ascension and Tristan da Cunha
+  ru: Острова Святой Елены, Вознесения и Тристан-да-Кунья

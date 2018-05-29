@@ -45,3 +45,6 @@ geo:
       lng: -130.9268188
 currency_code: NZD
 start_of_week: monday
+translations:
+  en: Pitcairn
+  ru: Острова Питкэрн

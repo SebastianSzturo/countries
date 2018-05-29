@@ -52,3 +52,6 @@ geo:
       lng: 52.0000018
 currency_code: OMR
 start_of_week: sunday
+translations:
+  en: Oman
+  ru: Оман

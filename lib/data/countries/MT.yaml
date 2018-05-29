@@ -56,3 +56,6 @@ geo:
       lng: 14.1801001
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Malta
+  ru: Мальта

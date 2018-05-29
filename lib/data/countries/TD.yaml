@@ -50,3 +50,6 @@ geo:
       lng: 13.4699999
 currency_code: XAF
 start_of_week: monday
+translations:
+  en: Chad
+  ru: Чад

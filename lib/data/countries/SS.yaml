@@ -48,3 +48,6 @@ geo:
       lng: 23.4408491
 currency_code: SSP
 start_of_week: sunday
+translations:
+  en: South Sudan
+  ru: Южный Судан

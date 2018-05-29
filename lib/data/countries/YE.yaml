@@ -54,3 +54,6 @@ geo:
       lng: 41.70959999999999
 currency_code: YER
 start_of_week: sunday
+translations:
+  en: Yemen
+  ru: Йемен

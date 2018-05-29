@@ -49,3 +49,6 @@ geo:
       lng: 6.328125
 currency_code: STD
 start_of_week: monday
+translations:
+  en: Sao Tome and Principe
+  ru: Сан-Томе и Принсипи

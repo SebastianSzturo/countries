@@ -50,3 +50,6 @@ geo:
       lng: 55.9982179
 currency_code: UZS
 start_of_week: monday
+translations:
+  en: Uzbekistan
+  ru: Узбекистан

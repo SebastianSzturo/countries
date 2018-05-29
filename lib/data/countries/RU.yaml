@@ -55,3 +55,6 @@ geo:
       lng: 19.6160999
 currency_code: RUB
 start_of_week: monday
+translations:
+  en: Russian Federation
+  ru: Российская Федерация

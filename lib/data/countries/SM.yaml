@@ -48,3 +48,6 @@ geo:
       lng: 12.4034824
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: San Marino
+  ru: Сан-Марино

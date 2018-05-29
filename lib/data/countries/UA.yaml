@@ -56,3 +56,6 @@ geo:
       lng: 22.137159
 currency_code: UAH
 start_of_week: monday
+translations:
+  en: Ukraine
+  ru: Украина

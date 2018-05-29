@@ -48,3 +48,6 @@ geo:
       lng: 30.79064
 currency_code: SZL
 start_of_week: monday
+translations:
+  en: Swaziland
+  ru: Свазиленд

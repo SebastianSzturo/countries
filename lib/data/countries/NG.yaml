@@ -47,3 +47,6 @@ geo:
       lng: 2.676932
 currency_code: NGN
 start_of_week: monday
+translations:
+  en: Nigeria
+  ru: Нигерия

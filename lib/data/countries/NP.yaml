@@ -57,3 +57,6 @@ geo:
       lng: 80.05846980000001
 currency_code: NPR
 start_of_week: sunday
+translations:
+  en: Nepal
+  ru: Непал

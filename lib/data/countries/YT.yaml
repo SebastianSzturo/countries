@@ -44,3 +44,6 @@ geo:
       lng: 44.9914169
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Mayotte
+  ru: Майотта

@@ -61,3 +61,6 @@ geo:
       lng: 16.8331821
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Slovakia
+  ru: Словакия

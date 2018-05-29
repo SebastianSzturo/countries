@@ -56,3 +56,6 @@ geo:
       lng: 35.62869999999999
 currency_code: SYP
 start_of_week: monday
+translations:
+  en: Syrian Arab Republic
+  ru: Сирия

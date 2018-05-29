@@ -56,3 +56,6 @@ geo:
       lng: 103.594
 currency_code: SGD
 start_of_week: monday
+translations:
+  en: Singapore
+  ru: Сингапур

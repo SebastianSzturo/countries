@@ -44,3 +44,6 @@ geo:
       lng: -169.9500846
 currency_code: NZD
 start_of_week: monday
+translations:
+  en: Niue
+  ru: Ниуэ

@@ -62,3 +62,6 @@ geo:
       lng: 14.1228641
 currency_code: PLN
 start_of_week: monday
+translations:
+  en: Poland
+  ru: Польша

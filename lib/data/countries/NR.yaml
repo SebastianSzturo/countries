@@ -46,3 +46,6 @@ geo:
       lng: 166.9071293
 currency_code: AUD
 start_of_week: monday
+translations:
+  en: Nauru
+  ru: Науру

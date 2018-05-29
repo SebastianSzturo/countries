@@ -45,3 +45,6 @@ geo:
       lng: -58.4913609
 currency_code: UYU
 start_of_week: monday
+translations:
+  en: Uruguay
+  ru: Уругвай

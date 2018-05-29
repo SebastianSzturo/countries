@@ -73,3 +73,6 @@ geo:
       lng: 16.2816999
 currency_code: ZAR
 start_of_week: monday
+translations:
+  en: South Africa
+  ru: Южно-Африканская Республика

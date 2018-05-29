@@ -48,3 +48,6 @@ geo:
       lng: -175.9570313
 currency_code: TOP
 start_of_week: monday
+translations:
+  en: Tonga
+  ru: Тонга

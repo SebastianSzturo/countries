@@ -48,3 +48,6 @@ geo:
       lng: 155.1187134
 currency_code: SBD
 start_of_week: monday
+translations:
+  en: Solomon Islands
+  ru: Соломоновы Острова

@@ -46,3 +46,6 @@ geo:
       lng: -83.05224109999999
 currency_code: PAB
 start_of_week: monday
+translations:
+  en: Panama
+  ru: Панама

@@ -47,3 +47,6 @@ geo:
       lng: 97.343396
 currency_code: THB
 start_of_week: monday
+translations:
+  en: Thailand
+  ru: Таиланд

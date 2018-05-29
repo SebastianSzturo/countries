@@ -44,3 +44,6 @@ geo:
       lng: -0.144042
 currency_code: XOF
 start_of_week: monday
+translations:
+  en: Togo
+  ru: Того

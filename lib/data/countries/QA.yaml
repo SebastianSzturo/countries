@@ -51,3 +51,6 @@ geo:
       lng: 50.7211001
 currency_code: QAR
 start_of_week: sunday
+translations:
+  en: Qatar
+  ru: Катар

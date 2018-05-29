@@ -50,3 +50,6 @@ geo:
       lng: 11.4696999
 currency_code: NAD
 start_of_week: monday
+translations:
+  en: Namibia
+  ru: Намибия

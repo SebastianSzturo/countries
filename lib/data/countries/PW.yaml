@@ -44,3 +44,6 @@ geo:
       lng: 131.0115
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Palau
+  ru: Палау

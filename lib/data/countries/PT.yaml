@@ -58,3 +58,6 @@ geo:
       lng: -31.4647999
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Portugal
+  ru: Португалия

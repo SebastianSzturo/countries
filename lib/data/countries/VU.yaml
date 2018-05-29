@@ -50,3 +50,6 @@ geo:
       lng: 166.0583495
 currency_code: VUV
 start_of_week: monday
+translations:
+  en: Vanuatu
+  ru: Вануату

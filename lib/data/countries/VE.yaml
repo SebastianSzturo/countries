@@ -44,3 +44,6 @@ geo:
       lng: -73.35155809999999
 currency_code: VEF
 start_of_week: monday
+translations:
+  en: Venezuela (Bolivarian Republic of)
+  ru: Венесуэла

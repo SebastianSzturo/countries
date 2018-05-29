@@ -46,3 +46,6 @@ geo:
       lng: -67.95158169999999
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Puerto Rico
+  ru: Пуэрто-Рико

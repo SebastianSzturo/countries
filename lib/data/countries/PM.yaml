@@ -48,3 +48,6 @@ geo:
       lng: -56.5233
 currency_code: EUR
 start_of_week: monday
+translations:
+  en: Saint Pierre and Miquelon
+  ru: Сен-Пьер и Микелон

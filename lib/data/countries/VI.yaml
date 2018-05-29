@@ -50,3 +50,6 @@ geo:
       lng: -65.1101
 currency_code: USD
 start_of_week: monday
+translations:
+  en: Virgin Islands (U.S.)
+  ru: Виргинские Острова (США)

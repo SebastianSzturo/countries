@@ -46,3 +46,6 @@ geo:
       lng: 30.2155501
 currency_code: MZN
 start_of_week: monday
+translations:
+  en: Mozambique
+  ru: Мозамбик

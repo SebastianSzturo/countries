@@ -59,3 +59,6 @@ geo:
       lng: -118.6523001
 currency_code: MXN
 start_of_week: monday
+translations:
+  en: Mexico
+  ru: Мексика
