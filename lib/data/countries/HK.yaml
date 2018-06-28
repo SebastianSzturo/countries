@@ -8,6 +8,7 @@ address_format: |-
 alpha2: HK
 alpha3: HKG
 country_code: '852'
+emoji_flag: 🇭🇰
 international_prefix: '001'
 ioc: HKG
 gec: HK

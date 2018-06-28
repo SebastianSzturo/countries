@@ -3,6 +3,7 @@ continent: South America
 alpha2: FK
 alpha3: FLK
 country_code: '500'
+emoji_flag: 🇫🇰
 international_prefix: '00'
 ioc:
 gec: FK

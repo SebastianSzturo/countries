@@ -3,6 +3,7 @@ continent: Australia
 alpha2: MP
 alpha3: MNP
 country_code: '1'
+emoji_flag: 🇲🇵
 international_prefix: '011'
 ioc:
 gec: CQ

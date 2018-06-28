@@ -8,6 +8,7 @@ address_format: |-
 alpha2: 'NO'
 alpha3: NOR
 country_code: '47'
+emoji_flag: 🇳🇴
 international_prefix: '00'
 ioc: NOR
 gec: 'NO'

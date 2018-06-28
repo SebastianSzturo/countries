@@ -8,6 +8,7 @@ address_format: |-
 alpha2: CZ
 alpha3: CZE
 country_code: '420'
+emoji_flag: 🇨🇿
 international_prefix: '00'
 ioc: CZE
 gec: EZ

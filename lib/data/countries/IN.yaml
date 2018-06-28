@@ -9,6 +9,7 @@ address_format: |-
 alpha2: IN
 alpha3: IND
 country_code: '91'
+emoji_flag: 🇮🇳
 international_prefix: '00'
 ioc: IND
 gec: IN
