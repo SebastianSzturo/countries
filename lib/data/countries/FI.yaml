@@ -8,6 +8,7 @@ address_format: |-
 alpha2: FI
 alpha3: FIN
 country_code: '358'
+emoji_flag: 🇫🇮
 international_prefix: '00'
 ioc: FIN
 gec: FI

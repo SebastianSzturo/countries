@@ -3,6 +3,7 @@ continent: North America
 alpha2: BQ
 alpha3: BES
 country_code: '599'
+emoji_flag: 🇧🇶
 international_prefix: '00'
 name: Bonaire, Sint Eustatius and Saba
 national_destination_code_lengths:

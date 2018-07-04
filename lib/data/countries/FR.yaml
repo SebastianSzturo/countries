@@ -8,6 +8,7 @@ address_format: |-
 alpha2: FR
 alpha3: FRA
 country_code: '33'
+emoji_flag: 🇫🇷
 international_prefix: '00'
 ioc: FRA
 gec: FR

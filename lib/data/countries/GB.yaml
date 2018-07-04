@@ -10,6 +10,7 @@ address_format: |-
 alpha2: GB
 alpha3: GBR
 country_code: '44'
+emoji_flag: 🇬🇧
 international_prefix: '00'
 ioc: GBR
 gec: UK

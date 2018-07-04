@@ -8,6 +8,7 @@ address_format: |-
 alpha2: BE
 alpha3: BEL
 country_code: '32'
+emoji_flag: 🇧🇪
 international_prefix: '00'
 ioc: BEL
 gec: BE

@@ -7,6 +7,7 @@ address_format: |-
   {{country}}
 alpha2: CA
 alpha3: CAN
+emoji_flag: 🇨🇦
 country_code: '1'
 international_prefix: '011'
 ioc: CAN

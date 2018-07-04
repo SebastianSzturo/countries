@@ -8,6 +8,7 @@ address_format: |-
 alpha2: JP
 alpha3: JPN
 country_code: '81'
+emoji_flag: 🇯🇵
 international_prefix: '010'
 ioc: JPN
 gec: JA

@@ -8,6 +8,7 @@ address_format: |-
 alpha2: AU
 alpha3: AUS
 country_code: '61'
+emoji_flag: 🇦🇺
 international_prefix: '0011'
 ioc: AUS
 gec: AS

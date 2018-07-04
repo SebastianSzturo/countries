@@ -8,6 +8,7 @@ address_format: |-
 alpha2: US
 alpha3: USA
 country_code: '1'
+emoji_flag: 🇺🇸
 international_prefix: '011'
 ioc: USA
 gec: US
