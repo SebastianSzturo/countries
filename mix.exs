@@ -20,7 +20,7 @@ defmodule Countries.Mixfile do
   end
 
   defp deps do
-    [{:yamerl, "~> 0.4.0"},
+    [{:yamerl, "~> 0.4"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
