@@ -52,7 +52,7 @@ defmodule Countries.Loader do
     do: to_map(values)
 
   defp convert_value(attribute, value)
-    when is_list(value) and not attribute in @do_not_convert,
+    when is_list(value) and not (attribute in @do_not_convert),
     do: to_string(value)
 
   defp convert_value(_, value),
