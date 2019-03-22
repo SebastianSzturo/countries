@@ -1,7 +1,7 @@
 defmodule Countries.Mixfile do
   use Mix.Project
 
-  @version "1.5.0"
+  @version "1.5.1"
 
   def project do
     [app: :countries,
@@ -20,8 +20,10 @@ defmodule Countries.Mixfile do
   end
 
   defp deps do
-    [{:yamerl, "~> 0.7"},
-     {:ex_doc, ">= 0.0.0", only: :dev}]
+    [
+      {:yamerl, "~> 0.7"},
+      {:ex_doc, "~> 0.19", only: :dev, runtime: false}
+    ]
   end
 
   defp description do
