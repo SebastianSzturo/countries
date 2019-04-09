@@ -325,20 +325,8 @@
     max_longitude: -61.7318075
   name: Barbuda
   comments: 
-X2~:
-  unofficial_names: Redonda
-  translations:
-    en: Redonda
-  geo:
-    latitude: 16.938416
-    longitude: -62.3455148
-    min_latitude: 16.9325319
-    min_longitude: -62.347657
-    max_latitude: 16.9430241
-    max_longitude: -62.342078
-  name: Redonda
-  comments: 
 '11':
+  unofficial_names: Redonda
   translations:
     ar: ريدوندا
     be: Востраў Рэдонда
@@ -383,3 +371,12 @@ X2~:
     uk: Редонда
     ur: ریدوندا
     vi: Redonda
+  geo:
+    latitude: 16.938416
+    longitude: -62.3455148
+    min_latitude: 16.9325319
+    min_longitude: -62.347657
+    max_latitude: 16.9430241
+    max_longitude: -62.342078
+  name: Redonda
+  comments: 
