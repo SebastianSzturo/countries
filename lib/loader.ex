@@ -1,7 +1,7 @@
 defmodule Countries.Loader do
   @moduledoc false
 
-  import Countries.Utils, only: [to_map: 1]
+  import Countries.Utils, only: [to_map: 1, convert_alpha2_to_flag_emoji: 1]
   alias Countries.Country
 
   @data_path Path.expand("data", __DIR__)
@@ -26,11 +26,21 @@ defmodule Countries.Loader do
   end
 
   defp convert_country(country_data) do
-     Enum.reduce(country_data, %Country{}, fn({attribute, value}, country) ->
-       with attribute = List.to_atom(attribute) do
-         Map.put(country, attribute, convert_value(attribute, value))
-       end
-     end)
+    Enum.reduce(country_data, %Country{}, fn({attribute, value}, country) ->
+      with attribute = List.to_atom(attribute) do
+        add_attribute(country, attribute, value)
+      end
+    end)
+  end
+
+  defp add_attribute(country, :alpha2, value) do
+    country
+    |> Map.put(:alpha2, convert_value(:alpha2, value))
+    |> Map.put(:emoji, convert_value(:emoji, value))
+  end
+
+  defp add_attribute(country, attribute, value) do
+    Map.put(country, attribute, convert_value(attribute, value))
   end
 
   @do_not_convert ~w[national_number_lengths national_destination_code_lengths]a
@@ -50,6 +60,9 @@ defmodule Countries.Loader do
 
   defp convert_value(:geo, values),
     do: to_map(values)
+
+  defp convert_value(:emoji, alpha2),
+    do: convert_alpha2_to_flag_emoji(alpha2)
 
   defp convert_value(attribute, value)
     when is_list(value) and not (attribute in @do_not_convert),
