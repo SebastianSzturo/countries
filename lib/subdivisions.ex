@@ -39,11 +39,12 @@ defmodule Countries.Subdivisions do
 
   defp subdivisions(country_code) do
     data_path = fn(path) ->
-      Path.join("data", path) |> Path.expand(__DIR__)
+      # Path.join("data", path) |> Path.expand(__DIR__)
+      Path.join([:code.priv_dir(:countries), "data"] ++ path)
     end
 
     try do
-      data_path.("subdivisions/#{country_code}.yaml") |> :yamerl.decode_file |> List.first
+      data_path.(["subdivisions", "#{country_code}.yaml"]) |> :yamerl.decode_file |> List.first
     catch
       _exception -> []
     end

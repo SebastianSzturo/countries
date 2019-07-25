@@ -4,25 +4,23 @@ defmodule Countries.Loader do
   import Countries.Utils, only: [to_map: 1]
   alias Countries.Country
 
-  @data_path Path.expand("data", __DIR__)
-
   # loads all country data from our yaml files
   # :yamerl returns a really terrible data structure
   #    [[{'name', 'Germany'}, {'code', 'DE'}], [{'nam:e', 'Austria'}, {'code', 'AT'}]]
   # We need to transform that to maps:
   #    [%{name: "Germany', code: "DE"}, %{name: 'Austria', code: "AT"}]
   def load do
-    data_path("countries.yaml")
+    data_path(["countries.yaml"])
     |> :yamerl.decode_file
     |> List.first
     |> Enum.flat_map(fn code ->
-         :yamerl.decode_file data_path("countries/#{code}.yaml")
+         :yamerl.decode_file data_path(["countries", "#{code}.yaml"])
        end)
     |> Enum.map(&convert_country/1)
   end
 
   defp data_path(path) do
-    Path.join(@data_path, path)
+    Path.join([:code.priv_dir(:countries), "data"] ++ path)
   end
 
   defp convert_country(country_data) do
