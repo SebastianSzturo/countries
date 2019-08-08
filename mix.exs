@@ -4,15 +4,17 @@ defmodule Countries.Mixfile do
   @version "1.5.1"
 
   def project do
-    [app: :countries,
-     version: @version,
-     elixir: "~> 1.3",
-     deps: deps(),
+    [
+      app: :countries,
+      version: @version,
+      elixir: "~> 1.3",
+      deps: deps(),
 
-     # Hex
-     source_url: "https://github.com/SebastianSzturo/countries",
-     description: description(),
-     package: package()]
+      # Hex
+      source_url: "https://github.com/SebastianSzturo/countries",
+      description: description(),
+      package: package()
+    ]
   end
 
   def application do
@@ -33,8 +35,10 @@ defmodule Countries.Mixfile do
   end
 
   defp package do
-    [maintainers: ["Sebastian Szturo"],
-     licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/SebastianSzturo/countries"}]
+    [
+      maintainers: ["Sebastian Szturo"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/SebastianSzturo/countries"}
+    ]
   end
 end

@@ -11,11 +11,11 @@ defmodule Countries.Loader do
   #    [%{name: "Germany', code: "DE"}, %{name: 'Austria', code: "AT"}]
   def load do
     data_path(["countries.yaml"])
-    |> :yamerl.decode_file
-    |> List.first
+    |> :yamerl.decode_file()
+    |> List.first()
     |> Enum.flat_map(fn code ->
-         :yamerl.decode_file data_path(["countries", "#{code}.yaml"])
-       end)
+      :yamerl.decode_file(data_path(["countries", "#{code}.yaml"]))
+    end)
     |> Enum.map(&convert_country/1)
   end
 
@@ -23,12 +23,12 @@ defmodule Countries.Loader do
     Path.join([:code.priv_dir(:countries), "data"] ++ path)
   end
 
-  defp convert_country(country_data) do
-     Enum.reduce(country_data, %Country{}, fn({attribute, value}, country) ->
-       with attribute = List.to_atom(attribute) do
-         Map.put(country, attribute, convert_value(attribute, value))
-       end
-     end)
+  defp convert_country([{_, country_data}]) do
+    Enum.reduce(country_data, %Country{}, fn {attribute, value}, country ->
+      with attribute = List.to_atom(attribute) do
+        Map.put(country, attribute, convert_value(attribute, value))
+      end
+    end)
   end
 
   @do_not_convert ~w[national_number_lengths national_destination_code_lengths]a
@@ -38,8 +38,8 @@ defmodule Countries.Loader do
 
   defp convert_value(:vat_rates, vat_rates) when not is_nil(vat_rates) do
     Map.new(vat_rates, fn
-      {key, :null}       -> {List.to_atom(key), nil}
-      {key, value}       -> {List.to_atom(key), value}
+      {key, :null} -> {List.to_atom(key), nil}
+      {key, value} -> {List.to_atom(key), value}
     end)
   end
 
@@ -50,8 +50,8 @@ defmodule Countries.Loader do
     do: to_map(values)
 
   defp convert_value(attribute, value)
-    when is_list(value) and not (attribute in @do_not_convert),
-    do: to_string(value)
+       when is_list(value) and not (attribute in @do_not_convert),
+       do: to_string(value)
 
   defp convert_value(_, value),
     do: value

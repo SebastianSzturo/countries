@@ -1,10 +1,18 @@
 defmodule Countries do
-
   @doc """
   Returns all countries.
   """
   def all do
     countries()
+  end
+
+  @doc """
+    Returns one country gived is alpha2 country code
+  """
+
+  def get(country_code) do
+    [country] = filter_by(:alpha2, country_code)
+    country
   end
 
   @doc """
@@ -20,7 +28,7 @@ defmodule Countries do
     [%Countries.Country{address_format: nil, alpha2: "GB" ...
   """
   def filter_by(attribute, value) do
-    Enum.filter(countries(), fn(country) ->
+    Enum.filter(countries(), fn country ->
       Map.get(country, attribute)
       |> equals_or_contains_in_list(value)
     end)
@@ -47,18 +55,17 @@ defmodule Countries do
     false
   """
   def exists?(attribue, value) do
-    (filter_by(attribue, value) |> length) > 0
+    filter_by(attribue, value) |> length > 0
   end
 
-  #-- Load countries from yaml files once on compile time ---
+  # -- Load countries from yaml files once on compile time ---
 
   # Ensure :yamerl is running
   Application.start(:yamerl)
 
-  @countries Countries.Loader.load
+  @countries Countries.Loader.load()
 
   defp countries do
     @countries
   end
-
 end
