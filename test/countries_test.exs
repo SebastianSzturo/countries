@@ -12,11 +12,13 @@ defmodule CountriesTest do
   end
 
   test "filter countries by alternative names" do
-    countries = Countries.filter_by(:unofficial_names, "Reino Unido")
-    assert Enum.count(countries) == 1
+    assert [_] = Countries.filter_by(:unofficial_names, "Reino Unido")
 
-    countries = Countries.filter_by(:unofficial_names, "The United Kingdom")
-    assert Enum.count(countries) == 1
+    assert [_] = Countries.filter_by(:unofficial_names, "The United Kingdom")
+  end
+
+  test "get one country" do
+    %{alpha2: "GB"} = Countries.get("GB")
   end
 
   test "filter many countries by region" do
@@ -30,7 +32,7 @@ defmodule CountriesTest do
   end
 
   test "get all countries" do
-    countries = Countries.all
+    countries = Countries.all()
     assert Enum.count(countries) == 250
   end
 
@@ -42,7 +44,7 @@ defmodule CountriesTest do
     assert Enum.count(Countries.Subdivisions.all(country)) == 7
 
     country = List.first(Countries.filter_by(:alpha2, "AI"))
-    assert Enum.count(Countries.Subdivisions.all(country)) == 0
+    assert Enum.count(Countries.Subdivisions.all(country)) == 14
   end
 
   test "checks if country exists" do

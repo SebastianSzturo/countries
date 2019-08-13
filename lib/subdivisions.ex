@@ -9,11 +9,11 @@ defmodule Countries.Subdivisions do
   end
 
   defp convert_subdivision({id, attrs}) do
-     Enum.reduce(attrs, %Subdivision{id: id}, fn({attribute, value}, subdivision) ->
-       with attribute = List.to_atom(attribute) do
-         Map.put(subdivision, attribute, convert_value(attribute, value))
-       end
-     end)
+    Enum.reduce(attrs, %Subdivision{id: id}, fn {attribute, value}, subdivision ->
+      with attribute = List.to_atom(attribute) do
+        Map.put(subdivision, attribute, convert_value(attribute, value))
+      end
+    end)
   end
 
   defp convert_value(_, :null),
@@ -38,16 +38,17 @@ defmodule Countries.Subdivisions do
   Application.start(:yamerl)
 
   defp subdivisions(country_code) do
-    data_path = fn(path) ->
+    data_path = fn path ->
       # Path.join("data", path) |> Path.expand(__DIR__)
       Path.join([:code.priv_dir(:countries), "data"] ++ path)
     end
 
     try do
-      data_path.(["subdivisions", "#{country_code}.yaml"]) |> :yamerl.decode_file |> List.first
+      data_path.(["subdivisions", "#{country_code}.yaml"])
+      |> :yamerl.decode_file()
+      |> List.first()
     catch
       _exception -> []
     end
   end
-
 end
