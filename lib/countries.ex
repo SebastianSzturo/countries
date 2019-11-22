@@ -29,18 +29,37 @@ defmodule Countries do
   """
   def filter_by(attribute, value) do
     Enum.filter(countries(), fn country ->
-      Map.get(country, attribute)
+      country
+      |> Map.get(attribute)
       |> equals_or_contains_in_list(value)
     end)
   end
 
-  defp equals_or_contains_in_list(attribute, value) when is_list(attribute) do
-    Enum.member?(attribute, value)
+  defp equals_or_contains_in_list(nil, _), do: false
+  defp equals_or_contains_in_list([], _), do: false
+
+  defp equals_or_contains_in_list([attribute | rest], value) do
+    if equals_or_contains_in_list(attribute, value) do
+      true
+    else
+      equals_or_contains_in_list(rest, value)
+    end
   end
 
-  defp equals_or_contains_in_list(attribute, value) do
-    attribute == value
-  end
+  defp equals_or_contains_in_list(attribute, value),
+    do: normalize(attribute) == normalize(value)
+
+  defp normalize(value) when is_integer(value),
+    do: value |> Integer.to_string() |> normalize()
+
+  defp normalize(value) when is_binary(value),
+    do:
+      value
+      |> String.downcase()
+      |> String.trim()
+      |> String.replace(~r/\s+/, "")
+
+  defp normalize(value), do: value
 
   @doc """
   Checks if country for specific attribute and value exists.
