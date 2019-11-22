@@ -16,11 +16,8 @@ defmodule CountriesTest do
 
   describe "exists?/2" do
     test "checks if country exists" do
-      country_exists = Countries.exists?(:name, "Poland")
-      assert country_exists == true
-
-      country_exists = Countries.exists?(:name, "Polande")
-      assert country_exists == false
+      assert Countries.exists?(:name, "Poland")
+      refute Countries.exists?(:name, "Polande")
     end
   end
 
@@ -31,40 +28,31 @@ defmodule CountriesTest do
     end
 
     test "filters countries by alpha2" do
-      country = Countries.filter_by(:alpha2, "DE")
-      assert Enum.count(country) == 1
-
-      country = Countries.filter_by(:alpha2, "sm")
-      assert Enum.count(country) == 1
+      [%{alpha3: "DEU"}] = Countries.filter_by(:alpha2, "DE")
+      [%{alpha3: "SMR"}] = Countries.filter_by(:alpha2, "sm")
     end
 
     test "filters countries by alpha3" do
-      country = Countries.filter_by(:alpha3, "VCT")
-      assert Enum.count(country) == 1
-
-      country = Countries.filter_by(:alpha3, "hun")
-      assert Enum.count(country) == 1
+      [%{alpha2: "VC"}] = Countries.filter_by(:alpha3, "VCT")
+      [%{alpha2: "HU"}] = Countries.filter_by(:alpha3, "hun")
     end
 
     test "filters countries by name" do
-      country = Countries.filter_by(:name, "Aruba")
-      assert Enum.count(country) == 1
-
-      country = Countries.filter_by(:name, "estonia")
-      assert Enum.count(country) == 1
+      [%{alpha2: "AW"}] = Countries.filter_by(:name, "Aruba")
+      [%{alpha2: "EE"}] = Countries.filter_by(:name, "estonia")
     end
 
     test "filter countries by unofficial names" do
-      assert [_] = Countries.filter_by(:unofficial_names, "Reino Unido")
-      assert [_] = Countries.filter_by(:unofficial_names, "The United Kingdom")
-      assert [_] = Countries.filter_by(:unofficial_names, "États-Unis")
-      assert [_] = Countries.filter_by(:unofficial_names, "アメリカ合衆国")
-      assert [_] = Countries.filter_by(:unofficial_names, "Россия")
-      assert [_] = Countries.filter_by(:unofficial_names, "لبنان")
+      [%{alpha2: "GB"}] = Countries.filter_by(:unofficial_names, "Reino Unido")
+      [%{alpha2: "GB"}] = Countries.filter_by(:unofficial_names, "The United Kingdom")
+      [%{alpha2: "US"}] = Countries.filter_by(:unofficial_names, "États-Unis")
+      [%{alpha2: "US"}] = Countries.filter_by(:unofficial_names, "アメリカ合衆国")
+      [%{alpha2: "RU"}] = Countries.filter_by(:unofficial_names, "Россия")
+      [%{alpha2: "LB"}] = Countries.filter_by(:unofficial_names, "لبنان")
     end
 
     test "filters countries with basic string sanitization" do
-      assert [_] = Countries.filter_by(:name, "\npuerto    rico \n   ")
+      [%{alpha2: "PR"}] = Countries.filter_by(:name, "\npuerto    rico \n   ")
 
       countries = Countries.filter_by(:subregion, "WESTERNEUROPE")
       assert Enum.count(countries) == 9
