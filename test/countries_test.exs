@@ -33,15 +33,24 @@ defmodule CountriesTest do
     test "filters countries by alpha2" do
       country = Countries.filter_by(:alpha2, "DE")
       assert Enum.count(country) == 1
+
+      country = Countries.filter_by(:alpha2, "sm")
+      assert Enum.count(country) == 1
     end
 
     test "filters countries by alpha3" do
       country = Countries.filter_by(:alpha3, "VCT")
       assert Enum.count(country) == 1
+
+      country = Countries.filter_by(:alpha3, "hun")
+      assert Enum.count(country) == 1
     end
 
     test "filters countries by name" do
       country = Countries.filter_by(:name, "Aruba")
+      assert Enum.count(country) == 1
+
+      country = Countries.filter_by(:name, "estonia")
       assert Enum.count(country) == 1
     end
 
