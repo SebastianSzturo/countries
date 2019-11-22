@@ -53,11 +53,7 @@ defmodule Countries do
     do: value |> Integer.to_string() |> normalize()
 
   defp normalize(value) when is_binary(value),
-    do:
-      value
-      |> String.downcase()
-      |> String.trim()
-      |> String.replace(~r/\s+/, "")
+    do: value |> String.downcase() |> String.replace(~r/\s+/, "")
 
   defp normalize(value), do: value
 
