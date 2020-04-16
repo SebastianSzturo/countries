@@ -1,5 +1,6 @@
 defmodule CountriesTest do
   use ExUnit.Case, async: true
+  doctest Countries
 
   test "filter countries by alpha2" do
     country = Countries.filter_by(:alpha2, "DE")
