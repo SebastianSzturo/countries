@@ -7,7 +7,13 @@ defmodule Countries do
   end
 
   @doc """
-    Returns one country gived is alpha2 country code
+  Returns one country given is alpha2 country code
+
+  ## Examples
+
+      iex> %Countries.Country{name: name} = Countries.get("PL")
+      iex> name
+      "Poland"
   """
 
   def get(country_code) do
@@ -21,11 +27,19 @@ defmodule Countries do
   Returns a list of `Countries.Country` structs
 
   ## Examples
-    iex> Countries.filter_by(:region, "Europe")
-    [%Countries.Country{address_format: nil, alpha2: "VA" ...
 
-    iex> Countries.filter_by(:names, "Reino Unido")
-    [%Countries.Country{address_format: nil, alpha2: "GB" ...
+      iex> countries = Countries.filter_by(:region, "Europe")
+      iex> Enum.count(countries)
+      51
+      iex> Enum.map(countries, &Map.get(&1, :alpha2)) |> Enum.take(5)
+      ["AD", "AL", "AT", "AX", "BA"] 
+
+      iex> countries = Countries.filter_by(:unofficial_names, "Reino Unido")
+      iex> Enum.count(countries)
+      1
+      iex> Enum.map(countries, &Map.get(&1, :name)) |> List.first
+      "United Kingdom of Great Britain and Northern Ireland"
+
   """
   def filter_by(attribute, value) do
     Enum.filter(countries(), fn country ->
@@ -63,11 +77,12 @@ defmodule Countries do
   Returns boolean
 
   ## Examples
-    iex> Countries.exists?(:name, "Poland")
-    true
 
-    iex> Countries.exists?(:name, "Polande")
-    false
+      iex> Countries.exists?(:name, "Poland")
+      true
+
+      iex> Countries.exists?(:name, "Polande")
+      false
   """
   def exists?(attribute, value) do
     filter_by(attribute, value) |> length > 0

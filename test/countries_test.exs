@@ -1,5 +1,6 @@
 defmodule CountriesTest do
   use ExUnit.Case, async: true
+  doctest Countries
 
   describe "all/0" do
     test "get all countries" do
