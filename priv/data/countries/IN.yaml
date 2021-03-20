@@ -4,8 +4,8 @@ IN:
   address_format: |-
     {{recipient}}
     {{street}}
-    {{region}}
-    {{city}} {{postalcode}}
+    {{locality}}
+    {{city}} {{postalcode}} {{region}}
     {{country}}
   alpha2: IN
   alpha3: IND
