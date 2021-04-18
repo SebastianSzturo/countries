@@ -28,6 +28,7 @@ defmodule Countries.Country do
     :alt_currency,
     :vat_rates,
     :postal_code,
-    :currency_code
+    :currency_code,
+    :start_of_week
   ]
 end
