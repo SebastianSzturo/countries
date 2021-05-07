@@ -1,4 +1,20 @@
 defmodule Countries.Utils do
+  @moduledoc """
+  Helper functions.
+  """
+
+  @doc """
+  Convert Tuple or List to Map.
+
+  ## Examples
+
+      iex> Countries.Utils.to_map([{'foo', 1}, {'bar', '2'}])
+      %{bar: "2", foo: 1}
+
+      iex> Countries.Utils.to_map(["foo", "bar"])
+      "foobar"
+
+  """
   def to_map([item | _] = values) when is_tuple(item),
     do:
       Enum.reduce(values, Map.new(), fn {key, value}, acc ->

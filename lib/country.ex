@@ -1,4 +1,8 @@
 defmodule Countries.Country do
+  @moduledoc """
+  Country struct.
+  """
+
   defstruct [
     :number,
     :alpha2,
