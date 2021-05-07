@@ -10,8 +10,18 @@ defmodule CountriesTest do
   end
 
   describe "get/1" do
-    test "gets one country" do
-      %{alpha2: "GB"} = Countries.get("GB")
+    test "gets one country by country name" do
+      %{alpha2: "BR"} = Countries.get("Brazil")
+    end
+
+    test "gets empty string with invalid country name" do
+      [] = Countries.get("Bra")
+    end
+  end
+
+  describe "get_by_alpha2/1" do
+    test "gets one country by country code" do
+      %{alpha2: "GB"} = Countries.get_by_alpha2("GB")
     end
   end
 
