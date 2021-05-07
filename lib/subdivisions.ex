@@ -1,7 +1,20 @@
 defmodule Countries.Subdivisions do
+  @moduledoc """
+  Module for providing subdivisions related functions.
+  """
+
   import Countries.Utils, only: [to_map: 1]
   alias Countries.Subdivision
 
+  @doc """
+  Returns all subvidisions by country.
+
+  ## Examples
+
+      iex> country = Countries.get("PL")
+      iex> Countries.Subdivisions.all(country)
+
+  """
   def all(country) do
     country.alpha2
     |> subdivisions()

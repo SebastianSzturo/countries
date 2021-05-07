@@ -1,4 +1,8 @@
 defmodule Countries do
+  @moduledoc """
+  Module for providing countries related functions.
+  """
+
   @doc """
   Returns all countries.
   """
@@ -7,13 +11,14 @@ defmodule Countries do
   end
 
   @doc """
-  Returns one country given is alpha2 country code
+  Returns one country given is alpha2 country code.
 
   ## Examples
 
       iex> %Countries.Country{name: name} = Countries.get("PL")
       iex> name
       "Poland"
+
   """
 
   def get(country_code) do
@@ -32,7 +37,7 @@ defmodule Countries do
       iex> Enum.count(countries)
       51
       iex> Enum.map(countries, &Map.get(&1, :alpha2)) |> Enum.take(5)
-      ["AD", "AL", "AT", "AX", "BA"] 
+      ["AD", "AL", "AT", "AX", "BA"]
 
       iex> countries = Countries.filter_by(:unofficial_names, "Reino Unido")
       iex> Enum.count(countries)
@@ -74,7 +79,7 @@ defmodule Countries do
   @doc """
   Checks if country for specific attribute and value exists.
 
-  Returns boolean
+  Returns boolean.
 
   ## Examples
 
@@ -83,6 +88,7 @@ defmodule Countries do
 
       iex> Countries.exists?(:name, "Polande")
       false
+
   """
   def exists?(attribute, value) do
     filter_by(attribute, value) |> length > 0
