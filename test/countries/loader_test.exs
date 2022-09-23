@@ -8,8 +8,11 @@ defmodule Countries.LoaderTest do
   end
 
   test "loading all of the countries" do
-    assert [[_|_] = codes|_] = Loader.load(["countries.yaml"])
-    assert [[{_code, _data}] | _] = countries = Enum.flat_map(codes, fn code -> Loader.load(["countries", "#{code}.yaml"]) end)
+    assert [[_ | _] = codes | _] = Loader.load(["countries.yaml"])
+
+    assert [[{_code, _data}] | _] =
+             countries =
+             Enum.flat_map(codes, fn code -> Loader.load(["countries", "#{code}.yaml"]) end)
 
     countries = Enum.map(countries, fn [{_country, data}] -> Country.cast(data) end)
 
