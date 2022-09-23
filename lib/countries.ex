@@ -2,28 +2,49 @@ defmodule Countries do
   @moduledoc """
   Module for providing countries related functions.
   """
+  alias Countries.Country
 
   @doc """
   Returns all countries.
   """
-  def all do
-    countries()
-  end
+  @spec all :: [Country.t()]
+  def all, do: countries()
 
   @doc """
   Returns one country given is alpha2 country code.
 
   ## Examples
 
-      iex> %Countries.Country{name: name} = Countries.get("PL")
+      iex> %Countries.Country{name: name} = Countries.get_by_alpha2!("PL")
       iex> name
       "Poland"
 
   """
-
-  def get(country_code) do
+  @spec get_by_alpha2!(country_code :: String.t()) :: Country.t()
+  def get_by_alpha2!(country_code) do
     [country] = filter_by(:alpha2, country_code)
     country
+  end
+
+  @doc """
+  Returns the country based on the 2-letters country code or `nil` if that
+  was not found.
+
+  ## Examples
+
+      iex> %Countries.Country{name: name} = Countries.get_by_alpha2("PL")
+      iex> name
+      "Poland"
+
+      iex> Countries.get_by_alpha2("")
+      nil
+  """
+  @spec get_by_alpha2(country_code :: String.t()) :: Country.t() | nil
+  def get_by_alpha2(country_code) do
+    case filter_by(:alpha2, country_code) do
+      [country] -> country
+      [] -> nil
+    end
   end
 
   @doc """
@@ -58,23 +79,18 @@ defmodule Countries do
   defp equals_or_contains_in_list([], _), do: false
 
   defp equals_or_contains_in_list([attribute | rest], value) do
-    if equals_or_contains_in_list(attribute, value) do
-      true
-    else
-      equals_or_contains_in_list(rest, value)
-    end
+    equals_or_contains_in_list(attribute, value) || equals_or_contains_in_list(rest, value)
   end
 
   defp equals_or_contains_in_list(attribute, value),
     do: normalize(attribute) == normalize(value)
 
-  defp normalize(value) when is_integer(value),
-    do: value |> Integer.to_string() |> normalize()
-
-  defp normalize(value) when is_binary(value),
-    do: value |> String.downcase() |> String.replace(~r/\s+/, "")
-
-  defp normalize(value), do: value
+  defp normalize(value) do
+    value
+    |> to_string()
+    |> String.downcase()
+    |> String.replace(~r/\s+/, "")
+  end
 
   @doc """
   Checks if country for specific attribute and value exists.
@@ -91,17 +107,15 @@ defmodule Countries do
 
   """
   def exists?(attribute, value) do
-    filter_by(attribute, value) |> length > 0
+    filter_by(attribute, value) != []
   end
 
-  # -- Load countries from yaml files once on compile time ---
+  @countries Countries.Loader.load(["countries.yaml"])
+             |> List.first()
+             |> Enum.flat_map(fn code ->
+               Countries.Loader.load(["countries", "#{code}.yaml"])
+             end)
+             |> Enum.map(fn [{_country, data}] -> Country.cast(data) end)
 
-  # Ensure :yamerl is running
-  Application.start(:yamerl)
-
-  @countries Countries.Loader.load()
-
-  defp countries do
-    @countries
-  end
+  defp countries, do: @countries
 end

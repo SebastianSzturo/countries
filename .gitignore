@@ -46,3 +46,5 @@ _*
 Network Trash Folder
 Temporary Items
 .apdisk
+.vscode
+.elixir_ls
