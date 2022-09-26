@@ -175,5 +175,14 @@ defmodule Countries.Country do
   defp cast_attrib({'nanp_prefix', value}), do: {:nanp_prefix, Loader.normalize(value)}
   defp cast_attrib({field, _value}) when field in @ignored_fields, do: nil
 
-  defp cast_vat(values), do: values
+  defp cast_vat(values) do
+    Map.new(values)
+    |> Enum.map(fn
+      {'standard', value} -> {:standard, if(value == :null, do: nil, else: value)}
+      {'reduced', values} -> {:reduced, if(values == :null, do: nil, else: values)}
+      {'super_reduced', value} -> {:super_reduced, if(value == :null, do: nil, else: value)}
+      {'parking', value} -> {:parking, if(value == :null, do: nil, else: value)}
+    end)
+    |> Map.new()
+  end
 end
