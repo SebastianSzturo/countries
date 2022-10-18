@@ -1,11 +1,11 @@
 # Countries
 
-[![Build Status](https://travis-ci.org/SebastianSzturo/countries.svg?branch=master)](https://travis-ci.org/SebastianSzturo/countries)
+[![Build Status](https://img.shields.io/github/workflow/status/altenwald/countries/Elixir%20CI)](https://github.com/altenwald/countries/actions/)
 [![Module Version](https://img.shields.io/hexpm/v/countries.svg)](https://hex.pm/packages/countries)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-9768d1.svg)](https://hexdocs.pm/countries/)
 [![Total Download](https://img.shields.io/hexpm/dt/countries.svg)](https://hex.pm/packages/countries)
-[![License](https://img.shields.io/hexpm/l/countries.svg)](https://github.com/yyy/countries/blob/master/LICENSE)
-[![Last Updated](https://img.shields.io/github/last-commit/SebastianSzturo/countries.svg)](https://github.com/SebastianSzturo/countries/commits/master)
+[![License](https://img.shields.io/hexpm/l/countries.svg)](https://github.com/altenwald/countries/blob/master/LICENSE)
+[![Last Updated](https://img.shields.io/github/last-commit/altenwald/countries.svg)](https://github.com/altenwald/countries/commits/master)
 
 Countries is a collection of all sorts of useful information for every country in the [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) standard.
 It is based on the data from the Ruby Gem [Countries](https://github.com/hexorx/countries).

@@ -9,9 +9,13 @@ defmodule CountriesTest do
     end
   end
 
-  describe "get/1" do
+  describe "get_by_alpha2/1" do
     test "gets one country" do
-      %{alpha2: "GB"} = Countries.get("GB")
+      assert %{alpha2: "GB"} = Countries.get_by_alpha2("GB")
+    end
+
+    test "not found country" do
+      assert is_nil(Countries.get_by_alpha2(""))
     end
   end
 
@@ -66,7 +70,7 @@ defmodule CountriesTest do
 
     test "filters by official language" do
       countries = Countries.filter_by(:languages_official, "EN")
-      assert Enum.count(countries) == 48
+      assert Enum.count(countries) == 92
     end
 
     test "filters by integer attributes" do
@@ -76,16 +80,5 @@ defmodule CountriesTest do
       countries = Countries.filter_by(:national_destination_code_lengths, "2")
       assert Enum.count(countries) == 200
     end
-  end
-
-  test "get country subdivisions" do
-    country = List.first(Countries.filter_by(:alpha2, "BR"))
-    assert Enum.count(Countries.Subdivisions.all(country)) == 27
-
-    country = List.first(Countries.filter_by(:alpha2, "AD"))
-    assert Enum.count(Countries.Subdivisions.all(country)) == 7
-
-    country = List.first(Countries.filter_by(:alpha2, "AI"))
-    assert Enum.count(Countries.Subdivisions.all(country)) == 14
   end
 end
