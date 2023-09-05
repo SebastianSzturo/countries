@@ -8,10 +8,11 @@ MW:
   ioc: MAW
   gec: MI
   name: Malawi
+  flag: '🇲🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '454'
   region: Africa
@@ -21,17 +22,17 @@ MW:
   nationality: Malawian
   postal_code: false
   unofficial_names:
-  - Malawi
-  - マラウイ
+    - Malawi
+    - マラウイ
   languages_official:
-  - en
-  - ny
+    - en
+    - ny
   languages_spoken:
-  - en
-  - ny
+    - en
+    - ny
   geo:
     latitude: -13.254308
-    latitude_dec: "-13.523577690124512"
+    latitude_dec: '-13.523577690124512'
     longitude: 34.301525
     longitude_dec: '33.83546447753906'
     max_latitude: -9.367227399999999

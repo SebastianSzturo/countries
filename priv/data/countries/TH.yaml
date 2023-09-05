@@ -8,11 +8,12 @@ TH:
   ioc: THA
   gec: TH
   name: Thailand
+  flag: '🇹🇭'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
-  - 10
+    - 9
+    - 10
   national_prefix: '0'
   number: '764'
   region: Asia
@@ -23,18 +24,18 @@ TH:
   vat_rates:
     standard: 7
     reduced: [0]
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Thailand
-  - Thaïlande
-  - Tailandia
-  - タイ
+    - Thailand
+    - Thaïlande
+    - Tailandia
+    - タイ
   languages_official:
-  - th
+    - th
   languages_spoken:
-  - th
+    - th
   geo:
     latitude: 15.870032
     latitude_dec: '14.48458194732666'

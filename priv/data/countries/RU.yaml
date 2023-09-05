@@ -13,10 +13,11 @@ RU:
   ioc: RUS
   gec: RS
   name: Russian Federation
+  flag: '🇷🇺'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '8'
   number: '643'
   region: Europe
@@ -26,18 +27,18 @@ RU:
   nationality: Russian
   postal_code: true
   unofficial_names:
-  - Russia
-  - Russland
-  - Russie
-  - Rusia
-  - ロシア連邦
-  - Rusland
-  - Россия
-  - Расія
+    - Russia
+    - Russland
+    - Russie
+    - Rusia
+    - ロシア連邦
+    - Rusland
+    - Россия
+    - Расія
   languages_official:
-  - ru
+    - ru
   languages_spoken:
-  - ru
+    - ru
   geo:
     latitude: 61.52401
     latitude_dec: '63.125186920166016'

@@ -8,12 +8,13 @@ VU:
   ioc: VAN
   gec: NH
   name: Vanuatu
+  flag: '🇻🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 5
-  - 6
-  - 7
+    - 5
+    - 6
+    - 7
   national_prefix: None
   number: '548'
   region: Oceania
@@ -23,19 +24,19 @@ VU:
   nationality: Ni-Vanuatu
   postal_code: false
   unofficial_names:
-  - Vanuatu
-  - バヌアツ
+    - Vanuatu
+    - バヌアツ
   languages_official:
-  - bi
-  - en
-  - fr
+    - bi
+    - en
+    - fr
   languages_spoken:
-  - bi
-  - en
-  - fr
+    - bi
+    - en
+    - fr
   geo:
     latitude: -15.376706
-    latitude_dec: "-16.376684188842773"
+    latitude_dec: '-16.376684188842773'
     longitude: 166.959158
     longitude_dec: '167.5625'
     max_latitude: -12.8064449

@@ -8,10 +8,11 @@ VI:
   ioc: ISV
   gec: VQ
   name: Virgin Islands (U.S.)
+  flag: '🇻🇮'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '850'
   region: Americas
@@ -21,23 +22,23 @@ VI:
   nationality: Virgin Islander
   postal_code: true
   unofficial_names:
-  - Virgin Islands of the United States
-  - Amerikanische Jungferninseln
-  - Îles Vierges américaines
-  - Islas Vírgenes de los Estados Unidos
-  - アメリカ領ヴァージン諸島
-  - Amerikaanse Maagdeneilanden
-  - Virgin Islands (U.S.)
-  - United States Virgin Islands
+    - Virgin Islands of the United States
+    - Amerikanische Jungferninseln
+    - Îles Vierges américaines
+    - Islas Vírgenes de los Estados Unidos
+    - アメリカ領ヴァージン諸島
+    - Amerikaanse Maagdeneilanden
+    - Virgin Islands (U.S.)
+    - United States Virgin Islands
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 18.335765
     latitude_dec: '17.75262451171875'
     longitude: -64.896335
-    longitude_dec: "-64.73542022705078"
+    longitude_dec: '-64.73542022705078'
     max_latitude: 18.4239
     max_longitude: -64.4391
     min_latitude: 17.5482999

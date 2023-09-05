@@ -8,11 +8,12 @@ KP:
   ioc: PRK
   gec: KN
   name: Korea (Democratic People's Republic of)
+  flag: '🇰🇵'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '408'
   region: Asia
@@ -22,18 +23,18 @@ KP:
   nationality: North Korean
   postal_code: false
   unofficial_names:
-  - Korea (North)
-  - Nordkorea
-  - Corée du Nord
-  - Corea del Norte
-  - 朝鮮民主主義人民共和国
-  - Noord-Korea
-  - Korea Democratic People's Republic
-  - Korea (Democratic People s Republic of)
+    - Korea (North)
+    - Nordkorea
+    - Corée du Nord
+    - Corea del Norte
+    - 朝鮮民主主義人民共和国
+    - Noord-Korea
+    - Korea Democratic People's Republic
+    - Korea (Democratic People s Republic of)
   languages_official:
-  - ko
+    - ko
   languages_spoken:
-  - ko
+    - ko
   geo:
     latitude: 40.339852
     latitude_dec: '40.077640533447266'

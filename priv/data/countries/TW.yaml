@@ -13,11 +13,12 @@ TW:
   ioc: TPE
   gec: TW
   name: Taiwan, Province of China
+  flag: '🇹🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: '0'
   number: '158'
   region: Asia
@@ -27,13 +28,13 @@ TW:
   nationality: Taiwanese
   postal_code: true
   unofficial_names:
-  - Taiwan
-  - Taiwán
-  - 台湾
+    - Taiwan
+    - Taiwán
+    - 台湾
   languages_official:
-  - zh
+    - zh
   languages_spoken:
-  - zh
+    - zh
   geo:
     latitude: 23.69781
     latitude_dec: '23.685789108276367'

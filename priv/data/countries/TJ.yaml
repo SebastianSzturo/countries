@@ -9,10 +9,11 @@ TJ:
   ioc: TJK
   gec: TI
   name: Tajikistan
+  flag: '🇹🇯'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '8'
   number: '762'
   region: Asia
@@ -22,18 +23,18 @@ TJ:
   nationality: Tadzhik
   postal_code: true
   unofficial_names:
-  - Tajikistan
-  - Tadschikistan
-  - Tayikistán
-  - タジキスタン
-  - Tadzjikistan
-  - Tajikstan
+    - Tajikistan
+    - Tadschikistan
+    - Tayikistán
+    - タジキスタン
+    - Tadzjikistan
+    - Tajikstan
   languages_official:
-  - tg
-  - ru
+    - tg
+    - ru
   languages_spoken:
-  - tg
-  - ru
+    - tg
+    - ru
   geo:
     latitude: 38.861034
     latitude_dec: '38.879764556884766'

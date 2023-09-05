@@ -8,11 +8,12 @@ WS:
   ioc: SAM
   gec: WS
   name: Samoa
+  flag: '🇼🇸'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
-  - 7
+    - 6
+    - 7
   national_prefix: None
   number: '882'
   region: Oceania
@@ -22,19 +23,19 @@ WS:
   nationality: Samoan
   postal_code: true
   unofficial_names:
-  - Samoa
-  - サモア
+    - Samoa
+    - サモア
   languages_official:
-  - sm
-  - en
+    - sm
+    - en
   languages_spoken:
-  - sm
-  - en
+    - sm
+    - en
   geo:
     latitude: -13.759029
-    latitude_dec: "-13.668972969055176"
+    latitude_dec: '-13.668972969055176'
     longitude: -172.104629
-    longitude_dec: "-172.322021484375"
+    longitude_dec: '-172.322021484375'
     max_latitude: -13.4203449
     max_longitude: -171.3968562
     min_latitude: -14.0833012

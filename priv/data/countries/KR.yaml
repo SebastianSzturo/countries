@@ -14,11 +14,12 @@ KR:
   ioc: KOR
   gec: KS
   name: Korea (Republic of)
+  flag: '🇰🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '410'
   region: Asia
@@ -28,18 +29,18 @@ KR:
   nationality: South Korean
   postal_code: true
   unofficial_names:
-  - South Korea
-  - Korea (South)
-  - Südkorea
-  - Corée du Sud
-  - Corea del Sur
-  - 大韓民国
-  - Zuid-Korea
-  - Korea (Republic of)
+    - South Korea
+    - Korea (South)
+    - Südkorea
+    - Corée du Sud
+    - Corea del Sur
+    - 大韓民国
+    - Zuid-Korea
+    - Korea (Republic of)
   languages_official:
-  - ko
+    - ko
   languages_spoken:
-  - ko
+    - ko
   geo:
     latitude: 35.907757
     latitude_dec: '40.077640533447266'

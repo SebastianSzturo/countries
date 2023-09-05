@@ -8,10 +8,11 @@ HT:
   ioc: HAI
   gec: HA
   name: Haiti
+  flag: '🇭🇹'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '332'
   region: Americas
@@ -21,20 +22,20 @@ HT:
   nationality: Haitian
   postal_code: true
   unofficial_names:
-  - Haiti
-  - ハイチ
-  - Haïti
+    - Haiti
+    - ハイチ
+    - Haïti
   languages_official:
-  - fr
-  - ht
+    - fr
+    - ht
   languages_spoken:
-  - fr
-  - ht
+    - fr
+    - ht
   geo:
     latitude: 18.971187
     latitude_dec: '19.0732421875'
     longitude: -72.285215
-    longitude_dec: "-72.24127960205078"
+    longitude_dec: '-72.24127960205078'
     max_latitude: 20.1282
     max_longitude: -71.621754
     min_latitude: 17.9422

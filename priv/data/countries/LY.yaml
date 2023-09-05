@@ -8,11 +8,12 @@ LY:
   ioc: LBA
   gec: LY
   name: Libya
+  flag: '🇱🇾'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '434'
   region: Africa
@@ -22,18 +23,18 @@ LY:
   nationality: Libyan
   postal_code: true
   unofficial_names:
-  - Libya
-  - ليبيا
-  - Libyen
-  - Libye
-  - Libia
-  - リビア
-  - Libië
-  - Libyan Arab Jamahiriya
+    - Libya
+    - ليبيا
+    - Libyen
+    - Libye
+    - Libia
+    - リビア
+    - Libië
+    - Libyan Arab Jamahiriya
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 26.3351
     latitude_dec: '27.23609733581543'

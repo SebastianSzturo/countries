@@ -8,10 +8,11 @@ TD:
   ioc: CHA
   gec: CD
   name: Chad
+  flag: '🇹🇩'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '148'
   region: Africa
@@ -21,18 +22,18 @@ TD:
   nationality: Chadian
   postal_code: true
   unofficial_names:
-  - Chad
-  - تشاد
-  - Tschad
-  - Tchad
-  - チャド
-  - Tsjaad
+    - Chad
+    - تشاد
+    - Tschad
+    - Tchad
+    - チャド
+    - Tsjaad
   languages_official:
-  - ar
-  - fr
+    - ar
+    - fr
   languages_spoken:
-  - ar
-  - fr
+    - ar
+    - fr
   geo:
     latitude: 15.454166
     latitude_dec: '15.367652893066406'

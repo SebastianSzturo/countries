@@ -8,10 +8,11 @@ GW:
   ioc: GBS
   gec: PU
   name: Guinea-Bissau
+  flag: '🇬🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '624'
   region: Africa
@@ -21,20 +22,20 @@ GW:
   nationality: Guinea-Bissauan
   postal_code: true
   unofficial_names:
-  - Guinea-Bissau
-  - Guinée-Bissau
-  - ギニアビサウ
-  - Guinee-Bissau
-  - Guinea Bissau
+    - Guinea-Bissau
+    - Guinée-Bissau
+    - ギニアビサウ
+    - Guinee-Bissau
+    - Guinea Bissau
   languages_official:
-  - pt
+    - pt
   languages_spoken:
-  - pt
+    - pt
   geo:
     latitude: 11.803749
     latitude_dec: '12.115862846374512'
     longitude: -15.180413
-    longitude_dec: "-14.748136520385742"
+    longitude_dec: '-14.748136520385742'
     max_latitude: 12.6869468
     max_longitude: -13.6265235
     min_latitude: 10.7146

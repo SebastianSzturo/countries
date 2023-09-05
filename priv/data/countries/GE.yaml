@@ -8,10 +8,11 @@ GE:
   ioc: GEO
   gec: GG
   name: Georgia
+  flag: '🇬🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: 8*
   number: '268'
   region: Asia
@@ -21,15 +22,15 @@ GE:
   nationality: Georgian
   postal_code: true
   unofficial_names:
-  - Georgia
-  - Georgien
-  - Géorgie
-  - グルジア
-  - Georgië
+    - Georgia
+    - Georgien
+    - Géorgie
+    - グルジア
+    - Georgië
   languages_official:
-  - ka
+    - ka
   languages_spoken:
-  - ka
+    - ka
   geo:
     latitude: 42.315407
     latitude_dec: '42.3207845'

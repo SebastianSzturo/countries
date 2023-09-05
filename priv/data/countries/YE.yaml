@@ -13,12 +13,13 @@ YE:
   ioc: YEM
   gec: YM
   name: Yemen
+  flag: '🇾🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
-  - 9
+    - 7
+    - 8
+    - 9
   national_prefix: '0'
   number: '887'
   region: Asia
@@ -28,15 +29,15 @@ YE:
   nationality: Yemeni
   postal_code: false
   unofficial_names:
-  - Yemen
-  - اليمن
-  - Jemen
-  - Yémen
-  - イエメン
+    - Yemen
+    - اليمن
+    - Jemen
+    - Yémen
+    - イエメン
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 15.552727
     latitude_dec: '15.888387680053711'

@@ -13,11 +13,12 @@ SY:
   ioc: SYR
   gec: SY
   name: Syrian Arab Republic
+  flag: '🇸🇾'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: '0'
   number: '760'
   region: Asia
@@ -27,18 +28,18 @@ SY:
   nationality: Syrian
   postal_code: false
   unofficial_names:
-  - Syria
-  - سوريا
-  - سورية
-  - Syrien
-  - Syrie
-  - Siria
-  - シリア・アラブ共和国
-  - Syrië
+    - Syria
+    - سوريا
+    - سورية
+    - Syrien
+    - Syrie
+    - Siria
+    - シリア・アラブ共和国
+    - Syrië
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 34.80207499999999
     latitude_dec: '35.03312683105469'

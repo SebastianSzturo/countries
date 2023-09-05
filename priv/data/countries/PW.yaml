@@ -8,10 +8,11 @@ PW:
   ioc: PLW
   gec: PS
   name: Palau
+  flag: '🇵🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '585'
   region: Oceania
@@ -21,12 +22,12 @@ PW:
   nationality: Palauan
   postal_code: true
   unofficial_names:
-  - Palau
-  - パラオ
+    - Palau
+    - パラオ
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 7.514979999999999
     latitude_dec: '7.441900730133057'

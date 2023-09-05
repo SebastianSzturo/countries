@@ -8,10 +8,11 @@ SS:
   ioc:
   gec: OD
   name: South Sudan
+  flag: '🇸🇸'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '728'
   region: Africa
@@ -21,16 +22,16 @@ SS:
   nationality: South Sudanese
   postal_code: true
   unofficial_names:
-  - South Sudan
-  - Südsudan
-  - 南スーダン
-  - Zuid-Soedan
+    - South Sudan
+    - Südsudan
+    - 南スーダン
+    - Zuid-Soedan
   languages_official:
-  - ar
-  - en
+    - ar
+    - en
   languages_spoken:
-  - ar
-  - en
+    - ar
+    - en
   geo:
     latitude: 6.876991899999999
     latitude_dec: '7.303858280181885'

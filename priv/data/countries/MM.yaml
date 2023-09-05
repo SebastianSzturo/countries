@@ -8,11 +8,12 @@ MM:
   ioc: MYA
   gec: BM
   name: Myanmar
+  flag: '🇲🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: None
   number: '104'
   region: Asia
@@ -22,12 +23,12 @@ MM:
   nationality: Myanmarian
   postal_code: true
   unofficial_names:
-  - Myanmar
-  - ミャンマー
+    - Myanmar
+    - ミャンマー
   languages_official:
-  - my
+    - my
   languages_spoken:
-  - my
+    - my
   geo:
     latitude: 21.916221
     latitude_dec: '20.330142974853516'

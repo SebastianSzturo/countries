@@ -8,10 +8,11 @@ TM:
   ioc: TKM
   gec: TX
   name: Turkmenistan
+  flag: '🇹🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '8'
   number: '795'
   region: Asia
@@ -21,16 +22,16 @@ TM:
   nationality: Turkmen
   postal_code: true
   unofficial_names:
-  - Turkmenistan
-  - Turkménistan
-  - Turkmenistán
-  - トルクメニスタン
+    - Turkmenistan
+    - Turkménistan
+    - Turkmenistán
+    - トルクメニスタン
   languages_official:
-  - tk
-  - ru
+    - tk
+    - ru
   languages_spoken:
-  - tk
-  - ru
+    - tk
+    - ru
   geo:
     latitude: 38.969719
     latitude_dec: '39.2012825012207'

@@ -8,10 +8,11 @@ LA:
   ioc: LAO
   gec: LA
   name: Lao People's Democratic Republic
+  flag: '🇱🇦'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '418'
   region: Asia
@@ -21,13 +22,13 @@ LA:
   nationality: Laotian
   postal_code: true
   unofficial_names:
-  - Laos
-  - ラオス人民民主共和国
-  - Lao People s Democratic Republic
+    - Laos
+    - ラオス人民民主共和国
+    - Lao People s Democratic Republic
   languages_official:
-  - lo
+    - lo
   languages_spoken:
-  - lo
+    - lo
   geo:
     latitude: 19.85627
     latitude_dec: '18.65074920654297'

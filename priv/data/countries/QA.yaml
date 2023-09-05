@@ -13,10 +13,11 @@ QA:
   ioc: QAT
   gec: QA
   name: Qatar
+  flag: '🇶🇦'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '634'
   region: Asia
@@ -26,14 +27,14 @@ QA:
   nationality: Qatari
   postal_code: false
   unofficial_names:
-  - Qatar
-  - قطر
-  - Katar
-  - カタール
+    - Qatar
+    - قطر
+    - Katar
+    - カタール
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 25.354826
     latitude_dec: '25.413625717163086'

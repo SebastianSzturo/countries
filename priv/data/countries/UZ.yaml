@@ -8,10 +8,11 @@ UZ:
   ioc: UZB
   gec: UZ
   name: Uzbekistan
+  flag: '🇺🇿'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '8'
   number: '860'
   region: Asia
@@ -21,18 +22,18 @@ UZ:
   nationality: Uzbekistani
   postal_code: true
   unofficial_names:
-  - Uzbekistan
-  - Usbekistan
-  - Ouzbékistan
-  - Uzbekistán
-  - ウズベキスタン
-  - Oezbekistan
+    - Uzbekistan
+    - Usbekistan
+    - Ouzbékistan
+    - Uzbekistán
+    - ウズベキスタン
+    - Oezbekistan
   languages_official:
-  - uz
-  - ru
+    - uz
+    - ru
   languages_spoken:
-  - uz
-  - ru
+    - uz
+    - ru
   geo:
     latitude: 41.377491
     latitude_dec: '41.77239227294922'

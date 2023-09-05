@@ -8,10 +8,11 @@ ET:
   ioc: ETH
   gec: ET
   name: Ethiopia
+  flag: '🇪🇹'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '231'
   region: Africa
@@ -21,16 +22,16 @@ ET:
   nationality: Ethiopian
   postal_code: true
   unofficial_names:
-  - Ethiopia
-  - Äthiopien
-  - Éthiopie
-  - Etiopía
-  - エチオピア
-  - Ethiopië
+    - Ethiopia
+    - Äthiopien
+    - Éthiopie
+    - Etiopía
+    - エチオピア
+    - Ethiopië
   languages_official:
-  - am
+    - am
   languages_spoken:
-  - am
+    - am
   geo:
     latitude: 9.145000000000001
     latitude_dec: '8.626703262329102'

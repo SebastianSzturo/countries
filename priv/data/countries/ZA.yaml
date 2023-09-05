@@ -15,10 +15,11 @@ ZA:
   ioc: RSA
   gec: SF
   name: South Africa
+  flag: '🇿🇦'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '710'
   region: Africa
@@ -28,37 +29,37 @@ ZA:
   nationality: South African
   postal_code: false
   unofficial_names:
-  - South Africa
-  - Republik Südafrika
-  - Afrique du Sud
-  - República de Sudáfrica
-  - 南アフリカ
-  - Zuid-Afrika
+    - South Africa
+    - Republik Südafrika
+    - Afrique du Sud
+    - República de Sudáfrica
+    - 南アフリカ
+    - Zuid-Afrika
   languages_official:
-  - af
-  - en
-  - nr
-  - st
-  - ss
-  - tn
-  - ts
-  - ve
-  - xh
-  - zu
+    - af
+    - en
+    - nr
+    - st
+    - ss
+    - tn
+    - ts
+    - ve
+    - xh
+    - zu
   languages_spoken:
-  - af
-  - en
-  - nr
-  - st
-  - ss
-  - tn
-  - ts
-  - ve
-  - xh
-  - zu
+    - af
+    - en
+    - nr
+    - st
+    - ss
+    - tn
+    - ts
+    - ve
+    - xh
+    - zu
   geo:
     latitude: -30.559482
-    latitude_dec: "-29.046184539794922"
+    latitude_dec: '-29.046184539794922'
     longitude: 22.937506
     longitude_dec: '25.06287956237793'
     max_latitude: -22.1254241

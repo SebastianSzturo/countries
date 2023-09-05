@@ -8,10 +8,11 @@ FJ:
   ioc: FIJ
   gec: FJ
   name: Fiji
+  flag: '🇫🇯'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '242'
   region: Oceania
@@ -21,23 +22,23 @@ FJ:
   nationality: Fijian
   postal_code: false
   unofficial_names:
-  - Fiji
-  - Fidschi
-  - Fidji
-  - フィジー
+    - Fiji
+    - Fidschi
+    - Fidji
+    - フィジー
   languages_official:
-  - en
-  - fj
-  - hi
-  - ur
+    - en
+    - fj
+    - hi
+    - ur
   languages_spoken:
-  - en
-  - fj
-  - hi
-  - ur
+    - en
+    - fj
+    - hi
+    - ur
   geo:
     latitude: -17.713371
-    latitude_dec: "-17.658161163330078"
+    latitude_dec: '-17.658161163330078'
     longitude: 178.065032
     longitude_dec: '178.1472625732422'
     max_latitude: -12.2084957

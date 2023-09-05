@@ -9,10 +9,11 @@ LC:
   ioc: LCA
   gec: ST
   name: Saint Lucia
+  flag: '🇱🇨'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '662'
   region: Americas
@@ -22,21 +23,21 @@ LC:
   nationality: Saint Lucian
   postal_code: false
   unofficial_names:
-  - Saint Lucia
-  - Saint-Lucie
-  - Santa Lucía
-  - セントルシア
-  - St. Lucia
-  - St Lucia
+    - Saint Lucia
+    - Saint-Lucie
+    - Santa Lucía
+    - セントルシア
+    - St. Lucia
+    - St Lucia
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 13.909444
     latitude_dec: '13.86330509185791'
     longitude: -60.978893
-    longitude_dec: "-60.9665641784668"
+    longitude_dec: '-60.9665641784668'
     max_latitude: 14.1209277
     max_longitude: -60.85979460000001
     min_latitude: 13.7047779

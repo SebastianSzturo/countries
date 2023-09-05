@@ -8,13 +8,14 @@ MN:
   ioc: MGL
   gec: MG
   name: Mongolia
+  flag: '🇲🇳'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
-  - 9
-  - 10
+    - 7
+    - 8
+    - 9
+    - 10
   national_prefix: '0'
   number: '496'
   region: Asia
@@ -24,15 +25,15 @@ MN:
   nationality: Mongolian
   postal_code: true
   unofficial_names:
-  - Mongolia
-  - Mongolei
-  - Mongolie
-  - モンゴル
-  - Mongolië
+    - Mongolia
+    - Mongolei
+    - Mongolie
+    - モンゴル
+    - Mongolië
   languages_official:
-  - mn
+    - mn
   languages_spoken:
-  - mn
+    - mn
   geo:
     latitude: 46.862496
     latitude_dec: '46.83647918701172'

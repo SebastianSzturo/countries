@@ -13,11 +13,12 @@ MK:
   ioc: MKD
   gec: MK
   name: Macedonia (the former Yugoslav Republic of)
+  flag: '🇲🇰'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: '0'
   number: '807'
   region: Europe
@@ -27,20 +28,20 @@ MK:
   nationality: Macedonian
   postal_code: true
   unofficial_names:
-  - Macedonia
-  - Mazedonien
-  - Macédoine
-  - F.Y.R.O.M (Macedonia)
-  - マケドニア旧ユーゴスラビア共和国
-  - Macedonië [FYROM]
-  - Macedonia (The Former Yugoslav Republic of)
-  - North Macedonia
-  - Severna Makedonija
-  - Северна Македонија
+    - Macedonia
+    - Mazedonien
+    - Macédoine
+    - F.Y.R.O.M (Macedonia)
+    - マケドニア旧ユーゴスラビア共和国
+    - Macedonië [FYROM]
+    - Macedonia (The Former Yugoslav Republic of)
+    - North Macedonia
+    - Severna Makedonija
+    - Северна Македонија
   languages_official:
-  - mk
+    - mk
   languages_spoken:
-  - mk
+    - mk
   geo:
     latitude: 41.608635
     latitude_dec: '41.60045623779297'

@@ -9,10 +9,11 @@ PS:
   ioc: PLE
   gec: WE
   name: Palestine, State of
+  flag: '🇵🇸'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '275'
   region: Asia
@@ -22,23 +23,23 @@ PS:
   nationality: Palestinian
   postal_code: true
   unofficial_names:
-  - Palestine
-  - فلسطين
-  - Palästina
-  - Palestina
-  - the Occupied Palestinian Territory
-  - パレスチナ
-  - Palestijnse gebieden
-  - Palestinian Territory Occupied
-  - Palestinian Authority
+    - Palestine
+    - فلسطين
+    - Palästina
+    - Palestina
+    - the Occupied Palestinian Territory
+    - パレスチナ
+    - Palestijnse gebieden
+    - Palestinian Territory Occupied
+    - Palestinian Authority
   languages_official:
-  - ar
-  - he
-  - en
+    - ar
+    - he
+    - en
   languages_spoken:
-  - ar
-  - he
-  - en
+    - ar
+    - he
+    - en
   geo:
     latitude: 31.952162
     latitude_dec: '31.946392059326172'

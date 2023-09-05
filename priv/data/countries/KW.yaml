@@ -14,10 +14,11 @@ KW:
   ioc: KUW
   gec: KU
   name: Kuwait
+  flag: '🇰🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '414'
   region: Asia
@@ -27,15 +28,15 @@ KW:
   nationality: Kuwaiti
   postal_code: true
   unofficial_names:
-  - Kuwait
-  - الكويت
-  - Koweït
-  - クウェート
-  - Koeweit
+    - Kuwait
+    - الكويت
+    - Koweït
+    - クウェート
+    - Koeweit
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 29.31166
     latitude_dec: '29.321941375732422'

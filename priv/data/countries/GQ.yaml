@@ -8,10 +8,11 @@ GQ:
   ioc: GEQ
   gec: EK
   name: Equatorial Guinea
+  flag: '🇬🇶'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
+    - 6
   national_prefix: None
   number: '226'
   region: Africa
@@ -21,18 +22,18 @@ GQ:
   nationality: Equatorial Guinean
   postal_code: false
   unofficial_names:
-  - Equatorial Guinea
-  - Äquatorial-Guinea
-  - Guinée Équatoriale
-  - Guinea Ecuatorial
-  - 赤道ギニア
-  - Equatoriaal-Guinea
+    - Equatorial Guinea
+    - Äquatorial-Guinea
+    - Guinée Équatoriale
+    - Guinea Ecuatorial
+    - 赤道ギニア
+    - Equatoriaal-Guinea
   languages_official:
-  - es
-  - fr
+    - es
+    - fr
   languages_spoken:
-  - es
-  - fr
+    - es
+    - fr
   geo:
     latitude: 1.650801
     latitude_dec: '1.5331259965896606'

@@ -8,12 +8,13 @@ GA:
   ioc: GAB
   gec: GB
   name: Gabon
+  flag: '🇬🇦'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
-  - 7
-  - 8
+    - 6
+    - 7
+    - 8
   national_prefix: None
   number: '266'
   region: Africa
@@ -23,17 +24,17 @@ GA:
   nationality: Gabonese
   postal_code: true
   unofficial_names:
-  - Gabon
-  - Gabun
-  - Gabón
-  - ガボン
+    - Gabon
+    - Gabun
+    - Gabón
+    - ガボン
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: -0.803689
-    latitude_dec: "-0.6345400810241699"
+    latitude_dec: '-0.6345400810241699'
     longitude: 11.609444
     longitude_dec: '11.738608360290527'
     max_latitude: 2.318109

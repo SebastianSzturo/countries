@@ -13,11 +13,12 @@ JP:
   ioc: JPN
   gec: JA
   name: Japan
+  flag: '🇯🇵'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
-  - 10
+    - 9
+    - 10
   national_prefix: '0'
   number: '392'
   region: Asia
@@ -27,14 +28,14 @@ JP:
   nationality: Japanese
   postal_code: true
   unofficial_names:
-  - Japan
-  - Japon
-  - Japón
-  - 日本
+    - Japan
+    - Japon
+    - Japón
+    - 日本
   languages_official:
-  - ja
+    - ja
   languages_spoken:
-  - ja
+    - ja
   geo:
     latitude: 36.204824
     latitude_dec: '36.281646728515625'

@@ -8,10 +8,11 @@ SZ:
   ioc: SWZ
   gec: WZ
   name: eSwatini
+  flag: '🇸🇿'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '748'
   region: Africa
@@ -21,19 +22,19 @@ SZ:
   nationality: Swazi
   postal_code: true
   unofficial_names:
-  - Swaziland
-  - Swasiland
-  - Suazilandia
-  - スワジランド
+    - Swaziland
+    - Swasiland
+    - Suazilandia
+    - スワジランド
   languages_official:
-  - en
-  - ss
+    - en
+    - ss
   languages_spoken:
-  - en
-  - ss
+    - en
+    - ss
   geo:
     latitude: -26.522503
-    latitude_dec: "-26.565134048461914"
+    latitude_dec: '-26.565134048461914'
     longitude: 31.465866
     longitude_dec: '31.49811363220215'
     max_latitude: -25.71792

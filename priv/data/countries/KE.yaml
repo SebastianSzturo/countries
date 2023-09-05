@@ -8,10 +8,11 @@ KE:
   ioc: KEN
   gec: KE
   name: Kenya
+  flag: '🇰🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '404'
   region: Africa
@@ -21,15 +22,15 @@ KE:
   nationality: Kenyan
   postal_code: false
   unofficial_names:
-  - Kenya
-  - Kenia
-  - ケニア
+    - Kenya
+    - Kenia
+    - ケニア
   languages_official:
-  - en
-  - sw
+    - en
+    - sw
   languages_spoken:
-  - en
-  - sw
+    - en
+    - sw
   geo:
     latitude: -0.023559
     latitude_dec: '0.5765031576156616'

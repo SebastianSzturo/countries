@@ -5,9 +5,10 @@ JE:
   alpha3: JEY
   country_code: '44'
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: JE
   name: Jersey
+  flag: '🇯🇪'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,19 +20,19 @@ JE:
   nationality: Channel Islander
   postal_code: true
   unofficial_names:
-  - Jersey
-  - ジャージー
+    - Jersey
+    - ジャージー
   languages_official:
-  - en
-  - fr
+    - en
+    - fr
   languages_spoken:
-  - en
-  - fr
+    - en
+    - fr
   geo:
     latitude: 49.214439
     latitude_dec: '49.2285041809082'
     longitude: -2.13125
-    longitude_dec: "-2.1228928565979004"
+    longitude_dec: '-2.1228928565979004'
     max_latitude: 49.26650009999999
     max_longitude: -2.0013001
     min_latitude: 49.1582

@@ -5,9 +5,10 @@ HM:
   alpha3: HMD
   country_code: ''
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: HM
   name: Heard Island and McDonald Islands
+  flag: '🇭🇲'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,18 +20,18 @@ HM:
   postal_code: true
   world_region: APAC
   unofficial_names:
-  - Heard and McDonald Islands
-  - Heard und die McDonaldinseln
-  - ハード島とマクドナルド諸島
-  - Heard- en McDonaldeilanden
-  - Heard Island and McDonald Islands
+    - Heard and McDonald Islands
+    - Heard und die McDonaldinseln
+    - ハード島とマクドナルド諸島
+    - Heard- en McDonaldeilanden
+    - Heard Island and McDonald Islands
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -53.08181
-    latitude_dec: "-53.080108642578125"
+    latitude_dec: '-53.080108642578125'
     longitude: 73.50415799999999
     longitude_dec: '73.56218719482422'
     max_latitude: -52.9609444

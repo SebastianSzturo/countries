@@ -8,10 +8,11 @@ MH:
   ioc: MHL
   gec: RM
   name: Marshall Islands
+  flag: '🇲🇭'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: '1'
   number: '584'
   region: Oceania
@@ -21,18 +22,18 @@ MH:
   nationality: Marshallese
   postal_code: true
   unofficial_names:
-  - Marshall Islands
-  - Marshallinseln
-  - Îles Marshall
-  - Islas Marshall
-  - マーシャル諸島
-  - Marshalleilanden
+    - Marshall Islands
+    - Marshallinseln
+    - Îles Marshall
+    - Islas Marshall
+    - マーシャル諸島
+    - Marshalleilanden
   languages_official:
-  - en
-  - mh
+    - en
+    - mh
   languages_spoken:
-  - en
-  - mh
+    - en
+    - mh
   geo:
     latitude: 6.0683017
     latitude_dec: '7.286207675933838'

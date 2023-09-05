@@ -13,12 +13,13 @@ IS:
   ioc: ISL
   gec: IC
   name: Iceland
+  flag: '🇮🇸'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
-  - 9
+    - 7
+    - 8
+    - 9
   national_prefix: '0'
   number: '352'
   region: Europe
@@ -31,25 +32,25 @@ IS:
     standard: 24
     reduced:
       - 11
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Iceland
-  - Island
-  - Islande
-  - Islandia
-  - アイスランド
-  - IJsland
+    - Iceland
+    - Island
+    - Islande
+    - Islandia
+    - アイスランド
+    - IJsland
   languages_official:
-  - is
+    - is
   languages_spoken:
-  - is
+    - is
   geo:
     latitude: 64.963051
     latitude_dec: '64.9285659790039'
     longitude: -19.020835
-    longitude_dec: "-18.961700439453125"
+    longitude_dec: '-18.961700439453125'
     max_latitude: 67.2466
     max_longitude: -12.2388001
     min_latitude: 62.4819

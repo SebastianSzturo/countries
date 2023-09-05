@@ -8,10 +8,11 @@ IR:
   ioc: IRI
   gec: IR
   name: Iran (Islamic Republic of)
+  flag: '🇮🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '0'
   number: '364'
   region: Asia
@@ -21,15 +22,15 @@ IR:
   nationality: Iranian
   postal_code: true
   unofficial_names:
-  - Iran
-  - Irán
-  - Iran (Islamic Republic Of)
-  - イラン・イスラム共和国
-  - Islamic Republic of Iran
+    - Iran
+    - Irán
+    - Iran (Islamic Republic Of)
+    - イラン・イスラム共和国
+    - Islamic Republic of Iran
   languages_official:
-  - fa
+    - fa
   languages_spoken:
-  - fa
+    - fa
   geo:
     latitude: 32.427908
     latitude_dec: '32.50077819824219'

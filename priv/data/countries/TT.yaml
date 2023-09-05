@@ -9,10 +9,11 @@ TT:
   ioc: TRI
   gec: TD
   name: Trinidad and Tobago
+  flag: '🇹🇹'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '780'
   region: Americas
@@ -22,21 +23,21 @@ TT:
   nationality: Trinidadian
   postal_code: false
   unofficial_names:
-  - Trinidad and Tobago
-  - Trinidad und Tobago
-  - Trinité et Tobago
-  - Trinidad y Tobago
-  - トリニダード・トバゴ
-  - Trinidad en Tobago
+    - Trinidad and Tobago
+    - Trinidad und Tobago
+    - Trinité et Tobago
+    - Trinidad y Tobago
+    - トリニダード・トバゴ
+    - Trinidad en Tobago
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 10.691803
     latitude_dec: '10.68574047088623'
     longitude: -61.222503
-    longitude_dec: "-61.1640625"
+    longitude_dec: '-61.1640625'
     max_latitude: 11.4004
     max_longitude: -60.45089989999999
     min_latitude: 9.9930001

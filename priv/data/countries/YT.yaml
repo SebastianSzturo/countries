@@ -5,13 +5,14 @@ YT:
   alpha3: MYT
   country_code: '262'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: MF
   name: Mayotte
+  flag: '🇾🇹'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '175'
   region: Africa
@@ -21,15 +22,15 @@ YT:
   nationality: French
   postal_code: true
   unofficial_names:
-  - Mayotte
-  - マヨット
+    - Mayotte
+    - マヨット
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: -12.8275
-    latitude_dec: "-12.79636001586914"
+    latitude_dec: '-12.79636001586914'
     longitude: 45.166244
     longitude_dec: '45.14227294921875'
     max_latitude: -12.5772665

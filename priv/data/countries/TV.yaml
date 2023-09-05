@@ -8,10 +8,11 @@ TV:
   ioc: TUV
   gec: TV
   name: Tuvalu
+  flag: '🇹🇻'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 5
+    - 5
   national_prefix: None
   number: '798'
   region: Oceania
@@ -21,15 +22,15 @@ TV:
   nationality: Tuvaluan
   postal_code: false
   unofficial_names:
-  - Tuvalu
-  - ツバル
+    - Tuvalu
+    - ツバル
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -7.4784205
-    latitude_dec: "-7.471305847167969"
+    latitude_dec: '-7.471305847167969'
     longitude: 178.679924
     longitude_dec: '178.6740264892578'
     max_latitude: -5.4300853

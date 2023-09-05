@@ -8,10 +8,11 @@ MD:
   ioc: MDA
   gec: MD
   name: Moldova (Republic of)
+  flag: '🇲🇩'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '498'
   region: Europe
@@ -21,17 +22,17 @@ MD:
   nationality: Moldovan
   postal_code: true
   unofficial_names:
-  - Moldova
-  - Moldawien
-  - Moldavie
-  - Moldavia
-  - the Republic of Moldova
-  - モルドバ共和国
-  - Moldavië
+    - Moldova
+    - Moldawien
+    - Moldavie
+    - Moldavia
+    - the Republic of Moldova
+    - モルドバ共和国
+    - Moldavië
   languages_official:
-  - ro
+    - ro
   languages_spoken:
-  - ro
+    - ro
   geo:
     latitude: 47.411631
     latitude_dec: '47.203704833984375'

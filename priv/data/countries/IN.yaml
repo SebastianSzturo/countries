@@ -14,10 +14,11 @@ IN:
   ioc: IND
   gec: IN
   name: India
+  flag: '🇮🇳'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '0'
   number: '356'
   region: Asia
@@ -27,16 +28,16 @@ IN:
   nationality: Indian
   postal_code: true
   unofficial_names:
-  - India
-  - Indien
-  - Inde
-  - インド
+    - India
+    - Indien
+    - Inde
+    - インド
   languages_official:
-  - hi
-  - en
+    - hi
+    - en
   languages_spoken:
-  - hi
-  - en
+    - hi
+    - en
   geo:
     latitude: 20.593684
     latitude_dec: '23.4060115814209'

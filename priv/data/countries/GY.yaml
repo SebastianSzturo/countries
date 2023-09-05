@@ -8,11 +8,12 @@ GY:
   ioc: GUY
   gec: GY
   name: Guyana
+  flag: '🇬🇾'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
-  - 7
+    - 6
+    - 7
   national_prefix: None
   number: '328'
   region: Americas
@@ -22,17 +23,17 @@ GY:
   nationality: Guyanese
   postal_code: false
   unofficial_names:
-  - Guyana
-  - ガイアナ
+    - Guyana
+    - ガイアナ
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 4.860416
     latitude_dec: '4.917311191558838'
     longitude: -58.93018
-    longitude_dec: "-58.94346237182617"
+    longitude_dec: '-58.94346237182617'
     max_latitude: 8.722199999999999
     max_longitude: -56.49112
     min_latitude: 1.164724

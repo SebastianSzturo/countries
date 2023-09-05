@@ -13,11 +13,12 @@ JO:
   ioc: JOR
   gec: JO
   name: Jordan
+  flag: '🇯🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '400'
   region: Asia
@@ -27,17 +28,17 @@ JO:
   nationality: Jordanian
   postal_code: true
   unofficial_names:
-  - Jordan
-  - الأردن
-  - Jordanien
-  - Jordanie
-  - Jordania
-  - ヨルダン
-  - Jordanië
+    - Jordan
+    - الأردن
+    - Jordanien
+    - Jordanie
+    - Jordania
+    - ヨルダン
+    - Jordanië
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 30.585164
     latitude_dec: '31.2757625579834'

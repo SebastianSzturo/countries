@@ -8,10 +8,11 @@ LT:
   ioc: LTU
   gec: LH
   name: Lithuania
+  flag: '🇱🇹'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '8'
   number: '440'
   region: Europe
@@ -24,24 +25,24 @@ LT:
   vat_rates:
     standard: 21
     reduced:
-    - 5
-    - 9
-    super_reduced: 
-    parking: 
+      - 5
+      - 9
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Lithuania
-  - Litauen
-  - Lituanie
-  - Lituania
-  - リトアニア
-  - Litouwen
-  - Літва
-  - Lietuva
+    - Lithuania
+    - Litauen
+    - Lituanie
+    - Lituania
+    - リトアニア
+    - Litouwen
+    - Літва
+    - Lietuva
   languages_official:
-  - lt
+    - lt
   languages_spoken:
-  - lt
+    - lt
   geo:
     latitude: 55.169438
     latitude_dec: '55.33871841430664'

@@ -5,13 +5,14 @@ MQ:
   alpha3: MTQ
   country_code: '596'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: MB
   name: Martinique
+  flag: '🇲🇶'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: None
   number: '474'
   region: Americas
@@ -21,18 +22,18 @@ MQ:
   nationality: French
   postal_code: true
   unofficial_names:
-  - Martinique
-  - Martinica
-  - マルティニーク
+    - Martinique
+    - Martinica
+    - マルティニーク
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: 14.641528
     latitude_dec: '14.642807960510254'
     longitude: -61.024174
-    longitude_dec: "-60.97755432128906"
+    longitude_dec: '-60.97755432128906'
     max_latitude: 14.8973451
     max_longitude: -60.7856368
     min_latitude: 14.370834

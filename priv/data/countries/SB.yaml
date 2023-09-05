@@ -8,10 +8,11 @@ SB:
   ioc: SOL
   gec: BP
   name: Solomon Islands
+  flag: '🇸🇧'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 5
+    - 5
   national_prefix: None
   number: 090
   region: Oceania
@@ -21,19 +22,19 @@ SB:
   nationality: Solomon Islander
   postal_code: false
   unofficial_names:
-  - Solomon Islands
-  - Salomonen
-  - Îles Salomon
-  - Islas Salomón
-  - ソロモン諸島
-  - Salomonseilanden
+    - Solomon Islands
+    - Salomonen
+    - Îles Salomon
+    - Islas Salomón
+    - ソロモン諸島
+    - Salomonseilanden
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -9.64571
-    latitude_dec: "-9.548112869262695"
+    latitude_dec: '-9.548112869262695'
     longitude: 160.156194
     longitude_dec: '160.01930236816406'
     max_latitude: -6.075011

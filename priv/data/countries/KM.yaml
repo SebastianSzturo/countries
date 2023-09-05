@@ -8,10 +8,11 @@ KM:
   ioc: COM
   gec: CN
   name: Comoros
+  flag: '🇰🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '174'
   region: Africa
@@ -21,20 +22,20 @@ KM:
   nationality: Comoran
   postal_code: false
   unofficial_names:
-  - Comoros
-  - Union der Komoren
-  - Comores
-  - コモロ
-  - Comoren
+    - Comoros
+    - Union der Komoren
+    - Comores
+    - コモロ
+    - Comoren
   languages_official:
-  - ar
-  - fr
+    - ar
+    - fr
   languages_spoken:
-  - ar
-  - fr
+    - ar
+    - fr
   geo:
     latitude: -11.6455
-    latitude_dec: "-11.86610221862793"
+    latitude_dec: '-11.86610221862793'
     longitude: 43.3333
     longitude_dec: '43.432640075683594'
     max_latitude: -11.3373321

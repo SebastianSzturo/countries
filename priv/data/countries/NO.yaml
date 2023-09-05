@@ -13,10 +13,11 @@
   ioc: NOR
   gec: 'NO'
   name: Norway
+  flag: '🇳🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '578'
   region: Europe
@@ -32,18 +33,18 @@
     parking:
   postal_code: true
   unofficial_names:
-  - Norway
-  - Norwegen
-  - Norvège
-  - Noruega
-  - ノルウェー
-  - Noorwegen
+    - Norway
+    - Norwegen
+    - Norvège
+    - Noruega
+    - ノルウェー
+    - Noorwegen
   languages_official:
-  - nb
-  - nn
+    - nb
+    - nn
   languages_spoken:
-  - nb
-  - nn
+    - nb
+    - nn
   geo:
     latitude: 60.47202399999999
     latitude_dec: '66.76667022705078'

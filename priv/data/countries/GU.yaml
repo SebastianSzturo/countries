@@ -9,10 +9,11 @@ GU:
   ioc: GUM
   gec: GQ
   name: Guam
+  flag: '🇬🇺'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '316'
   region: Oceania
@@ -22,16 +23,16 @@ GU:
   nationality: Guamanian
   postal_code: true
   unofficial_names:
-  - Guam
-  - グアム
+    - Guam
+    - グアム
   languages_official:
-  - en
-  - ch
-  - es
+    - en
+    - ch
+    - es
   languages_spoken:
-  - en
-  - ch
-  - es
+    - en
+    - ch
+    - es
   geo:
     latitude: 13.444304
     latitude_dec: '13.42112922668457'

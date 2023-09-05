@@ -8,11 +8,12 @@ MC:
   ioc: MON
   gec: MN
   name: Monaco
+  flag: '🇲🇨'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '492'
   region: Europe
@@ -22,13 +23,13 @@ MC:
   nationality: Monegasque
   postal_code: true
   unofficial_names:
-  - Monaco
-  - Mónaco
-  - モナコ
+    - Monaco
+    - Mónaco
+    - モナコ
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: 43.73841760000001
     latitude_dec: '43.738929748535156'

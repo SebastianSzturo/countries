@@ -8,10 +8,11 @@ FM:
   ioc: FSM
   gec: FM
   name: Micronesia (Federated States of)
+  flag: '🇫🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: '1'
   number: '583'
   region: Oceania
@@ -21,15 +22,15 @@ FM:
   nationality: Micronesian
   postal_code: true
   unofficial_names:
-  - Micronesia
-  - Mikronesien
-  - Micronésie
-  - ミクロネシア連邦
-  - Micronesië
+    - Micronesia
+    - Mikronesien
+    - Micronésie
+    - ミクロネシア連邦
+    - Micronesië
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 6.8874813
     latitude_dec: '6.869349002838135'

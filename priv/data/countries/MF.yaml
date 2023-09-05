@@ -5,9 +5,10 @@ MF:
   alpha3: MAF
   country_code: '590'
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: RN
   name: Saint Martin (French part)
+  flag: '🇲🇫'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,22 +20,22 @@ MF:
   nationality: Saint Martin Islander
   postal_code: true
   unofficial_names:
-  - Saint Martin
-  - サン・マルタン（フランス領）
-  - Saint-Martin
+    - Saint Martin
+    - サン・マルタン（フランス領）
+    - Saint-Martin
   languages_official:
-  - en
-  - fr
-  - nl
+    - en
+    - fr
+    - nl
   languages_spoken:
-  - en
-  - fr
-  - nl
+    - en
+    - fr
+    - nl
   geo:
     latitude: 18.08255
     latitude_dec: '18.042224884033203'
     longitude: -63.05225100000001
-    longitude_dec: "-63.06623458862305"
+    longitude_dec: '-63.06623458862305'
     max_latitude: 18.1356001
     max_longitude: -62.9613001
     min_latitude: 18.0462883

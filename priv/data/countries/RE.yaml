@@ -5,13 +5,14 @@ RE:
   alpha3: REU
   country_code: '262'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: RE
   name: Réunion
+  flag: '🇷🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: None
   number: '638'
   region: Africa
@@ -21,17 +22,17 @@ RE:
   nationality: French
   postal_code: true
   unofficial_names:
-  - Réunion
-  - Reunión
-  - Reunion
-  - レユニオン
+    - Réunion
+    - Reunión
+    - Reunion
+    - レユニオン
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: -21.115141
-    latitude_dec: "-21.146299362182617"
+    latitude_dec: '-21.146299362182617'
     longitude: 55.536384
     longitude_dec: '55.631248474121094'
     max_latitude: -20.8671529

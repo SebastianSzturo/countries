@@ -8,10 +8,11 @@ KI:
   ioc: KIR
   gec: KR
   name: Kiribati
+  flag: '🇰🇮'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 5
+    - 5
   national_prefix: None
   number: '296'
   region: Oceania
@@ -21,17 +22,17 @@ KI:
   nationality: I-Kiribati
   postal_code: false
   unofficial_names:
-  - Kiribati
-  - キリバス
+    - Kiribati
+    - キリバス
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 1.8708833
     latitude_dec: '1.842833161354065'
     longitude: -157.3630262
-    longitude_dec: "-157.6758270263672"
+    longitude_dec: '-157.6758270263672'
     max_latitude: 5.4082108
     max_longitude: -144.2285156
     min_latitude: -14.0939572

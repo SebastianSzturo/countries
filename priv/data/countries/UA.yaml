@@ -14,11 +14,12 @@ UA:
   ioc: UKR
   gec: UP
   name: Ukraine
+  flag: '🇺🇦'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '8'
   number: '804'
   region: Europe
@@ -30,21 +31,21 @@ UA:
     standard: 20
     reduced:
       - 7
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Ukraine
-  - Ucrania
-  - ウクライナ
-  - Oekraïne
-  - Украина
-  - Україна
-  - Украіна
+    - Ukraine
+    - Ucrania
+    - ウクライナ
+    - Oekraïne
+    - Украина
+    - Україна
+    - Украіна
   languages_official:
-  - uk
+    - uk
   languages_spoken:
-  - uk
+    - uk
   geo:
     latitude: 48.379433
     latitude_dec: '48.92656326293945'

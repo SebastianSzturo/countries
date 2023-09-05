@@ -8,10 +8,11 @@ TL:
   ioc: TLS
   gec: TT
   name: Timor-Leste
+  flag: '🇹🇱'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '626'
   region: Asia
@@ -21,19 +22,19 @@ TL:
   nationality: East Timorese
   postal_code: false
   unofficial_names:
-  - East Timor
-  - Timor-Leste
-  - Timor oriental
-  - Timor Oriental
-  - 東ティモール
-  - Oost-Timor
+    - East Timor
+    - Timor-Leste
+    - Timor oriental
+    - Timor Oriental
+    - 東ティモール
+    - Oost-Timor
   languages_official:
-  - pt
+    - pt
   languages_spoken:
-  - pt
+    - pt
   geo:
     latitude: -8.874217
-    latitude_dec: "-8.804786682128906"
+    latitude_dec: '-8.804786682128906'
     longitude: 125.727539
     longitude_dec: '126.07902526855469'
     max_latitude: -8.048399999999999

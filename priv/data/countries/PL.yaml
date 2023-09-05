@@ -14,10 +14,11 @@ PL:
   ioc: POL
   gec: PL
   name: Poland
+  flag: '🇵🇱'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '616'
   region: Europe
@@ -30,22 +31,22 @@ PL:
   vat_rates:
     standard: 23
     reduced:
-    - 5
-    - 8
-    super_reduced: 
-    parking: 
+      - 5
+      - 8
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Poland
-  - Polen
-  - Pologne
-  - Polonia
-  - ポーランド
-  - Polska
+    - Poland
+    - Polen
+    - Pologne
+    - Polonia
+    - ポーランド
+    - Polska
   languages_official:
-  - pl
+    - pl
   languages_spoken:
-  - pl
+    - pl
   geo:
     latitude: 51.919438
     latitude_dec: '52.147850036621094'

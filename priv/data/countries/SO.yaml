@@ -8,11 +8,12 @@ SO:
   ioc: SOM
   gec: SO
   name: Somalia
+  flag: '🇸🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: None
   number: '706'
   region: Africa
@@ -22,16 +23,16 @@ SO:
   nationality: Somali
   postal_code: false
   unofficial_names:
-  - Somalia
-  - الصومال
-  - ソマリア
-  - Somalië
+    - Somalia
+    - الصومال
+    - ソマリア
+    - Somalië
   languages_official:
-  - so
-  - ar
+    - so
+    - ar
   languages_spoken:
-  - so
-  - ar
+    - so
+    - ar
   geo:
     latitude: 5.152149
     latitude_dec: '5.948267459869385'

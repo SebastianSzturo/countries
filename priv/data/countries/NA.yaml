@@ -9,11 +9,12 @@ NA:
   ioc: NAM
   gec: WA
   name: Namibia
+  flag: '🇳🇦'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
-  - 7
+    - 6
+    - 7
   national_prefix: '0'
   number: '516'
   region: Africa
@@ -23,19 +24,19 @@ NA:
   nationality: Namibian
   postal_code: true
   unofficial_names:
-  - Namibia
-  - Namibie
-  - ナミビア
-  - Namibië
+    - Namibia
+    - Namibie
+    - ナミビア
+    - Namibië
   languages_official:
-  - en
-  - af
+    - en
+    - af
   languages_spoken:
-  - en
-  - af
+    - en
+    - af
   geo:
     latitude: -22.95764
-    latitude_dec: "-22.150699615478516"
+    latitude_dec: '-22.150699615478516'
     longitude: 18.49041
     longitude_dec: '17.177526473999023'
     max_latitude: -16.9634851

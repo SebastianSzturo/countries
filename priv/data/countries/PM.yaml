@@ -5,13 +5,14 @@ PM:
   alpha3: SPM
   country_code: '508'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: SB
   name: Saint Pierre and Miquelon
+  flag: '🇵🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
+    - 6
   national_prefix: '0'
   number: '666'
   region: Americas
@@ -21,21 +22,21 @@ PM:
   nationality: French
   postal_code: true
   unofficial_names:
-  - Saint Pierre and Miquelon
-  - Saint-Pierre und Miquelon
-  - Saint-Pierre-et-Miquelon
-  - San Pedro y Miquelón
-  - サンピエール島・ミクロン島
-  - Saint Pierre en Miquelon
+    - Saint Pierre and Miquelon
+    - Saint-Pierre und Miquelon
+    - Saint-Pierre-et-Miquelon
+    - San Pedro y Miquelón
+    - サンピエール島・ミクロン島
+    - Saint Pierre en Miquelon
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: 46.8852
     latitude_dec: '46.90594482421875'
     longitude: -56.3159
-    longitude_dec: "-56.336585998535156"
+    longitude_dec: '-56.336585998535156'
     max_latitude: 47.21579999999999
     max_longitude: -55.98249999999999
     min_latitude: 46.7003
