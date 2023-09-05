@@ -8,10 +8,11 @@ BY:
   ioc: BLR
   gec: BO
   name: Belarus
+  flag: '🇧🇾'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '8'
   number: '112'
   region: Europe
@@ -21,19 +22,19 @@ BY:
   nationality: Belarusian
   postal_code: true
   unofficial_names:
-  - Belarus
-  - Weißrussland
-  - Biélorussie
-  - Bielorrusia
-  - ベラルーシ
-  - Wit-Rusland
-  - Беларусь
+    - Belarus
+    - Weißrussland
+    - Biélorussie
+    - Bielorrusia
+    - ベラルーシ
+    - Wit-Rusland
+    - Беларусь
   languages_official:
-  - be
-  - ru
+    - be
+    - ru
   languages_spoken:
-  - be
-  - ru
+    - be
+    - ru
   geo:
     latitude: 53.709807
     latitude_dec: '53.54347229003906'

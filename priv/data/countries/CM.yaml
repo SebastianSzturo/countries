@@ -8,10 +8,11 @@ CM:
   ioc: CMR
   gec: CM
   name: Cameroon
+  flag: '🇨🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '120'
   region: Africa
@@ -21,18 +22,18 @@ CM:
   nationality: Cameroonian
   postal_code: false
   unofficial_names:
-  - Cameroon
-  - Kamerun
-  - Cameroun
-  - Camerún
-  - カメルーン
-  - Kameroen
+    - Cameroon
+    - Kamerun
+    - Cameroun
+    - Camerún
+    - カメルーン
+    - Kameroen
   languages_official:
-  - en
-  - fr
+    - en
+    - fr
   languages_spoken:
-  - en
-  - fr
+    - en
+    - fr
   geo:
     latitude: 7.369721999999999
     latitude_dec: '5.685476779937744'

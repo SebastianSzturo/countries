@@ -13,12 +13,13 @@ AE:
   ioc: UAE
   gec: AE
   name: United Arab Emirates
+  flag: '🇦🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
-  - 9
+    - 7
+    - 8
+    - 9
   national_prefix: '0'
   number: '784'
   region: Asia
@@ -29,21 +30,21 @@ AE:
   vat_rates:
     standard: 5
     reduced: []
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: false
   unofficial_names:
-  - United Arab Emirates
-  - الإمارات العربية المتحدة
-  - Vereinigte Arabische Emirate
-  - Émirats Arabes Unis
-  - Emiratos Árabes Unidos
-  - アラブ首長国連邦
-  - Verenigde Arabische Emiraten
+    - United Arab Emirates
+    - الإمارات العربية المتحدة
+    - Vereinigte Arabische Emirate
+    - Émirats Arabes Unis
+    - Emiratos Árabes Unidos
+    - アラブ首長国連邦
+    - Verenigde Arabische Emiraten
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 23.424076
     latitude_dec: '23.684776306152344'

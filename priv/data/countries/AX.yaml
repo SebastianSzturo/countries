@@ -5,9 +5,10 @@ AX:
   alpha3: ALA
   country_code: '358'
   international_prefix: ''
-  ioc: 
-  gec: 
+  ioc:
+  gec:
   name: Åland Islands
+  flag: '🇦🇽'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,14 +20,14 @@ AX:
   nationality: Swedish
   postal_code: true
   unofficial_names:
-  - Åland Islands
-  - Åland
-  - オーランド諸島
-  - Ålandeilanden
+    - Åland Islands
+    - Åland
+    - オーランド諸島
+    - Ålandeilanden
   languages_official:
-  - sv
+    - sv
   languages_spoken:
-  - sv
+    - sv
   geo:
     latitude: 60.1785247
     latitude_dec: '60.2023811340332'

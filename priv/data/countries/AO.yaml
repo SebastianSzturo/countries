@@ -8,10 +8,11 @@ AO:
   ioc: ANG
   gec: AO
   name: Angola
+  flag: '🇦🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '024'
   region: Africa
@@ -21,15 +22,15 @@ AO:
   nationality: Angolan
   postal_code: false
   unofficial_names:
-  - Angola
-  - アンゴラ
+    - Angola
+    - アンゴラ
   languages_official:
-  - pt
+    - pt
   languages_spoken:
-  - pt
+    - pt
   geo:
     latitude: 47.516231
-    latitude_dec: "-12.333555221557617"
+    latitude_dec: '-12.333555221557617'
     longitude: 14.550072
     longitude_dec: '17.539464950561523'
     max_latitude: 49.0206081

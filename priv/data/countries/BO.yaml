@@ -8,10 +8,11 @@ BO:
   ioc: BOL
   gec: BL
   name: Bolivia (Plurinational State of)
+  flag: '🇧🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '010'
   number: 068
   region: Americas
@@ -21,23 +22,23 @@ BO:
   nationality: Bolivian
   postal_code: false
   unofficial_names:
-  - Bolivia
-  - Bolivien
-  - Bolivie
-  - ボリビア多民族国
+    - Bolivia
+    - Bolivien
+    - Bolivie
+    - ボリビア多民族国
   languages_official:
-  - es
-  - ay
-  - qu
+    - es
+    - ay
+    - qu
   languages_spoken:
-  - es
-  - ay
-  - qu
+    - es
+    - ay
+    - qu
   geo:
     latitude: -16.290154
-    latitude_dec: "-16.713054656982422"
+    latitude_dec: '-16.713054656982422'
     longitude: -63.58865299999999
-    longitude_dec: "-64.6666488647461"
+    longitude_dec: '-64.6666488647461'
     max_latitude: -9.669323
     max_longitude: -57.453803
     min_latitude: -22.8980899

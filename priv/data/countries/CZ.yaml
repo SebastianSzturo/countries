@@ -13,10 +13,11 @@ CZ:
   ioc: CZE
   gec: EZ
   name: Czech Republic
+  flag: '🇨🇿'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: None
   number: '203'
   region: Europe
@@ -29,25 +30,25 @@ CZ:
   vat_rates:
     standard: 21
     reduced:
-    - 15
-    super_reduced: 
-    parking: 
+      - 15
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Czech Republic
-  - Tschechische Republik
-  - République Tchèque
-  - República Checa
-  - チェコ
-  - Tsjechië
-  - Czechia
-  - Česko
+    - Czech Republic
+    - Tschechische Republik
+    - République Tchèque
+    - República Checa
+    - チェコ
+    - Tsjechië
+    - Czechia
+    - Česko
   languages_official:
-  - cs
-  - sk
+    - cs
+    - sk
   languages_spoken:
-  - cs
-  - sk
+    - cs
+    - sk
   geo:
     latitude: 49.81749199999999
     latitude_dec: '49.739105224609375'

@@ -8,10 +8,11 @@ CU:
   ioc: CUB
   gec: CU
   name: Cuba
+  flag: '🇨🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '192'
   region: Americas
@@ -21,18 +22,18 @@ CU:
   nationality: Cuban
   postal_code: true
   unofficial_names:
-  - Cuba
-  - Kuba
-  - キューバ
+    - Cuba
+    - Kuba
+    - キューバ
   languages_official:
-  - es
+    - es
   languages_spoken:
-  - es
+    - es
   geo:
     latitude: 21.521757
     latitude_dec: '22.066335678100586'
     longitude: -77.781167
-    longitude_dec: "-79.4531478881836"
+    longitude_dec: '-79.4531478881836'
     max_latitude: 23.3776001
     max_longitude: -73.9545
     min_latitude: 19.6529001

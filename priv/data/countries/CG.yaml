@@ -8,10 +8,11 @@ CG:
   ioc: CGO
   gec: CF
   name: Congo
+  flag: '🇨🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '178'
   region: Africa
@@ -21,20 +22,20 @@ CG:
   nationality: Congolese
   postal_code: false
   unofficial_names:
-  - Congo
-  - Kongo
-  - コンゴ共和国
-  - Congo [Republiek]
-  - Congo, Republic of
+    - Congo
+    - Kongo
+    - コンゴ共和国
+    - Congo [Republiek]
+    - Congo, Republic of
   languages_official:
-  - fr
-  - ln
+    - fr
+    - ln
   languages_spoken:
-  - fr
-  - ln
+    - fr
+    - ln
   geo:
     latitude: -0.228021
-    latitude_dec: "-2.879866123199463"
+    latitude_dec: '-2.879866123199463'
     longitude: 15.827659
     longitude_dec: '23.6563777923584'
     max_latitude: 3.707791

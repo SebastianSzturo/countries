@@ -6,10 +6,11 @@ BQ:
   country_code: '599'
   international_prefix: '00'
   name: Bonaire, Sint Eustatius and Saba
+  flag: ''
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: '0'
   number: '535'
   region: Americas
@@ -19,21 +20,21 @@ BQ:
   nationality: Dutch
   postal_code: true
   unofficial_names:
-  - Bonaire, Sint Eustatius and Saba
-  - Caribbean Netherlands
-  - Caribisch Nederland
-  - ボネール、シント・ユースタティウスおよびサバ
+    - Bonaire, Sint Eustatius and Saba
+    - Caribbean Netherlands
+    - Caribisch Nederland
+    - ボネール、シント・ユースタティウスおよびサバ
   languages_official:
-  - nl
-  - en
+    - nl
+    - en
   languages_spoken:
-  - nl
-  - en
+    - nl
+    - en
   geo:
     latitude: 12.1783611
     latitude_dec: '12.178361'
     longitude: -68.2385339
-    longitude_dec: "-68.238534"
+    longitude_dec: '-68.238534'
     max_latitude: 17.6606999
     max_longitude: -62.9228
     min_latitude: 11.9641

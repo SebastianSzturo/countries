@@ -8,10 +8,11 @@ BF:
   ioc: BUR
   gec: UV
   name: Burkina Faso
+  flag: '🇧🇫'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '854'
   region: Africa
@@ -21,19 +22,19 @@ BF:
   nationality: Burkinabe
   postal_code: false
   unofficial_names:
-  - Burkina Faso
-  - ブルキナファソ
+    - Burkina Faso
+    - ブルキナファソ
   languages_official:
-  - fr
-  - ff
+    - fr
+    - ff
   languages_spoken:
-  - fr
-  - ff
+    - fr
+    - ff
   geo:
     latitude: 12.238333
     latitude_dec: '12.284985542297363'
     longitude: -1.561593
-    longitude_dec: "-1.745560646057129"
+    longitude_dec: '-1.745560646057129'
     max_latitude: 15.0840032
     max_longitude: 2.4043598
     min_latitude: 9.4104719

@@ -8,11 +8,12 @@ AZ:
   ioc: AZE
   gec: AJ
   name: Azerbaijan
+  flag: '🇦🇿'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '8'
   number: '031'
   region: Asia
@@ -22,18 +23,18 @@ AZ:
   nationality: Azerbaijani
   postal_code: true
   unofficial_names:
-  - Azerbaijan
-  - Aserbaidschan
-  - Azerbaïdjan
-  - Azerbaiyán
-  - アゼルバイジャン
-  - Azerbeidzjan
+    - Azerbaijan
+    - Aserbaidschan
+    - Azerbaïdjan
+    - Azerbaiyán
+    - アゼルバイジャン
+    - Azerbeidzjan
   languages_official:
-  - az
-  - hy
+    - az
+    - hy
   languages_spoken:
-  - az
-  - hy
+    - az
+    - hy
   geo:
     latitude: 40.143105
     latitude_dec: '40.33100509643555'

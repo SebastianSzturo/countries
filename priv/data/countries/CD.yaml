@@ -8,10 +8,11 @@ CD:
   ioc: COD
   gec: CG
   name: Congo (Democratic Republic of the)
+  flag: '🇨🇩'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '180'
   region: Africa
@@ -21,29 +22,29 @@ CD:
   nationality: Congolese
   postal_code: false
   unofficial_names:
-  - Congo (Dem. Rep.)
-  - Kongo (Dem. Rep.)
-  - Congo (Rep. Dem.)
-  - コンゴ民主共和国
-  - Congo [DRC]
-  - Congo (The Democratic Republic Of The)
-  - Democratic Republic of the Congo
-  - Congo, Democratic Republic of
+    - Congo (Dem. Rep.)
+    - Kongo (Dem. Rep.)
+    - Congo (Rep. Dem.)
+    - コンゴ民主共和国
+    - Congo [DRC]
+    - Congo (The Democratic Republic Of The)
+    - Democratic Republic of the Congo
+    - Congo, Democratic Republic of
   languages_official:
-  - fr
-  - ln
-  - kg
-  - sw
-  - lu
+    - fr
+    - ln
+    - kg
+    - sw
+    - lu
   languages_spoken:
-  - fr
-  - ln
-  - kg
-  - sw
-  - lu
+    - fr
+    - ln
+    - kg
+    - sw
+    - lu
   geo:
     latitude: -4.038333
-    latitude_dec: "-2.879866123199463"
+    latitude_dec: '-2.879866123199463'
     longitude: 21.758664
     longitude_dec: '23.6563777923584'
     max_latitude: 5.3920029

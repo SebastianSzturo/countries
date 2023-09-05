@@ -8,10 +8,11 @@ CY:
   ioc: CYP
   gec: CY
   name: Cyprus
+  flag: '🇨🇾'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '196'
   region: Asia
@@ -24,27 +25,27 @@ CY:
   vat_rates:
     standard: 19
     reduced:
-    - 5
-    - 9
-    super_reduced: 
-    parking: 
+      - 5
+      - 9
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Cyprus
-  - Zypern
-  - Chypre
-  - Chipre
-  - キプロス
-  - Κύπρος
-  - Kıbrıs
+    - Cyprus
+    - Zypern
+    - Chypre
+    - Chipre
+    - キプロス
+    - Κύπρος
+    - Kıbrıs
   languages_official:
-  - el
-  - tr
-  - hy
+    - el
+    - tr
+    - hy
   languages_spoken:
-  - el
-  - tr
-  - hy
+    - el
+    - tr
+    - hy
   geo:
     latitude: 35.126413
     latitude_dec: '35.11473846435547'

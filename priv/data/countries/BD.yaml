@@ -8,10 +8,11 @@ BD:
   ioc: BAN
   gec: BG
   name: Bangladesh
+  flag: '🇧🇩'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '0'
   number: '050'
   region: Asia
@@ -21,13 +22,13 @@ BD:
   nationality: Bangladeshi
   postal_code: true
   unofficial_names:
-  - Bangladesh
-  - Bangladesch
-  - バングラデシュ
+    - Bangladesh
+    - Bangladesch
+    - バングラデシュ
   languages_official:
-  - bn
+    - bn
   languages_spoken:
-  - bn
+    - bn
   geo:
     latitude: 23.684994
     latitude_dec: '23.730104446411133'

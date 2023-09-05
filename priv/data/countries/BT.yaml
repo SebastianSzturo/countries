@@ -8,11 +8,12 @@ BT:
   ioc: BHU
   gec: BT
   name: Bhutan
+  flag: '🇧🇹'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: None
   number: '064'
   region: Asia
@@ -22,14 +23,14 @@ BT:
   nationality: Bhutanese
   postal_code: true
   unofficial_names:
-  - Bhutan
-  - Bhoutan
-  - Bután
-  - ブータン
+    - Bhutan
+    - Bhoutan
+    - Bután
+    - ブータン
   languages_official:
-  - dz
+    - dz
   languages_spoken:
-  - dz
+    - dz
   geo:
     latitude: 27.514162
     latitude_dec: '27.416879653930664'

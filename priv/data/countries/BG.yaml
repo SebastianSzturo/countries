@@ -13,12 +13,13 @@ BG:
   ioc: BUL
   gec: BU
   name: Bulgaria
+  flag: '🇧🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
-  - 10
+    - 8
+    - 9
+    - 10
   national_prefix: '0'
   number: '100'
   region: Europe
@@ -31,22 +32,22 @@ BG:
   vat_rates:
     standard: 20
     reduced:
-    - 9
-    super_reduced: 
-    parking: 
+      - 9
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Bulgaria
-  - Bulgarien
-  - Bulgarie
-  - ブルガリア
-  - Bulgarije
-  - Bulgariya
-  - България
+    - Bulgaria
+    - Bulgarien
+    - Bulgarie
+    - ブルガリア
+    - Bulgarije
+    - Bulgariya
+    - България
   languages_official:
-  - bg
+    - bg
   languages_spoken:
-  - bg
+    - bg
   geo:
     latitude: 42.733883
     latitude_dec: '42.7661018371582'

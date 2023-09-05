@@ -13,10 +13,11 @@ AU:
   ioc: AUS
   gec: AS
   name: Australia
+  flag: '🇦🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '036'
   region: Oceania
@@ -27,22 +28,22 @@ AU:
   vat_rates:
     standard: 10
     reduced: []
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Australia
-  - Australien
-  - Australie
-  - オーストラリア
-  - Australië
+    - Australia
+    - Australien
+    - Australie
+    - オーストラリア
+    - Australië
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -25.274398
-    latitude_dec: "-25.585241317749023"
+    latitude_dec: '-25.585241317749023'
     longitude: 133.775136
     longitude_dec: '134.50411987304688'
     max_latitude: -9.187026399999999
