@@ -13,10 +13,11 @@ EG:
   ioc: EGY
   gec: EG
   name: Egypt
+  flag: '🇪🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '818'
   region: Africa
@@ -26,17 +27,17 @@ EG:
   nationality: Egyptian
   postal_code: true
   unofficial_names:
-  - Egypt
-  - مصر
-  - Ägypten
-  - Égypte
-  - Egipto
-  - エジプト
-  - Egypte
+    - Egypt
+    - مصر
+    - Ägypten
+    - Égypte
+    - Egipto
+    - エジプト
+    - Egypte
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 26.820553
     latitude_dec: '26.756103515625'

@@ -8,10 +8,11 @@ BJ:
   ioc: BEN
   gec: BN
   name: Benin
+  flag: '🇧🇯'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '204'
   region: Africa
@@ -21,13 +22,13 @@ BJ:
   nationality: Beninese
   postal_code: false
   unofficial_names:
-  - Benin
-  - Bénin
-  - ベナン
+    - Benin
+    - Bénin
+    - ベナン
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: 9.30769
     latitude_dec: '9.624112129211426'

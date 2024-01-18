@@ -6,13 +6,14 @@ SX:
   country_code: '1'
   nanp_prefix: '1721'
   international_prefix: '011'
-  ioc: 
+  ioc:
   gec: NN
   name: Sint Maarten (Dutch part)
+  flag: '🇸🇽'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '0'
   number: '534'
   region: Americas
@@ -22,19 +23,19 @@ SX:
   nationality: Dutch
   postal_code: true
   unofficial_names:
-  - Sint Maarten
-  - セント・マーチン島
+    - Sint Maarten
+    - セント・マーチン島
   languages_official:
-  - nl
-  - en
+    - nl
+    - en
   languages_spoken:
-  - nl
-  - en
+    - nl
+    - en
   geo:
     latitude: 18.04248
     latitude_dec: '18.042224884033203'
     longitude: -63.05483
-    longitude_dec: "-63.06623458862305"
+    longitude_dec: '-63.06623458862305'
     max_latitude: 18.0641707
     max_longitude: -62.9784
     min_latitude: 17.9941

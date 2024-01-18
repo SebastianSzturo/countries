@@ -8,10 +8,11 @@ ME:
   ioc: MNE
   gec: MJ
   name: Montenegro
+  flag: '🇲🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '499'
   region: Europe
@@ -21,20 +22,20 @@ ME:
   nationality: Montenegrin
   postal_code: true
   unofficial_names:
-  - Crna Gora
-  - Montenegro
-  - モンテネグロ
-  - Црна Гора
+    - Crna Gora
+    - Montenegro
+    - モンテネグロ
+    - Црна Гора
   languages_official:
-  - sr
-  - bs
-  - sq
-  - hr
+    - sr
+    - bs
+    - sq
+    - hr
   languages_spoken:
-  - sr
-  - bs
-  - sq
-  - hr
+    - sr
+    - bs
+    - sq
+    - hr
   geo:
     latitude: 42.708678
     latitude_dec: '42.752803802490234'

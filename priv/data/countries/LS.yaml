@@ -9,10 +9,11 @@ LS:
   ioc: LES
   gec: LT
   name: Lesotho
+  flag: '🇱🇸'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '426'
   region: Africa
@@ -22,17 +23,17 @@ LS:
   nationality: Mosotho
   postal_code: true
   unofficial_names:
-  - Lesotho
-  - レソト
+    - Lesotho
+    - レソト
   languages_official:
-  - en
-  - st
+    - en
+    - st
   languages_spoken:
-  - en
-  - st
+    - en
+    - st
   geo:
     latitude: -29.609988
-    latitude_dec: "-29.58175277709961"
+    latitude_dec: '-29.58175277709961'
     longitude: 28.233608
     longitude_dec: '28.246612548828125'
     max_latitude: -28.5708011

@@ -6,13 +6,14 @@ AI:
   country_code: '1'
   nanp_prefix: '1264'
   international_prefix: '011'
-  ioc: 
+  ioc:
   gec: AV
   name: Anguilla
+  flag: '🇦🇮'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '660'
   region: Americas
@@ -22,17 +23,17 @@ AI:
   nationality: Anguillian
   postal_code: true
   unofficial_names:
-  - Anguilla
-  - アンギラ
+    - Anguilla
+    - アンギラ
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 18.220554
     latitude_dec: '18.22646713256836'
     longitude: -63.06861499999999
-    longitude_dec: "-63.0473518371582"
+    longitude_dec: '-63.0473518371582'
     max_latitude: 18.6332326
     max_longitude: -62.91999999999999
     min_latitude: 18.1465043

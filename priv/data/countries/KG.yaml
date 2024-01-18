@@ -8,10 +8,11 @@ KG:
   ioc: KGZ
   gec: KG
   name: Kyrgyzstan
+  flag: '🇰🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '417'
   region: Asia
@@ -21,19 +22,19 @@ KG:
   nationality: Kirghiz
   postal_code: true
   unofficial_names:
-  - Kyrgyzstan
-  - Kirgisistan
-  - Kirghizistan
-  - Kirguizistán
-  - キルギス
-  - Kirgizië
-  - Kyrgzstan
+    - Kyrgyzstan
+    - Kirgisistan
+    - Kirghizistan
+    - Kirguizistán
+    - キルギス
+    - Kirgizië
+    - Kyrgzstan
   languages_official:
-  - ky
-  - ru
+    - ky
+    - ru
   languages_spoken:
-  - ky
-  - ru
+    - ky
+    - ru
   geo:
     latitude: 41.20438
     latitude_dec: '41.46435546875'

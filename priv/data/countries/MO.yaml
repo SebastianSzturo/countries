@@ -5,13 +5,14 @@ MO:
   alpha3: MAC
   country_code: '853'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: MC
   name: Macao
+  flag: '🇲🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '446'
   region: Asia
@@ -21,15 +22,15 @@ MO:
   nationality: Chinese
   postal_code: false
   unofficial_names:
-  - Macao
-  - Macau
-  - マカオ
+    - Macao
+    - Macau
+    - マカオ
   languages_official:
-  - zh
-  - pt
+    - zh
+    - pt
   languages_spoken:
-  - zh
-  - pt
+    - zh
+    - pt
   geo:
     latitude: 22.198745
     latitude_dec: '22.140748977661133'

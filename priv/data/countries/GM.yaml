@@ -8,10 +8,11 @@ GM:
   ioc: GAM
   gec: GA
   name: Gambia
+  flag: '🇬🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '270'
   region: Africa
@@ -21,17 +22,17 @@ GM:
   nationality: Gambian
   postal_code: false
   unofficial_names:
-  - Gambia
-  - ガンビア
+    - Gambia
+    - ガンビア
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 13.443182
     latitude_dec: '13.440265655517578'
     longitude: -15.310139
-    longitude_dec: "-15.490884780883789"
+    longitude_dec: '-15.490884780883789'
     max_latitude: 13.8249497
     max_longitude: -13.7928726
     min_latitude: 13.0098999

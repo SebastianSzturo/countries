@@ -8,10 +8,11 @@ FO:
   ioc: FRO
   gec: FO
   name: Faroe Islands
+  flag: '🇫🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
+    - 6
   national_prefix: None
   number: '234'
   region: Europe
@@ -21,21 +22,21 @@ FO:
   nationality: Faroese
   postal_code: true
   unofficial_names:
-  - Faroe Islands
-  - Färöer-Inseln
-  - Îles Féroé
-  - Islas Faroe
-  - フェロー諸島
-  - Faeröer
+    - Faroe Islands
+    - Färöer-Inseln
+    - Îles Féroé
+    - Islas Faroe
+    - フェロー諸島
+    - Faeröer
   languages_official:
-  - fo
+    - fo
   languages_spoken:
-  - fo
+    - fo
   geo:
     latitude: 61.89263500000001
     latitude_dec: '62.009559631347656'
     longitude: -6.911805999999999
-    longitude_dec: "-6.818255424499512"
+    longitude_dec: '-6.818255424499512'
     max_latitude: 62.4310742
     max_longitude: -6.190795899999999
     min_latitude: 61.3677776

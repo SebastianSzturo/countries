@@ -13,10 +13,11 @@ RO:
   ioc: ROU
   gec: RO
   name: Romania
+  flag: '🇷🇴'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '642'
   region: Europe
@@ -29,23 +30,23 @@ RO:
   vat_rates:
     standard: 19
     reduced:
-    - 5
-    - 9
-    super_reduced: 
-    parking: 
+      - 5
+      - 9
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Romania
-  - Rumänien
-  - Roumanie
-  - Rumania
-  - ルーマニア
-  - Roemenië
-  - România
+    - Romania
+    - Rumänien
+    - Roumanie
+    - Rumania
+    - ルーマニア
+    - Roemenië
+    - România
   languages_official:
-  - ro
+    - ro
   languages_spoken:
-  - ro
+    - ro
   geo:
     latitude: 45.943161
     latitude_dec: '45.83774185180664'

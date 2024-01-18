@@ -8,10 +8,11 @@ MG:
   ioc: MAD
   gec: MA
   name: Madagascar
+  flag: '🇲🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: None
   number: '450'
   region: Africa
@@ -21,19 +22,19 @@ MG:
   nationality: Malagasy
   postal_code: true
   unofficial_names:
-  - Madagascar
-  - Madagaskar
-  - the Republic of Madagascar
-  - マダガスカル
+    - Madagascar
+    - Madagaskar
+    - the Republic of Madagascar
+    - マダガスカル
   languages_official:
-  - fr
-  - mg
+    - fr
+    - mg
   languages_spoken:
-  - fr
-  - mg
+    - fr
+    - mg
   geo:
     latitude: -18.766947
-    latitude_dec: "-19.27239418029785"
+    latitude_dec: '-19.27239418029785'
     longitude: 46.869107
     longitude_dec: '46.69843292236328'
     max_latitude: -11.4369999

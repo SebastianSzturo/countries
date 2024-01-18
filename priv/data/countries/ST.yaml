@@ -8,11 +8,12 @@ ST:
   ioc: STP
   gec: TP
   name: Sao Tome and Principe
+  flag: '🇸🇹'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
-  - 7
+    - 6
+    - 7
   national_prefix: '0'
   number: '678'
   region: Africa
@@ -22,16 +23,16 @@ ST:
   nationality: Sao Tomean
   postal_code: false
   unofficial_names:
-  - São Tomé and Príncipe
-  - São Tomé und Príncipe
-  - São Tomé et Príncipe
-  - Santo Tomé y Príncipe
-  - サントメ・プリンシペ
-  - Sao Tomé en Principe
+    - São Tomé and Príncipe
+    - São Tomé und Príncipe
+    - São Tomé et Príncipe
+    - Santo Tomé y Príncipe
+    - サントメ・プリンシペ
+    - Sao Tomé en Principe
   languages_official:
-  - pt
+    - pt
   languages_spoken:
-  - pt
+    - pt
   geo:
     latitude: 0.18636
     latitude_dec: '0.275555282831192'

@@ -8,13 +8,14 @@ SM:
   ioc: SMR
   gec: SM
   name: San Marino
+  flag: '🇸🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
-  - 10
-  - 11
-  - 12
+    - 9
+    - 10
+    - 11
+    - 12
   national_prefix: None
   number: '674'
   region: Europe
@@ -24,13 +25,13 @@ SM:
   nationality: Sammarinese
   postal_code: true
   unofficial_names:
-  - San Marino
-  - Saint-Marin
-  - サンマリノ
+    - San Marino
+    - Saint-Marin
+    - サンマリノ
   languages_official:
-  - it
+    - it
   languages_spoken:
-  - it
+    - it
   geo:
     latitude: 43.94236
     latitude_dec: '43.938133239746094'

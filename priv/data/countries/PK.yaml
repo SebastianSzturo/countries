@@ -8,11 +8,12 @@ PK:
   ioc: PAK
   gec: PK
   name: Pakistan
+  flag: '🇵🇰'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
-  - 10
+    - 9
+    - 10
   national_prefix: '0'
   number: '586'
   region: Asia
@@ -22,15 +23,15 @@ PK:
   nationality: Pakistani
   postal_code: true
   unofficial_names:
-  - Pakistan
-  - Paquistán
-  - パキスタン
+    - Pakistan
+    - Paquistán
+    - パキスタン
   languages_official:
-  - en
-  - ur
+    - en
+    - ur
   languages_spoken:
-  - en
-  - ur
+    - en
+    - ur
   geo:
     latitude: 30.375321
     latitude_dec: '29.923219680786133'

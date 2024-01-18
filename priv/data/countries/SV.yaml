@@ -8,10 +8,11 @@ SV:
   ioc: ESA
   gec: ES
   name: El Salvador
+  flag: '🇸🇻'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '222'
   region: Americas
@@ -21,18 +22,18 @@ SV:
   nationality: Salvadoran
   postal_code: true
   unofficial_names:
-  - El Salvador
-  - Salvador
-  - エルサルバドル
+    - El Salvador
+    - Salvador
+    - エルサルバドル
   languages_official:
-  - es
+    - es
   languages_spoken:
-  - es
+    - es
   geo:
     latitude: 13.794185
     latitude_dec: '13.671636581420898'
     longitude: -88.89653
-    longitude_dec: "-88.86363220214844"
+    longitude_dec: '-88.86363220214844'
     max_latitude: 14.4505567
     max_longitude: -87.6682
     min_latitude: 13.0473999

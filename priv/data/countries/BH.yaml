@@ -13,10 +13,11 @@ BH:
   ioc: BRN
   gec: BA
   name: Bahrain
+  flag: '🇧🇭'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: 048
   region: Asia
@@ -26,15 +27,15 @@ BH:
   nationality: Bahraini
   postal_code: true
   unofficial_names:
-  - Bahrain
-  - البحرين
-  - Bahreïn
-  - Bahrein
-  - バーレーン
+    - Bahrain
+    - البحرين
+    - Bahreïn
+    - Bahrein
+    - バーレーン
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 26.0667
     latitude_dec: '26.094240188598633'

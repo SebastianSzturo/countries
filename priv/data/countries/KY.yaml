@@ -9,10 +9,11 @@ KY:
   ioc: CAY
   gec: CJ
   name: Cayman Islands
+  flag: '🇰🇾'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '136'
   region: Americas
@@ -22,21 +23,21 @@ KY:
   nationality: Caymanian
   postal_code: true
   unofficial_names:
-  - Cayman Islands
-  - Kaimaninseln
-  - Îles Caïmans
-  - Islas Caimán
-  - ケイマン諸島
-  - Caymaneilanden
+    - Cayman Islands
+    - Kaimaninseln
+    - Îles Caïmans
+    - Islas Caimán
+    - ケイマン諸島
+    - Caymaneilanden
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 19.3133
     latitude_dec: '19.308862686157227'
     longitude: -81.2546
-    longitude_dec: "-81.25680541992188"
+    longitude_dec: '-81.25680541992188'
     max_latitude: 19.7616
     max_longitude: -79.7191
     min_latitude: 19.2538999

@@ -13,11 +13,12 @@ IT:
   ioc: ITA
   gec: IT
   name: Italy
+  flag: '🇮🇹'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 9
-  - 11
+    - 9
+    - 11
   national_prefix: None
   number: '380'
   region: Europe
@@ -30,21 +31,21 @@ IT:
   vat_rates:
     standard: 22
     reduced:
-    - 10
+      - 10
     super_reduced: 4
-    parking: 
+    parking:
   postal_code: true
   unofficial_names:
-  - Italy
-  - Italien
-  - Italie
-  - Italia
-  - イタリア
-  - Italië
+    - Italy
+    - Italien
+    - Italie
+    - Italia
+    - イタリア
+    - Italië
   languages_official:
-  - it
+    - it
   languages_spoken:
-  - it
+    - it
   geo:
     latitude: 41.87194
     latitude_dec: '42.7669792175293'

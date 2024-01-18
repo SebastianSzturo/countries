@@ -8,11 +8,12 @@ AF:
   ioc: AFG
   gec: AF
   name: Afghanistan
+  flag: '🇦🇫'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '004'
   region: Asia
@@ -22,17 +23,17 @@ AF:
   nationality: Afghan
   postal_code: true
   unofficial_names:
-  - Afghanistan
-  - Afganistán
-  - アフガニスタン
+    - Afghanistan
+    - Afganistán
+    - アフガニスタン
   languages_official:
-  - ps
-  - uz
-  - tk
+    - ps
+    - uz
+    - tk
   languages_spoken:
-  - ps
-  - uz
-  - tk
+    - ps
+    - uz
+    - tk
   geo:
     latitude: 33.93911
     latitude_dec: '33.833248138427734'

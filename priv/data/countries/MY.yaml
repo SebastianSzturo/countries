@@ -8,11 +8,12 @@ MY:
   ioc: MAS
   gec: MY
   name: Malaysia
+  flag: '🇲🇾'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
-  - 10
+    - 9
+    - 10
   national_prefix: '0'
   number: '458'
   region: Asia
@@ -22,17 +23,17 @@ MY:
   nationality: Malaysian
   postal_code: true
   unofficial_names:
-  - Malaysia
-  - Malaisie
-  - Malasia
-  - マレーシア
-  - Maleisië
+    - Malaysia
+    - Malaisie
+    - Malasia
+    - マレーシア
+    - Maleisië
   languages_official:
-  - ms
-  - en
+    - ms
+    - en
   languages_spoken:
-  - ms
-  - en
+    - ms
+    - en
   geo:
     latitude: 4.210484
     latitude_dec: '2.5490005016326904'

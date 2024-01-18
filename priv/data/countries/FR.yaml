@@ -13,11 +13,12 @@ FR:
   ioc: FRA
   gec: FR
   name: France
+  flag: '🇫🇷'
   national_destination_code_lengths:
-  - 1
+    - 1
   national_number_lengths:
-  - 9
-  - 10
+    - 9
+    - 10
   national_prefix: '0'
   number: '250'
   region: Europe
@@ -30,22 +31,22 @@ FR:
   vat_rates:
     standard: 20
     reduced:
-    - 5.5
-    - 10
+      - 5.5
+      - 10
     super_reduced: 2.1
-    parking: 
+    parking:
   postal_code: true
   unofficial_names:
-  - France
-  - Frankreich
-  - the French Republic
-  - フランス
-  - Frankrijk
-  - Francia
+    - France
+    - Frankreich
+    - the French Republic
+    - フランス
+    - Frankrijk
+    - Francia
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: 46.227638
     latitude_dec: '46.63727951049805'

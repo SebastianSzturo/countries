@@ -8,10 +8,11 @@ MU:
   ioc: MRI
   gec: MP
   name: Mauritius
+  flag: '🇲🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '480'
   region: Africa
@@ -21,17 +22,17 @@ MU:
   nationality: Mauritian
   postal_code: false
   unofficial_names:
-  - Mauritius
-  - Île Maurice
-  - Mauricio
-  - モーリシャス
+    - Mauritius
+    - Île Maurice
+    - Mauricio
+    - モーリシャス
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -20.348404
-    latitude_dec: "-20.220409393310547"
+    latitude_dec: '-20.220409393310547'
     longitude: 57.55215200000001
     longitude_dec: '57.589378356933594'
     max_latitude: -10.0878538

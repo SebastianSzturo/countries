@@ -8,10 +8,11 @@ LK:
   ioc: SRI
   gec: CE
   name: Sri Lanka
+  flag: '🇱🇰'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '0'
   number: '144'
   region: Asia
@@ -21,14 +22,14 @@ LK:
   nationality: Sri Lankan
   postal_code: true
   unofficial_names:
-  - Sri Lanka
-  - スリランカ
+    - Sri Lanka
+    - スリランカ
   languages_official:
-  - si
-  - ta
+    - si
+    - ta
   languages_spoken:
-  - si
-  - ta
+    - si
+    - ta
   geo:
     latitude: 7.873053999999999
     latitude_dec: '7.789133548736572'

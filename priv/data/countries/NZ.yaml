@@ -14,11 +14,12 @@ NZ:
   ioc: NZL
   gec: NZ
   name: New Zealand
+  flag: '🇳🇿'
   national_destination_code_lengths:
-  - 1
+    - 1
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '554'
   region: Oceania
@@ -30,23 +31,23 @@ NZ:
     standard: 15
     reduced:
       - 9
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - New Zealand
-  - Neuseeland
-  - Nouvelle ZÃ©lande
-  - Nueva Zelanda
-  - ニュージーランド
-  - Nieuw-Zeeland
+    - New Zealand
+    - Neuseeland
+    - Nouvelle ZÃ©lande
+    - Nueva Zelanda
+    - ニュージーランド
+    - Nieuw-Zeeland
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -40.900557
-    latitude_dec: "-44.05629348754883"
+    latitude_dec: '-44.05629348754883'
     longitude: 174.885971
     longitude_dec: '170.35415649414062'
     max_latitude: -28.8773225

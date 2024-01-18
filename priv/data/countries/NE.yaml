@@ -8,10 +8,11 @@ NE:
   ioc: NIG
   gec: NG
   name: Niger
+  flag: '🇳🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '562'
   region: Africa
@@ -21,13 +22,13 @@ NE:
   nationality: Nigerian
   postal_code: true
   unofficial_names:
-  - Niger
-  - Níger
-  - ニジェール
+    - Niger
+    - Níger
+    - ニジェール
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: 17.607789
     latitude_dec: '17.424074172973633'

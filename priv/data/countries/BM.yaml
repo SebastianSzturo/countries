@@ -9,10 +9,11 @@ BM:
   ioc: BER
   gec: BD
   name: Bermuda
+  flag: '🇧🇲'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '060'
   region: Americas
@@ -22,19 +23,19 @@ BM:
   nationality: Bermudian
   postal_code: true
   unofficial_names:
-  - Bermuda
-  - Bermudes
-  - Bermudas
-  - バミューダ
+    - Bermuda
+    - Bermudes
+    - Bermudas
+    - バミューダ
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 32.3078
     latitude_dec: '32.302669525146484'
     longitude: -64.7505
-    longitude_dec: "-64.7516860961914"
+    longitude_dec: '-64.7516860961914'
     max_latitude: 32.3961
     max_longitude: -64.6413999
     min_latitude: 32.2424975

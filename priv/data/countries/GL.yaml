@@ -10,13 +10,14 @@ GL:
   alpha3: GRL
   country_code: '299'
   international_prefix: 009
-  ioc: 
+  ioc:
   gec: GL
   name: Greenland
+  flag: '🇬🇱'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
+    - 6
   national_prefix: None
   number: '304'
   region: Americas
@@ -26,20 +27,20 @@ GL:
   nationality: Greenlandic
   postal_code: true
   unofficial_names:
-  - Greenland
-  - Grönland
-  - Groenland
-  - Groenlandia
-  - グリーンランド
+    - Greenland
+    - Grönland
+    - Groenland
+    - Groenlandia
+    - グリーンランド
   languages_official:
-  - kl
+    - kl
   languages_spoken:
-  - kl
+    - kl
   geo:
     latitude: 71.706936
     latitude_dec: '74.34954833984375'
     longitude: -42.604303
-    longitude_dec: "-41.08988952636719"
+    longitude_dec: '-41.08988952636719'
     max_latitude: 83.97025599999999
     max_longitude: -8.2617197
     min_latitude: 58.26329

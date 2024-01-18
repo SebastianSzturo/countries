@@ -8,10 +8,11 @@ LI:
   ioc: LIE
   gec: LS
   name: Liechtenstein
+  flag: '🇱🇮'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '438'
   region: Europe
@@ -22,12 +23,12 @@ LI:
   eea_member: true
   postal_code: true
   unofficial_names:
-  - Liechtenstein
-  - リヒテンシュタイン
+    - Liechtenstein
+    - リヒテンシュタイン
   languages_official:
-  - de
+    - de
   languages_spoken:
-  - de
+    - de
   geo:
     latitude: 47.166
     latitude_dec: '47.14126968383789'

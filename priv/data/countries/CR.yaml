@@ -8,10 +8,11 @@ CR:
   ioc: CRC
   gec: CS
   name: Costa Rica
+  flag: '🇨🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '188'
   region: Americas
@@ -21,17 +22,17 @@ CR:
   nationality: Costa Rican
   postal_code: true
   unofficial_names:
-  - Costa Rica
-  - コスタリカ
+    - Costa Rica
+    - コスタリカ
   languages_official:
-  - es
+    - es
   languages_spoken:
-  - es
+    - es
   geo:
     latitude: 9.748916999999999
     latitude_dec: '9.884991645812988'
     longitude: -83.753428
-    longitude_dec: "-84.22723388671875"
+    longitude_dec: '-84.22723388671875'
     max_latitude: 11.2196808
     max_longitude: -82.51830009999999
     min_latitude: 5.496099999999999

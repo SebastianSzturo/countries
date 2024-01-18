@@ -13,10 +13,11 @@ SE:
   ioc: SWE
   gec: SW
   name: Sweden
+  flag: '🇸🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '752'
   region: Europe
@@ -29,22 +30,22 @@ SE:
   vat_rates:
     standard: 25
     reduced:
-    - 6
-    - 12
-    super_reduced: 
-    parking: 
+      - 6
+      - 12
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Sweden
-  - Schweden
-  - Suède
-  - Suecia
-  - スウェーデン
-  - Zweden
+    - Sweden
+    - Schweden
+    - Suède
+    - Suecia
+    - スウェーデン
+    - Zweden
   languages_official:
-  - sv
+    - sv
   languages_spoken:
-  - sv
+    - sv
   geo:
     latitude: 60.12816100000001
     latitude_dec: '62.67497253417969'

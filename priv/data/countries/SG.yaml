@@ -13,11 +13,12 @@ SG:
   ioc: SGP
   gec: SN
   name: Singapore
+  flag: '🇸🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: None
   number: '702'
   region: Asia
@@ -27,18 +28,18 @@ SG:
   nationality: Singaporean
   postal_code: true
   unofficial_names:
-  - Singapore
-  - Singapur
-  - Singapour
-  - シンガポール
+    - Singapore
+    - Singapur
+    - Singapour
+    - シンガポール
   languages_official:
-  - en
-  - ms
-  - ta
+    - en
+    - ms
+    - ta
   languages_spoken:
-  - en
-  - ms
-  - ta
+    - en
+    - ms
+    - ta
   geo:
     latitude: 1.352083
     latitude_dec: '1.3219958543777466'

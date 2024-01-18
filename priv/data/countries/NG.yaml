@@ -8,11 +8,12 @@ NG:
   ioc: NGR
   gec: NI
   name: Nigeria
+  flag: '🇳🇬'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: '0'
   number: '566'
   region: Africa
@@ -23,18 +24,18 @@ NG:
   vat_rates:
     standard: 7.5
     reduced: []
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Nigeria
-  - Nigéria
-  - the Federal Republic of Nigeria
-  - ナイジェリア
+    - Nigeria
+    - Nigéria
+    - the Federal Republic of Nigeria
+    - ナイジェリア
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 9.081999
     latitude_dec: '9.559505462646484'

@@ -8,10 +8,11 @@ PR:
   ioc: PUR
   gec: RQ
   name: Puerto Rico
+  flag: '🇵🇷'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: '630'
   region: Americas
@@ -21,19 +22,19 @@ PR:
   nationality: Puerto Rican
   postal_code: true
   unofficial_names:
-  - Puerto Rico
-  - プエルトリコ
+    - Puerto Rico
+    - プエルトリコ
   languages_official:
-  - es
-  - en
+    - es
+    - en
   languages_spoken:
-  - es
-  - en
+    - es
+    - en
   geo:
     latitude: 18.220833
     latitude_dec: '18.2491397857666'
     longitude: -66.590149
-    longitude_dec: "-66.62803649902344"
+    longitude_dec: '-66.62803649902344'
     max_latitude: 18.5160099
     max_longitude: -65.2211099
     min_latitude: 17.88124

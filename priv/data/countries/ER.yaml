@@ -8,10 +8,11 @@ ER:
   ioc: ERI
   gec: ER
   name: Eritrea
+  flag: '🇪🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: '0'
   number: '232'
   region: Africa
@@ -21,18 +22,18 @@ ER:
   nationality: Eritrean
   postal_code: false
   unofficial_names:
-  - Eritrea
-  - إريتريا
-  - Érythrée
-  - エリトリア
+    - Eritrea
+    - إريتريا
+    - Érythrée
+    - エリトリア
   languages_official:
-  - en
-  - ar
-  - ti
+    - en
+    - ar
+    - ti
   languages_spoken:
-  - en
-  - ar
-  - ti
+    - en
+    - ar
+    - ti
   geo:
     latitude: 15.179384
     latitude_dec: '15.397199630737305'

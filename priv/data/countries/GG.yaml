@@ -5,9 +5,10 @@ GG:
   alpha3: GGY
   country_code: '44'
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: GK
   name: Guernsey
+  flag: '🇬🇬'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,23 +20,23 @@ GG:
   nationality: Channel Islander
   postal_code: true
   unofficial_names:
-  - Guernsey and Alderney
-  - Guernsey und Alderney
-  - Guernsey et Alderney
-  - Guernsey y Alderney
-  - ガーンジー
-  - Guernsey
+    - Guernsey and Alderney
+    - Guernsey und Alderney
+    - Guernsey et Alderney
+    - Guernsey y Alderney
+    - ガーンジー
+    - Guernsey
   languages_official:
-  - en
-  - fr
+    - en
+    - fr
   languages_spoken:
-  - en
-  - fr
+    - en
+    - fr
   geo:
     latitude: 49.465691
     latitude_dec: '49.72008514404297'
     longitude: -2.585278
-    longitude_dec: "-2.1999685764312744"
+    longitude_dec: '-2.1999685764312744'
     max_latitude: 49.7345001
     max_longitude: -2.1563
     min_latitude: 49.3969001

@@ -14,10 +14,11 @@ DK:
   ioc: DEN
   gec: DA
   name: Denmark
+  flag: '🇩🇰'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '208'
   region: Europe
@@ -30,21 +31,21 @@ DK:
   vat_rates:
     standard: 25
     reduced: []
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Denmark
-  - Dänemark
-  - Danemark
-  - Dinamarca
-  - デンマーク
-  - Denemarken
-  - Danmark
+    - Denmark
+    - Dänemark
+    - Danemark
+    - Dinamarca
+    - デンマーク
+    - Denemarken
+    - Danmark
   languages_official:
-  - da
+    - da
   languages_spoken:
-  - da
+    - da
   geo:
     latitude: 56.26392
     latitude_dec: '56.10176086425781'

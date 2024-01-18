@@ -13,18 +13,19 @@ AT:
   ioc: AUT
   gec: AU
   name: Austria
+  flag: '🇦🇹'
   national_destination_code_lengths:
-  - 1
-  - 2
-  - 3
+    - 1
+    - 2
+    - 3
   national_number_lengths:
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
   national_prefix: '0'
   number: '040'
   region: Europe
@@ -37,20 +38,20 @@ AT:
   vat_rates:
     standard: 20
     reduced:
-    - 10
-    super_reduced: 
+      - 10
+    super_reduced:
     parking: 12
   postal_code: true
   unofficial_names:
-  - Austria
-  - Österreich
-  - Autriche
-  - オーストリア
-  - Oostenrijk
+    - Austria
+    - Österreich
+    - Autriche
+    - オーストリア
+    - Oostenrijk
   languages_official:
-  - de
+    - de
   languages_spoken:
-  - de
+    - de
   geo:
     latitude: 47.516231
     latitude_dec: '47.58843994140625'

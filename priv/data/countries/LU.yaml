@@ -13,10 +13,11 @@ LU:
   ioc: LUX
   gec: LU
   name: Luxembourg
+  flag: '🇱🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: None
   number: '442'
   region: Europe
@@ -29,25 +30,25 @@ LU:
   vat_rates:
     standard: 17
     reduced:
-    - 8
-    - 14
+      - 8
+      - 14
     super_reduced: 3
     parking: 12
   postal_code: true
   unofficial_names:
-  - Luxembourg
-  - Luxemburg
-  - Luxemburgo
-  - ルクセンブルク
-  - Lëtezebuerg
+    - Luxembourg
+    - Luxemburg
+    - Luxemburgo
+    - ルクセンブルク
+    - Lëtezebuerg
   languages_official:
-  - fr
-  - de
-  - lb
+    - fr
+    - de
+    - lb
   languages_spoken:
-  - fr
-  - de
-  - lb
+    - fr
+    - de
+    - lb
   geo:
     latitude: 49.815273
     latitude_dec: '49.77788162231445'

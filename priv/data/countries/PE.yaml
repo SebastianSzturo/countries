@@ -8,11 +8,12 @@ PE:
   ioc: PER
   gec: PE
   name: Peru
+  flag: '🇵🇪'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '604'
   region: Americas
@@ -22,19 +23,19 @@ PE:
   nationality: Peruvian
   postal_code: true
   unofficial_names:
-  - Peru
-  - Pérou
-  - Perú
-  - ペルー
+    - Peru
+    - Pérou
+    - Perú
+    - ペルー
   languages_official:
-  - es
+    - es
   languages_spoken:
-  - es
+    - es
   geo:
     latitude: -9.189967
-    latitude_dec: "-9.212532997131348"
+    latitude_dec: '-9.212532997131348'
     longitude: -75.015152
-    longitude_dec: "-74.422119140625"
+    longitude_dec: '-74.422119140625'
     max_latitude: -0.038777
     max_longitude: -68.652329
     min_latitude: -18.4483

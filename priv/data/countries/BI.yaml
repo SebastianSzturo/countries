@@ -8,10 +8,11 @@ BI:
   ioc: BDI
   gec: BY
   name: Burundi
+  flag: '🇧🇮'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '108'
   region: Africa
@@ -21,17 +22,17 @@ BI:
   nationality: Burundian
   postal_code: false
   unofficial_names:
-  - Burundi
-  - ブルンジ
+    - Burundi
+    - ブルンジ
   languages_official:
-  - fr
-  - rn
+    - fr
+    - rn
   languages_spoken:
-  - fr
-  - rn
+    - fr
+    - rn
   geo:
     latitude: -3.373056
-    latitude_dec: "-3.365208148956299"
+    latitude_dec: '-3.365208148956299'
     longitude: 29.918886
     longitude_dec: '29.88650894165039'
     max_latitude: -2.3097302

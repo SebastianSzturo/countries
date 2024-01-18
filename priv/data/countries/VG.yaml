@@ -9,10 +9,11 @@ VG:
   ioc: IVB
   gec: VI
   name: Virgin Islands (British)
+  flag: '🇻🇬'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: 092
   region: Americas
@@ -22,22 +23,22 @@ VG:
   nationality: Virgin Islander
   postal_code: true
   unofficial_names:
-  - British Virgin Islands
-  - Britische Jungferninseln
-  - Îles Vierges britanniques
-  - Islas Vírgenes del Reino Unido
-  - イギリス領ヴァージン諸島
-  - Britse Maagdeneilanden
-  - Virgin Islands (British)
+    - British Virgin Islands
+    - Britische Jungferninseln
+    - Îles Vierges britanniques
+    - Islas Vírgenes del Reino Unido
+    - イギリス領ヴァージン諸島
+    - Britse Maagdeneilanden
+    - Virgin Islands (British)
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 18.420695
     latitude_dec: '18.443071365356445'
     longitude: -64.639968
-    longitude_dec: "-64.57130432128906"
+    longitude_dec: '-64.57130432128906'
     max_latitude: 18.7539999
     max_longitude: -64.2651999
     min_latitude: 18.2899998

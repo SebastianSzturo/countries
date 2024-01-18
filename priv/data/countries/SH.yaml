@@ -5,13 +5,14 @@ SH:
   alpha3: SHN
   country_code: '290'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: SH
   name: Saint Helena, Ascension and Tristan da Cunha
+  flag: '🇸🇭'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 4
+    - 4
   national_prefix: None
   number: '654'
   region: Africa
@@ -21,22 +22,22 @@ SH:
   nationality: Saint Helenian
   postal_code: true
   unofficial_names:
-  - Saint Helena
-  - Sankt Helena
-  - Sainte Hélène
-  - Santa Helena
-  - セントヘレナ・アセンションおよびトリスタンダクーニャ
-  - Sint-Helena
-  - Saint Helena, Ascension and Tristan da Cunha
+    - Saint Helena
+    - Sankt Helena
+    - Sainte Hélène
+    - Santa Helena
+    - セントヘレナ・アセンションおよびトリスタンダクーニャ
+    - Sint-Helena
+    - Saint Helena, Ascension and Tristan da Cunha
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -15.9656004
-    latitude_dec: "-15.957334518432617"
+    latitude_dec: '-15.957334518432617'
     longitude: -5.7115281
-    longitude_dec: "-5.716914176940918"
+    longitude_dec: '-5.716914176940918'
     max_latitude: -7.1008926
     max_longitude: -5.0976561
     min_latitude: -37.7880815

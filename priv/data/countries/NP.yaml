@@ -14,11 +14,12 @@ NP:
   ioc: NEP
   gec: NP
   name: Nepal
+  flag: '🇳🇵'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
+    - 7
+    - 8
   national_prefix: '0'
   number: '524'
   region: Asia
@@ -28,18 +29,18 @@ NP:
   nationality: Nepalese
   postal_code: true
   unofficial_names:
-  - Nepal
-  - Népal
-  - the Federal Democratic Republic of Nepal
-  - ネパール
+    - Nepal
+    - Népal
+    - the Federal Democratic Republic of Nepal
+    - ネパール
   languages_official:
-  - ne
+    - ne
   languages_spoken:
-  - ne
-  - mai
-  - bho
-  - new
-  - urd
+    - ne
+    - mai
+    - bho
+    - new
+    - urd
   geo:
     latitude: 28.394857
     latitude_dec: '28.259138107299805'

@@ -13,11 +13,12 @@ CH:
   ioc: SUI
   gec: SZ
   name: Switzerland
+  flag: '🇨🇭'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
-  - 10
+    - 9
+    - 10
   national_prefix: '0'
   number: '756'
   region: Europe
@@ -29,28 +30,28 @@ CH:
   vat_rates:
     standard: 7.7
     reduced:
-    - 2.5
-    - 3.7
-    super_reduced: 
-    parking: 
+      - 2.5
+      - 3.7
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Switzerland
-  - Schweiz
-  - Suisse
-  - Suiza
-  - スイス
-  - Zwitserland
-  - Svizzera
-  - Svizra
+    - Switzerland
+    - Schweiz
+    - Suisse
+    - Suiza
+    - スイス
+    - Zwitserland
+    - Svizzera
+    - Svizra
   languages_official:
-  - de
-  - fr
-  - it
+    - de
+    - fr
+    - it
   languages_spoken:
-  - de
-  - fr
-  - it
+    - de
+    - fr
+    - it
   geo:
     latitude: 46.818188
     latitude_dec: '46.80379867553711'

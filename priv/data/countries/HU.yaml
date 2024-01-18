@@ -14,11 +14,12 @@ HU:
   ioc: HUN
   gec: HU
   name: Hungary
+  flag: '🇭🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '06'
   number: '348'
   region: Europe
@@ -31,23 +32,23 @@ HU:
   vat_rates:
     standard: 27
     reduced:
-    - 5
-    - 18
-    super_reduced: 
-    parking: 
+      - 5
+      - 18
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Hungary
-  - Ungarn
-  - Hongrie
-  - Hungría
-  - ハンガリー
-  - Hongarije
-  - Magyarország
+    - Hungary
+    - Ungarn
+    - Hongrie
+    - Hungría
+    - ハンガリー
+    - Hongarije
+    - Magyarország
   languages_official:
-  - hu
+    - hu
   languages_spoken:
-  - hu
+    - hu
   geo:
     latitude: 47.162494
     latitude_dec: '47.165733337402344'

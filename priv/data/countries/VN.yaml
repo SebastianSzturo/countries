@@ -8,13 +8,14 @@ VN:
   ioc: VIE
   gec: VM
   name: Viet Nam
+  flag: '🇻🇳'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
-  - 8
-  - 9
-  - 10
+    - 7
+    - 8
+    - 9
+    - 10
   national_prefix: '0'
   number: '704'
   region: Asia
@@ -24,13 +25,13 @@ VN:
   nationality: Vietnamese
   postal_code: true
   unofficial_names:
-  - Vietnam
-  - ベトナム
-  - Viet Nam
+    - Vietnam
+    - ベトナム
+    - Viet Nam
   languages_official:
-  - vi
+    - vi
   languages_spoken:
-  - vi
+    - vi
   geo:
     latitude: 14.058324
     latitude_dec: '16.9404296875'

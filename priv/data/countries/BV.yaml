@@ -5,9 +5,10 @@ BV:
   alpha3: BVT
   country_code: '47'
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: BV
   name: Bouvet Island
+  flag: '🇧🇻'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,15 +20,15 @@ BV:
   postal_code: true
   world_region: APAC
   unofficial_names:
-  - Bouvet Island
-  - Bouvetinsel
-  - ブーベ島
-  - Bouveteiland
+    - Bouvet Island
+    - Bouvetinsel
+    - ブーベ島
+    - Bouveteiland
   languages_official: []
   languages_spoken: []
   geo:
     latitude: -54.423199
-    latitude_dec: "-54.4342041015625"
+    latitude_dec: '-54.4342041015625'
     longitude: 3.413194
     longitude_dec: '3.4102511405944824'
     max_latitude: -54.38735519999999

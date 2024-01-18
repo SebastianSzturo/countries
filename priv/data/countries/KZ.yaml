@@ -8,10 +8,11 @@ KZ:
   ioc: KAZ
   gec: KZ
   name: Kazakhstan
+  flag: '🇰🇿'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '8'
   number: '398'
   region: Asia
@@ -21,17 +22,17 @@ KZ:
   nationality: Kazakhstani
   postal_code: true
   unofficial_names:
-  - Kazakhstan
-  - Kasachstan
-  - Kazajistán
-  - カザフスタン
-  - Kazachstan
+    - Kazakhstan
+    - Kasachstan
+    - Kazajistán
+    - カザフスタン
+    - Kazachstan
   languages_official:
-  - kk
-  - ru
+    - kk
+    - ru
   languages_spoken:
-  - kk
-  - ru
+    - kk
+    - ru
   geo:
     latitude: 48.019573
     latitude_dec: '48.14600372314453'

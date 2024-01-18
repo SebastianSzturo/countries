@@ -13,11 +13,12 @@ BR:
   ioc: BRA
   gec: BR
   name: Brazil
+  flag: '🇧🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
-  - 11
+    - 10
+    - 11
   national_prefix: '014'
   number: '076'
   region: Americas
@@ -30,25 +31,25 @@ BR:
     reduced:
       - 12
       - 7
-    super_reduced: 
-    parking: 
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Brazil
-  - Brasilien
-  - Brésil
-  - Brasil
-  - ブラジル
-  - Brazilië
+    - Brazil
+    - Brasilien
+    - Brésil
+    - Brasil
+    - ブラジル
+    - Brazilië
   languages_official:
-  - pt
+    - pt
   languages_spoken:
-  - pt
+    - pt
   geo:
     latitude: -14.235004
-    latitude_dec: "-10.81045150756836"
+    latitude_dec: '-10.81045150756836'
     longitude: -51.92528
-    longitude_dec: "-52.97311782836914"
+    longitude_dec: '-52.97311782836914'
     max_latitude: 5.2717863
     max_longitude: -29.3434
     min_latitude: -34.0891

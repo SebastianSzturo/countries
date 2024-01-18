@@ -13,10 +13,11 @@ HK:
   ioc: HKG
   gec: HK
   name: Hong Kong
+  flag: '🇭🇰'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '344'
   region: Asia
@@ -26,15 +27,15 @@ HK:
   nationality: Hong Kongese
   postal_code: false
   unofficial_names:
-  - Hong Kong
-  - 香港
-  - Hongkong
+    - Hong Kong
+    - 香港
+    - Hongkong
   languages_official:
-  - en
-  - zh
+    - en
+    - zh
   languages_spoken:
-  - en
-  - zh
+    - en
+    - zh
   geo:
     latitude: 22.396428
     latitude_dec: '22.336156845092773'

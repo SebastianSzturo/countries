@@ -8,10 +8,11 @@ BN:
   ioc: BRU
   gec: BX
   name: Brunei Darussalam
+  flag: '🇧🇳'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: '0'
   number: 096
   region: Asia
@@ -21,12 +22,12 @@ BN:
   nationality: Bruneian
   postal_code: true
   unofficial_names:
-  - Brunei
-  - ブルネイ・ダルサラーム
+    - Brunei
+    - ブルネイ・ダルサラーム
   languages_official:
-  - ms
+    - ms
   languages_spoken:
-  - ms
+    - ms
   geo:
     latitude: 4.535277
     latitude_dec: '4.5703840255737305'

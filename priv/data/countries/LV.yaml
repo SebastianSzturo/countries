@@ -8,10 +8,11 @@ LV:
   ioc: LAT
   gec: LG
   name: Latvia
+  flag: '🇱🇻'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '8'
   number: '428'
   region: Europe
@@ -24,22 +25,22 @@ LV:
   vat_rates:
     standard: 21
     reduced:
-    - 12
-    super_reduced: 
-    parking: 
+      - 12
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Latvia
-  - Lettland
-  - Lettonie
-  - Letonia
-  - ラトビア
-  - Letland
-  - Latvija
+    - Latvia
+    - Lettland
+    - Lettonie
+    - Letonia
+    - ラトビア
+    - Letland
+    - Latvija
   languages_official:
-  - lv
+    - lv
   languages_spoken:
-  - lv
+    - lv
   geo:
     latitude: 56.879635
     latitude_dec: '56.86873245239258'

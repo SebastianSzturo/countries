@@ -13,12 +13,13 @@ PH:
   ioc: PHI
   gec: RP
   name: Philippines
+  flag: '🇵🇭'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
-  - 10
+    - 8
+    - 9
+    - 10
   national_prefix: '0'
   number: '608'
   region: Asia
@@ -33,17 +34,17 @@ PH:
     parking:
   postal_code: true
   unofficial_names:
-  - Philippines
-  - Philippinen
-  - Filipinas
-  - フィリピン
-  - Filipijnen
+    - Philippines
+    - Philippinen
+    - Filipinas
+    - フィリピン
+    - Filipijnen
   languages_official:
-  - tl
-  - en
+    - tl
+    - en
   languages_spoken:
-  - tl
-  - en
+    - tl
+    - en
   geo:
     latitude: 12.879721
     latitude_dec: '11.112666130065918'

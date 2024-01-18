@@ -5,13 +5,14 @@ VA:
   alpha3: VAT
   country_code: '39'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: VT
   name: Holy See
+  flag: '🇻🇦'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: None
   number: '336'
   region: Europe
@@ -21,19 +22,19 @@ VA:
   nationality: Italian
   postal_code: true
   unofficial_names:
-  - Vatican City
-  - Vatikan
-  - Cité du Vatican
-  - Ciudad del Vaticano
-  - バチカン市国
-  - Vaticaanstad
-  - Vatican City State (Holy See)
+    - Vatican City
+    - Vatikan
+    - Cité du Vatican
+    - Ciudad del Vaticano
+    - バチカン市国
+    - Vaticaanstad
+    - Vatican City State (Holy See)
   languages_official:
-  - it
-  - la
+    - it
+    - la
   languages_spoken:
-  - it
-  - la
+    - it
+    - la
   geo:
     latitude: 41.902916
     latitude_dec: '41.90308380126953'

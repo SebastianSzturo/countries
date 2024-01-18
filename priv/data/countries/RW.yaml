@@ -8,11 +8,12 @@ RW:
   ioc: RWA
   gec: RW
   name: Rwanda
+  flag: '🇷🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
-  - 9
+    - 8
+    - 9
   national_prefix: '0'
   number: '646'
   region: Africa
@@ -22,20 +23,20 @@ RW:
   nationality: Rwandan
   postal_code: false
   unofficial_names:
-  - Rwanda
-  - Ruanda
-  - ルワンダ
+    - Rwanda
+    - Ruanda
+    - ルワンダ
   languages_official:
-  - rw
-  - en
-  - fr
+    - rw
+    - en
+    - fr
   languages_spoken:
-  - rw
-  - en
-  - fr
+    - rw
+    - en
+    - fr
   geo:
     latitude: -1.940278
-    latitude_dec: "-1.9999498128890991"
+    latitude_dec: '-1.9999498128890991'
     longitude: 29.873888
     longitude_dec: '29.926057815551758'
     max_latitude: -1.0473753

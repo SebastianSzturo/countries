@@ -13,18 +13,19 @@ DE:
   ioc: GER
   gec: GM
   name: Germany
+  flag: '🇩🇪'
   national_destination_code_lengths:
-  - 2
-  - 3
-  - 4
-  - 5
+    - 2
+    - 3
+    - 4
+    - 5
   national_number_lengths:
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
   national_prefix: '0'
   number: '276'
   region: Europe
@@ -37,21 +38,21 @@ DE:
   vat_rates:
     standard: 19
     reduced:
-    - 7
-    super_reduced: 
-    parking: 
+      - 7
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Germany
-  - Deutschland
-  - Allemagne
-  - Alemania
-  - ドイツ
-  - Duitsland
+    - Germany
+    - Deutschland
+    - Allemagne
+    - Alemania
+    - ドイツ
+    - Duitsland
   languages_official:
-  - de
+    - de
   languages_spoken:
-  - de
+    - de
   geo:
     latitude: 51.165691
     latitude_dec: '51.20246505737305'

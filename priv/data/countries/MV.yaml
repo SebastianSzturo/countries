@@ -8,10 +8,11 @@ MV:
   ioc: MDV
   gec: MV
   name: Maldives
+  flag: '🇲🇻'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '462'
   region: Asia
@@ -21,15 +22,15 @@ MV:
   nationality: Maldivan
   postal_code: true
   unofficial_names:
-  - Maldives
-  - Malediven
-  - Maldivas
-  - モルディブ
-  - Maldiven
+    - Maldives
+    - Malediven
+    - Maldivas
+    - モルディブ
+    - Maldiven
   languages_official:
-  - dv
+    - dv
   languages_spoken:
-  - dv
+    - dv
   geo:
     latitude: 1.977247
     latitude_dec: '4.185884952545166'

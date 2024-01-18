@@ -8,10 +8,11 @@ CF:
   ioc: CAF
   gec: CT
   name: Central African Republic
+  flag: '🇨🇫'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '140'
   region: Africa
@@ -21,18 +22,18 @@ CF:
   nationality: Central African
   postal_code: false
   unofficial_names:
-  - Central African Republic
-  - Zentralafrikanische Republik
-  - République Centrafricaine
-  - República Centroafricana
-  - 中央アフリカ共和国
-  - Centraal-Afrikaanse Republiek
+    - Central African Republic
+    - Zentralafrikanische Republik
+    - République Centrafricaine
+    - República Centroafricana
+    - 中央アフリカ共和国
+    - Centraal-Afrikaanse Republiek
   languages_official:
-  - fr
-  - sg
+    - fr
+    - sg
   languages_spoken:
-  - fr
-  - sg
+    - fr
+    - sg
   geo:
     latitude: 6.611110999999999
     latitude_dec: '6.574123382568359'

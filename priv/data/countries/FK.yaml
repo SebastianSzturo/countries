@@ -5,13 +5,14 @@ FK:
   alpha3: FLK
   country_code: '500'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: FK
   name: Falkland Islands (Malvinas)
+  flag: '🇫🇰'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 5
+    - 5
   national_prefix: None
   number: '238'
   region: Americas
@@ -21,21 +22,21 @@ FK:
   nationality: Falkland Islander
   postal_code: true
   unofficial_names:
-  - Falkland Islands
-  - Falklandinseln
-  - Îles Malouines
-  - Islas Malvinas
-  - フォークランド（マルビナス）諸島
-  - Falklandeilanden [Islas Malvinas]
+    - Falkland Islands
+    - Falklandinseln
+    - Îles Malouines
+    - Islas Malvinas
+    - フォークランド（マルビナス）諸島
+    - Falklandeilanden [Islas Malvinas]
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -51.796253
-    latitude_dec: "-51.77312469482422"
+    latitude_dec: '-51.77312469482422'
     longitude: -59.523613
-    longitude_dec: "-59.727909088134766"
+    longitude_dec: '-59.727909088134766'
     max_latitude: -50.9809115
     max_longitude: -57.6768495
     min_latitude: -52.4744161

@@ -8,10 +8,11 @@ DZ:
   ioc: ALG
   gec: AG
   name: Algeria
+  flag: '🇩🇿'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '7'
   number: '012'
   region: Africa
@@ -21,17 +22,17 @@ DZ:
   nationality: Algerian
   postal_code: true
   unofficial_names:
-  - Algeria
-  - الجزائر
-  - Algerien
-  - Algérie
-  - Argelia
-  - アルジェリア
-  - Algerije
+    - Algeria
+    - الجزائر
+    - Algerien
+    - Algérie
+    - Argelia
+    - アルジェリア
+    - Algerije
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 28.033886
     latitude_dec: '28.213645935058594'

@@ -5,9 +5,10 @@ EH:
   alpha3: ESH
   country_code: '212'
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: WI
   name: Western Sahara
+  flag: '🇪🇭'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,23 +20,23 @@ EH:
   nationality: Sahrawi
   postal_code: true
   unofficial_names:
-  - Western Sahara
-  - الصحراء الغربية
-  - Westsahara
-  - Sahara Occidental
-  - 西サハラ
-  - Westelijke Sahara
+    - Western Sahara
+    - الصحراء الغربية
+    - Westsahara
+    - Sahara Occidental
+    - 西サハラ
+    - Westelijke Sahara
   languages_official:
-  - es
-  - fr
+    - es
+    - fr
   languages_spoken:
-  - es
-  - fr
+    - es
+    - fr
   geo:
     latitude: 24.215527
     latitude_dec: '25'
     longitude: -12.885834
-    longitude_dec: "-13"
+    longitude_dec: '-13'
     max_latitude: 27.7223999
     max_longitude: -8.667525
     min_latitude: 20.427

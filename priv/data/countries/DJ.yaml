@@ -8,10 +8,11 @@ DJ:
   ioc: DJI
   gec: DJ
   name: Djibouti
+  flag: '🇩🇯'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
+    - 6
   national_prefix: None
   number: '262'
   region: Africa
@@ -21,16 +22,16 @@ DJ:
   nationality: Djibouti
   postal_code: false
   unofficial_names:
-  - Djibouti
-  - جيبوتي
-  - Dschibuti
-  - ジブチ
+    - Djibouti
+    - جيبوتي
+    - Dschibuti
+    - ジブチ
   languages_official:
-  - ar
-  - fr
+    - ar
+    - fr
   languages_spoken:
-  - ar
-  - fr
+    - ar
+    - fr
   geo:
     latitude: 11.825138
     latitude_dec: '11.742591857910156'

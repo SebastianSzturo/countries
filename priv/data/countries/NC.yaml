@@ -5,13 +5,14 @@ NC:
   alpha3: NCL
   country_code: '687'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: NC
   name: New Caledonia
+  flag: '🇳🇨'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 6
+    - 6
   national_prefix: None
   number: '540'
   region: Oceania
@@ -21,19 +22,19 @@ NC:
   nationality: New Caledonian
   postal_code: true
   unofficial_names:
-  - New Caledonia
-  - Neukaledonien
-  - Nouvelle-Calédonie
-  - Nueva Caledonia
-  - ニューカレドニア
-  - Nieuw-Caledonië
+    - New Caledonia
+    - Neukaledonien
+    - Nouvelle-Calédonie
+    - Nueva Caledonia
+    - ニューカレドニア
+    - Nieuw-Caledonië
   languages_official:
-  - fr
+    - fr
   languages_spoken:
-  - fr
+    - fr
   geo:
     latitude: -20.904305
-    latitude_dec: "-21.31782341003418"
+    latitude_dec: '-21.31782341003418'
     longitude: 165.618042
     longitude_dec: '165.298583984375'
     max_latitude: -19.1607355

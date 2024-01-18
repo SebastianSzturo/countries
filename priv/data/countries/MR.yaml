@@ -8,10 +8,11 @@ MR:
   ioc: MTN
   gec: MR
   name: Mauritania
+  flag: '🇲🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: '0'
   number: '478'
   region: Africa
@@ -21,23 +22,23 @@ MR:
   nationality: Mauritanian
   postal_code: false
   unofficial_names:
-  - Mauritania
-  - موريتانيا
-  - Mauretanien
-  - Mauritanie
-  - モーリタニア
-  - Mauritanië
+    - Mauritania
+    - موريتانيا
+    - Mauretanien
+    - Mauritanie
+    - モーリタニア
+    - Mauritanië
   languages_official:
-  - ar
-  - fr
+    - ar
+    - fr
   languages_spoken:
-  - ar
-  - fr
+    - ar
+    - fr
   geo:
     latitude: 21.00789
     latitude_dec: '20.258995056152344'
     longitude: -10.940835
-    longitude_dec: "-10.364437103271484"
+    longitude_dec: '-10.364437103271484'
     max_latitude: 27.3158916
     max_longitude: -4.8336008
     min_latitude: 14.721273

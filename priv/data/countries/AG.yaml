@@ -9,10 +9,11 @@ AG:
   ioc: ANT
   gec: AC
   name: Antigua and Barbuda
+  flag: '🇦🇬'
   national_destination_code_lengths:
-  - 3
+    - 3
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '1'
   number: 028
   region: Americas
@@ -22,21 +23,21 @@ AG:
   nationality: Antiguan, Barbudan
   postal_code: false
   unofficial_names:
-  - Antigua and Barbuda
-  - Antigua und Barbuda
-  - Antigua et Barbuda
-  - Antigua y Barbuda
-  - アンティグア・バーブーダ
-  - Antigua en Barbuda
+    - Antigua and Barbuda
+    - Antigua und Barbuda
+    - Antigua et Barbuda
+    - Antigua y Barbuda
+    - アンティグア・バーブーダ
+    - Antigua en Barbuda
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: 17.060816
     latitude_dec: '17.09273910522461'
     longitude: -61.796428
-    longitude_dec: "-61.81040954589844"
+    longitude_dec: '-61.81040954589844'
     max_latitude: 17.7499946
     max_longitude: -61.6394
     min_latitude: 16.9018

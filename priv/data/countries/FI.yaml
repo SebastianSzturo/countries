@@ -13,10 +13,11 @@ FI:
   ioc: FIN
   gec: FI
   name: Finland
+  flag: '🇫🇮'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 9
+    - 9
   national_prefix: '0'
   number: '246'
   region: Europe
@@ -29,24 +30,24 @@ FI:
   vat_rates:
     standard: 24
     reduced:
-    - 10
-    - 14
-    super_reduced: 
-    parking: 
+      - 10
+      - 14
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Finland
-  - Finnland
-  - Finlande
-  - Finlandia
-  - フィンランド
-  - Suomi
+    - Finland
+    - Finnland
+    - Finlande
+    - Finlandia
+    - フィンランド
+    - Suomi
   languages_official:
-  - fi
-  - sv
+    - fi
+    - sv
   languages_spoken:
-  - fi
-  - sv
+    - fi
+    - sv
   geo:
     latitude: 61.92410999999999
     latitude_dec: '64.28858184814453'

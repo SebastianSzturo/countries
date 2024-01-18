@@ -8,10 +8,11 @@ BW:
   ioc: BOT
   gec: BC
   name: Botswana
+  flag: '🇧🇼'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 7
+    - 7
   national_prefix: None
   number: '072'
   region: Africa
@@ -21,17 +22,17 @@ BW:
   nationality: Motswana
   postal_code: false
   unofficial_names:
-  - Botswana
-  - ボツワナ
+    - Botswana
+    - ボツワナ
   languages_official:
-  - en
-  - tn
+    - en
+    - tn
   languages_spoken:
-  - en
-  - tn
+    - en
+    - tn
   geo:
     latitude: -22.328474
-    latitude_dec: "-22.186752319335938"
+    latitude_dec: '-22.186752319335938'
     longitude: 24.684866
     longitude_dec: '23.81494140625'
     max_latitude: -17.778137

@@ -8,10 +8,11 @@ NI:
   ioc: NCA
   gec: NU
   name: Nicaragua
+  flag: '🇳🇮'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '558'
   region: Americas
@@ -21,17 +22,17 @@ NI:
   nationality: Nicaraguan
   postal_code: true
   unofficial_names:
-  - Nicaragua
-  - ニカラグア
+    - Nicaragua
+    - ニカラグア
   languages_official:
-  - es
+    - es
   languages_spoken:
-  - es
+    - es
   geo:
     latitude: 12.865416
     latitude_dec: '12.903773307800293'
     longitude: -85.207229
-    longitude_dec: "-84.92182159423828"
+    longitude_dec: '-84.92182159423828'
     max_latitude: 15.0302755
     max_longitude: -82.2766
     min_latitude: 10.7080549

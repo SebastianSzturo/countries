@@ -14,10 +14,11 @@ OM:
   ioc: OMA
   gec: MU
   name: Oman
+  flag: '🇴🇲'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: None
   number: '512'
   region: Asia
@@ -27,14 +28,14 @@ OM:
   nationality: Omani
   postal_code: true
   unofficial_names:
-  - Oman
-  - عمان
-  - Omán
-  - オマーン
+    - Oman
+    - عمان
+    - Omán
+    - オマーン
   languages_official:
-  - ar
+    - ar
   languages_spoken:
-  - ar
+    - ar
   geo:
     latitude: 21.4735329
     latitude_dec: '20.566621780395508'

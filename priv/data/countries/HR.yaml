@@ -13,10 +13,11 @@ HR:
   ioc: CRO
   gec: HR
   name: Croatia
+  flag: '🇭🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 8
+    - 8
   national_prefix: '0'
   number: '191'
   region: Europe
@@ -29,24 +30,24 @@ HR:
   vat_rates:
     standard: 25
     reduced:
-    - 5
-    - 13
-    super_reduced: 
-    parking: 
+      - 5
+      - 13
+    super_reduced:
+    parking:
   postal_code: true
   unofficial_names:
-  - Croatia
-  - Kroatien
-  - Croatie
-  - Croacia
-  - クロアチア
-  - Kroatië
-  - Croatia (Hrvatska)
-  - Hrvatska  
+    - Croatia
+    - Kroatien
+    - Croatie
+    - Croacia
+    - クロアチア
+    - Kroatië
+    - Croatia (Hrvatska)
+    - Hrvatska
   languages_official:
-  - hr
+    - hr
   languages_spoken:
-  - hr
+    - hr
   geo:
     latitude: 45.1
     latitude_dec: '45.444305419921875'

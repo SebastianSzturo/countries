@@ -5,13 +5,14 @@ NU:
   alpha3: NIU
   country_code: '683'
   international_prefix: '00'
-  ioc: 
+  ioc:
   gec: NE
   name: Niue
+  flag: '🇳🇺'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 4
+    - 4
   national_prefix: None
   number: '570'
   region: Oceania
@@ -21,17 +22,17 @@ NU:
   nationality: Niuean
   postal_code: false
   unofficial_names:
-  - Niue
-  - ニウエ
+    - Niue
+    - ニウエ
   languages_official:
-  - en
+    - en
   languages_spoken:
-  - en
+    - en
   geo:
     latitude: -19.054445
-    latitude_dec: "-19.03806495666504"
+    latitude_dec: '-19.03806495666504'
     longitude: -169.867233
-    longitude_dec: "-169.8302459716797"
+    longitude_dec: '-169.8302459716797'
     max_latitude: -18.952625
     max_longitude: -169.7743248
     min_latitude: -19.1555668

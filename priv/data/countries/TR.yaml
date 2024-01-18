@@ -12,11 +12,12 @@ TR:
   international_prefix: '00'
   ioc: TUR
   gec: TU
-  name: Turkey
+  name: Turkiye
+  flag: '🇹🇷'
   national_destination_code_lengths:
-  - 2
+    - 2
   national_number_lengths:
-  - 10
+    - 10
   national_prefix: '0'
   number: '792'
   region: Asia
@@ -26,16 +27,16 @@ TR:
   nationality: Turkish
   postal_code: true
   unofficial_names:
-  - Turkey
-  - Türkei
-  - Turquie
-  - Turquía
-  - トルコ
-  - Turkije
+    - Turkiye
+    - Türkei
+    - Turquie
+    - Turquía
+    - トルコ
+    - Turkije
   languages_official:
-  - tr
+    - tr
   languages_spoken:
-  - tr
+    - tr
   geo:
     latitude: 38.963745
     latitude_dec: '39.05101013183594'

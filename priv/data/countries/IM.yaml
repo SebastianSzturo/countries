@@ -5,9 +5,10 @@ IM:
   alpha3: IMN
   country_code: '44'
   international_prefix: ''
-  ioc: 
+  ioc:
   gec: IM
   name: Isle of Man
+  flag: '🇮🇲'
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -19,22 +20,22 @@ IM:
   nationality: Manx
   postal_code: true
   unofficial_names:
-  - Isle of Man
-  - Insel Man
-  - Île de Man
-  - Isla de Man
-  - マン島
+    - Isle of Man
+    - Insel Man
+    - Île de Man
+    - Isla de Man
+    - マン島
   languages_official:
-  - en
-  - gv
+    - en
+    - gv
   languages_spoken:
-  - en
-  - gv
+    - en
+    - gv
   geo:
     latitude: 54.236107
     latitude_dec: '54.22451400756836'
     longitude: -4.548056
-    longitude_dec: "-4.562133312225342"
+    longitude_dec: '-4.562133312225342'
     max_latitude: 54.418247
     max_longitude: -4.308327999999999
     min_latitude: 54.04463999999999
