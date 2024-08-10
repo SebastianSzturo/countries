@@ -8,7 +8,7 @@ defmodule Countries.Mixfile do
     [
       app: :countries,
       version: @version,
-      elixir: "~> 1.3",
+      elixir: "~> 1.13",
       deps: deps(),
       docs: docs(),
       package: package()
@@ -46,7 +46,7 @@ defmodule Countries.Mixfile do
           "in the [ISO 3166](https://de.wikipedia.org/wiki/ISO_3166) standard.",
       maintainers: ["Sebastian Szturo"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/SebastianSzturo/countries"}
+      links: %{"GitHub" => @source_url}
     ]
   end
 end
