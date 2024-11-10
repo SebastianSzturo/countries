@@ -66,7 +66,7 @@ defmodule CountriesTest do
 
     test "filters by official language" do
       countries = Countries.filter_by(:languages_official, "EN")
-      assert Enum.count(countries) == 48
+      assert Enum.count(countries) == 92
     end
 
     test "filters by integer attributes" do
@@ -87,5 +87,19 @@ defmodule CountriesTest do
 
     country = List.first(Countries.filter_by(:alpha2, "AI"))
     assert Enum.count(Countries.Subdivisions.all(country)) == 14
+  end
+
+  test "retain lists" do
+    country = Countries.get("CH")
+    assert is_list(country.languages_spoken)
+    assert "de" in country.languages_spoken
+    assert is_list(country.languages_official)
+    assert "de" in country.languages_official
+
+    assert "Switzerland" in (Countries.filter_by(:languages_official, "it")
+                             |> Enum.map(& &1.name))
+
+    assert "Switzerland" in (Countries.filter_by(:languages_spoken, "it")
+                             |> Enum.map(& &1.name))
   end
 end
