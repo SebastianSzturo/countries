@@ -15,7 +15,7 @@ AL:
   - 8
   - 9
   national_prefix: '0'
-  number: 008
+  number: '008'
   region: Europe
   subregion: Southern Europe
   world_region: EMEA
